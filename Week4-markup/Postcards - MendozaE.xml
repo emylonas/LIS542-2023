@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<postcardCollection>
+    <postcard category="landmarks">
+        <primaryImageCap lang="en">Holloway Hall Bell Tower - Salisbury State College</primaryImageCap>
+        <pubInfo>H.K. Barnett, Allison Park, Pa.</pubInfo>
+            <IDNo>SCS-9 90368-D</IDNo>
+        <dateWritten when="1985-08-05">AUG 5</dateWritten>
+        <greeting>Dear Cousins</greeting>
+            <body>PLEASANT HAVING YOUR COMPANY. NEXT TIME MAKE IT LONGER SO THAT WE CAN ALL GET OUT AND EXPLORE THE PENINSULA TOGETHER. THANKS FOR ALL THE GOODIES! AM SURE YOU MANAGED TO SHOW YOURSELF A GOOD TIME IN BALTIMORE. COOLED OFF A MITE (DEGREE OR 2). </body>
+            <signOff> BE WELL, - AND LOVE, DOROTHY - MURRAY</signOff>
+        <recipient>MR-MRS. PERRY MORGAN</recipient>
+            <recipientAddress>653 FAIRVIEW AV. WESTBURY, N.Y. 11590</recipientAddress>
+        <returnAddress>419 Valleywood Dr. Salisbury, M.D. 21001</returnAddress>
+       </postcard>
+
+    <postcard category="landmarks">
+        <primaryImageCap lang="en">ALONG THE WATERFRONT. MATUNUCK, R.I.</primaryImageCap>
+        <pubInfo>The Rhode Island News Company, Providence, R.I. </pubInfo>
+            <IDNo>M-19096</IDNo>
+            <catalogNo>PC7805</catalogNo>
+        <dateWritten when="08-24">AUG 24</dateWritten>
+        <body> From. Molly.</body>
+        <recipient>Mrs. Audrey Perry.</recipient>
+            <recipientAddress>Wilson Av. Ruford R.P.</recipientAddress>
+    </postcard>
+
+    <postcard category="advertising">
+        <primaryImageCap lang="en">Time to pack your tennis racquet, golf clubs, camera, tanning lotion, swims suits, evening attire, anything else you may want--and your best smile!</primaryImageCap>
+        <pubInfo>ESTHER MANOR </pubInfo>
+        <dateSent when="05-10-67">May 10, 1967</dateSent>
+        <greeting>Dear Friends:</greeting>
+            <body>It has been a long, cold, snowy winter. For a wonderful change of pace, plan your Esther Manor vacation now - unlimited fun and pleasure for the entire family! Indoor and outdoor swimming, steam rooms and health club, tennis, handball, golf, baseball, plus top entertainment, dancing and late, late shows await you. The Day Camp is under the alert supervision of trained counsellors. The Teenage Program is better than ever. Hospitality here is as warm and abudnent as the rays of the sun. May we suggest that you plan your Ester Manor vacation now?</body>
+            <signOff>Esther and Irene</signOff>
+        <recipient>Miss Christina Stetina</recipient>
+            <recipientAddress>633 D. 224th Street Bronx, New York</recipientAddress>
+        <returnAddress>Rt. 17B / Monticello, N.Y. 12701</returnAddress>
+    </postcard>
+
+    <postcard category="war correspondence">
+        <primaryImageCap lang="en"> WE'RE ALL LIT UP - LET BATTLE COMMENCE</primaryImageCap>
+        <pubInfo>Over-Seas League Tobacco Fund</pubInfo>
+            <IDNo>W 541</IDNo>
+        <datesent when="04-21-42">APR 21, 1942</datesent>
+        <greeting>Dear Sir</greeting>
+            <body>Many thanks, I'll soon be out of here now, then I shall lit up! God Bless America and F.D.R.</body>
+            <signOff> yours sincerely, Pte Maynard A.T. 6408616 R.A.S.C.</signOff>
+        <recipient> W.H. Caldwell</recipient>
+            <recipientAddress>275 Clinton Ave., Brooklyn, N.Y., U.S.A.</recipientAddress>
+    </postcard>
+
+    <postcard category="landmarks">
+        <primaryImageCap lang="en">Woonsocket Falls and Sayles Street Bridge, Woonsocket, R.I.</primaryImageCap>
+        <pubInfo>Leighton &amp; Valentine Co.</pubInfo>
+            <IDNo>217506</IDNo>
+            <catalogNo>PC7860</catalogNo>
+        <body>I went visiting in this place last Summer. Hope you will like the card and answer soon</body>
+            <signOff>Inez L. White</signOff>
+        <recipient>Mrs. F.C. Copp</recipient>
+            <recipientAddress>West Newbury Mass</recipientAddress>
+    </postcard>
+
+    <postcard category="art">
+        <primaryImageCap lang="en">"CHICKS AND DUCKLINGS."</primaryImageCap>
+        <pubInfo>Raphael Tuck &amp; Sons'</pubInfo>
+            <IDNo>8175</IDNo>
+            <catalogNo>CTPA12.9</catalogNo>
+        <greeting>Dear Nellie,</greeting>
+            <body>Many thanks for P.C. Hope you are not all blown away. The weather has been fearful down here. I have been to...this week so you can guess am nearly dead.</body>
+            <signOff>Love It all...</signOff>
+        <recipient>Miss Hall</recipient>
+            <recipientAddress>Fern Lodge. Pulborough.</recipientAddress>
+    </postcard>
+
+</postcardCollection>
