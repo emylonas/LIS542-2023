@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--William Wu. 2023-04-22. LIS 542 XML. Mark Up Assignment 1. Headstones. -->
+<transcriptions>
+    
+<headstone n="1"><person gender="male"><givenname>PUBLIUS OPPIUS</givenname></person>SON OF...
+    (from the clan of) <clanname>CAMILIA</clanname>
+    ...CIO, OF <hometown>RAVENNA</hometown>,
+    <occupation>SOLDIER</occupation> OF THE FIFTH LEGION
+    MACEDONIA, (of the rank of) <rank>OPTIO</rank>,
+    LIVED YEARS
+    <lifespan age="30">XXX</lifespan>, SERVED IN THE ARMY VIIII YEARS.
+    HE WAS BURIED HERE.
+    (his) <creator><relation descendant="undefined"></relation>HEIR</creator> MADE (this headstone).</headstone>
+ <!-- "HERES"' gender is unknown. The name of the creator is not known, so gender cannot be definitively attributed to the third declension noun. My guess is, however, that the creator is likely a male descendant.-->
+
+
+<headstone n="2">IN THE <clanname>BYRON</clanname> VAULT BELOW
+    LIE THE REMAINS OF
+    <person gender="female"><givenname>AUGUSTA ADA</givenname></person>,
+    ONLY DAUGHTER OF
+    <relation parent="father">GEORGE GORDON NOEL</relation>,
+    6th LORD BYRON,
+    AND WIFE OF,
+    <relation spouse="husband">WILLIAM, EARL OF LOVELACE</relation>.
+    
+    <lifespan age="37">BORN <dob>10th DEC 1815</dob>,
+        DIED <dod>27th NOV 1852</dod></lifespan>. 
+    
+    R.I.P.</headstone>
+        
+   
+<headstone n="3">Sacred to the Memory 
+    of
+    <rank>Capt.</rank> <person gender="male"><givenname>JOSEPH</givenname><clanname>ALGER</clanname></person>
+    who departed this Life
+    <dod>June 21st. 1794</dod>:
+    Aged <lifespan age="25">25 Years,
+        11 Months &#38;
+        6 Days</lifespan>.</headstone>
+    
+    
+<headstone n="4"><person gender="female"><givenname>ELIZABETH</givenname></person>
+    <lifespan age="82">1870 - 1952</lifespan></headstone>
+    
+</transcriptions>
