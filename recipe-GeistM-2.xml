@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe>
+    <title>Healthy Mediterranean Baked Haddock</title>
+    <overview>
+        <difficulty_level>Easy</difficulty_level>
+        <total_prep_time quantity="30" unit="minutes"/>
+        <active_prep_time quantity="15" unit="minutes"/>
+        <yield quantity="4" unit="servings"/>
+        <introduction>Haddock is a mild-tasting, flaky white fish similar to cod. Here it is baked
+            to perfection atop a sweet cherry tomato sauce spiked with salty capers and olives. Pair
+            it with some crusty bread to soak up the juices.</introduction>
+    </overview>
+    <ingredient_list>
+        <ingredient><amount quantity="2" weight="14-ounce"/>cans cherry tomatoes</ingredient>
+        <ingredient><amount quantity="1/2" measure="cup"/>dry white wine</ingredient>
+        <ingredient><amount quantity="1/2" measure="cup"/>pitted Kalamata olives, sliced in
+            half</ingredient>
+        <ingredient><amount quantity="4"/>cloves garlic, minced</ingredient>
+        <ingredient><amount quantity="2" measure="tablespoons"/>capers, drained</ingredient>
+        <ingredient><amount quantity="1" measure="tablespoon"/>honey</ingredient>
+        <ingredient>Kosher salt and freshly ground black pepper</ingredient>
+        <ingredient><amount quantity="4" weight="6-ounce"/>haddock fillets, skin
+            removed</ingredient>
+        <ingredient><amount quantity="1/2" measure="teaspoon"/>Italian seasoning</ingredient>
+        <ingredient><amount quantity="1/2" measure="teaspoon"/>sweet paprika</ingredient>
+        <ingredient><amount quantity="2" measure="tablespoons"/>olive oil</ingredient>
+        <ingredient><amount quantity="4" measure="slices"/>crusty bread</ingredient>
+    </ingredient_list>
+    <directions>
+        <step number="1">Preheat the oven to 425 degrees F. Combine the cherry tomatoes, white wine,
+            olives, 3 of the garlic cloves, capers, honey, 1/2 teaspoon salt and a few grinds of
+            pepper in a 9-by-13-inch baking dish.</step>
+        <step number="2">Pat the haddock fillets dry with a paper towel and season the flesh side
+            with the Italian seasoning, paprika, 1 teaspoon salt and a few grinds of pepper. Nestle
+            the fillets into the sauce in the baking dish. Bake until the sauce is bubbling around
+            the edges and the fillets are cooked through and easily flaked with a fork, 15 to 20
+            minutes.</step>
+        <step number="3">Meanwhile, mix the remaining 1 garlic clove with the olive oil, 1/4
+            teaspoon salt and a few grinds of pepper in a small bowl. Brush both sides of each slice
+            of bread with the oil mixture and place onto a baking sheet. Bake until the bread is
+            toasted, 5 to 7 minutes.</step>
+        <step number="4">Serve the fish on plates with the sauce and bread on the side.</step>
+    </directions>
+    <source><credit>Recipe courtesy of</credit><author first_name="Emily" last_name="Weinberger"
+            />for<publisher>"Food Network Kitchen"></publisher></source>
+    <copyright>Copyright 2020 Television Food Network, G.P. All rights reserved.</copyright>
+</recipe>
