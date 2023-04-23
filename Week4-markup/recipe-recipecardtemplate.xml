@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe>RECIPE CARD
+    <recipename>RECIPE NAME
+    POTATOES WITH CHEESE </recipename>
+    
+    <source>COUNTRY OF ORIGIN
+    Spain </source>
+    
+    <servings>QUANTITY
+    4 Persons </servings>
+    
+    DIFFICULTY (1-10)
+    Level 5 
+    
+    Vegetarian 
+    Gluten Free 
+    Low Carbs
+    Lorem Ipsum 
+    
+    <time>TIME TO PREPARE
+    35 Minutes </time>
+    
+    <time>TIME TO COOK
+    25 Minutes </time>
+    
+    <temp>COOKING TEMPERATURE
+    200°C</temp> 
+    
+    <ingredient>INGREDIENTS</ingredient>
+    <ingredientqty>3</ingredientqty> <ingredientvol>Tablespoon</ingredientvol> <ingredient>olive oil</ingredient>
+   <ingredientqty> 8-10</ingredientqty> <ingredientvol>Cups</ingredientvol> <ingredient>chicken broth</ingredient>
+    2 Lorem ipsum
+    3 Lorem ipsum 2
+    1/2  Lorem ipsum 3
+    0.5 Lorem ipsum 4
+    
+    <direction>PREPARATION
+    Combine <ingredient>meat</ingredient> with<ingredient> lemon juice</ingredient>, <ingredient>italian seasoning</ingredient> and some <ingredient>spices</ingredient>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+    
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.</direction>
+    
+    
+    Bon Appetit
+    
+   <source> https://templatelab.com/cookbook/</source>
+</recipe>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe>
+    <recipename>Pistachio Cake</recipename>
+<source>https://en.wikipedia.org/wiki/Recipe</source>
+<recipename>Pistachio Cake</recipename> <servings>1GN</servings> <servings>2GN</servings> <servings>1/2GN</servings>
+<direction>Melt</direction> <ingredient>butter</ingredient> <ingredientqty>400</ingredientqty><ingredientweight>g</ingredientweight> <ingredientqty>800</ingredientqty><ingredientweight>t</ingredientweight> <ingredientqty>200</ingredientqty><ingredientweight>g</ingredientweight>
+<direction>Grind</direction> <ingredient>pistachio nuts</ingredient> <ingredientqty>900</ingredientqty><ingredientweight>g</ingredientweight> <ingredientqty>1.8</ingredientqty><ingredientweight>kg</ingredientweight> <ingredientqty>450</ingredientqty><ingredientweight>g</ingredientweight>
+<direction>Add</direction> <ingredient>flour</ingredient>
+<ingredient>baking powder</ingredient>
+<ingredientqty>200</ingredientqty><ingredientweight>g</ingredientweight>
+<ingredientqty>4</ingredientqty><ingredientvol>tsp</ingredientvol>
+<ingredientqty>400</ingredientqty><ingredientweight>g</ingredientweight>
+<ingredientqty>8</ingredientqty><ingredientvol>tsp</ingredientvol>
+<ingredientqty>100</ingredientqty><ingredientweight>g</ingredientweight>
+<ingredientqty>2</ingredientqty><ingredientvol>tbsp</ingredientvol>
+<direction>Whisk</direction> <ingredient>sugar</ingredient>
+<ingredient>egg</ingredient>
+<ingredient>pistachio compound</ingredient>
+<ingredientqty>800</ingredientqty><ingredientweight>g</ingredientweight>
+<ingredientqty>12</ingredientqty>
+<ingredientqty>2</ingredientqty><ingredientvol>tbsp</ingredientvol>
+<ingredientqty>1.8</ingredientqty><ingredientweight>kg</ingredientweight>
+<ingredientqty>24</ingredientqty>
+<ingredientqty>4</ingredientqty><ingredientvol>tbsp</ingredientvol>
+<ingredientqty>400</ingredientqty><ingredientweight>g</ingredientweight>
+<ingredientqty>6</ingredientqty>
+<ingredientqty>1</ingredientqty><ingredientvol>tbsp</ingredientvol>
+<direction>Fold in</direction> the <ingredient>Flour</ingredient> and <ingredient>nuts</ingredient>
+<direction>Fold in</direction> the <ingredient>butter</ingredient>
+<direction>Incorporate</direction> <ingredient>juice of lemons</ingredient> <ingredientqty>4</ingredientqty> <ingredientqty>8</ingredientqty> <ingredientqty>2</ingredientqty>
+<direction>Bake</direction> <temp>160C</temp> <time>30m</time></recipe>
