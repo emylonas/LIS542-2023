@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recipe>
 <recipename>Butter Beans, Paprika and Piquillo Peppers (2)</recipename>
-These beans are great in salads. Let the mix cool and then toss through a
-selection of salad leaves and herbs. Perk up the leaves with a little olive oil
-and vinegar and some crispy lavash on top.
+<note>These beans are great in salads. Let the mix cool and then toss through a
+   selection of <ingredient>salad leaves</ingredient> and <ingredient>herbs</ingredient>. Perk up the leaves with a little<ingredient> olive oil</ingredient>
+and <ingredient>vinegar</ingredient> and some crispy <ingredient>lavash</ingredient> on top.</note>
 <ingredient>Ingredients</ingredient>
 <servings>Serves 4</servings>
 <ingredientqty>3</ingredientqty> <ingredient>red onions</ingredient>, <direction>diced</direction>
