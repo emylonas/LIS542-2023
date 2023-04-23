@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<postcard xml:id="p001">
+    <side1>
+        <recipientName>Mrs. Hall</recipientName>
+        <recipientAddress>Fern Lodge 
+            Pulborough 
+            TPAR 9</recipientAddress>
+        <WrittenText type="message">Dear Nellie, 
+            Many thanks for P.E. Hope you are [moe] all blown away. The weather has been fearful down here. I have been to [livo] all this week so you can guess am nearly dead.
+            Love + all</WrittenText>
+        <senderName>[Hall]</senderName>
+        <senderAddress/>
+        <DateWritten/>
+        <DatePosted>1906-05-20</DatePosted>
+        <Postage stamp="country"/>
+        <PrintedText feature="Printer or Publisher">Tuck's Post Card</PrintedText>
+        <PrintedText qualification="image description">Chicks and Ducklings Raphael Tuck and Sons "OILETTE" {Regd.} postcard 9175.
+            Art Publishers to Their Majesties the King and Queen."</PrintedText>
+    </side1>
+    <side2>
+        <PrintedText type="caption">Who are you?</PrintedText>
+        <WrittenText qualification="on image">Do you think you [ear finding cares] for [there]?</WrittenText>
+        <image type="theme">art</image>
+    </side2>
+    <material>paper</material>
+    <Notes>post stamp may indicate it was sent from Portsmouth (UK)</Notes>
+    <Notes>Symbol to left of "Tuck's Post Card" is a seal with a crowned lion on the left and a unicorn on the right, both rearing up on a central shield.</Notes>
+</postcard>

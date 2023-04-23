@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<postcard xml:id="p002">
+    <side1>
+        <recipientName>Mrs. Andrew Perry</recipientName>
+        <recipientAddress>Wilson Ave.
+            Rumford, R.I.</recipientAddress>
+        <WrittenText type="message">From,</WrittenText>
+        <senderName>Molly</senderName>
+        <senderAddress/>
+        <DateWritten/>
+        <DatePosted>August 24</DatePosted>
+        <Postage stamp="country">U.S.A.</Postage>
+        <PrintedText feature="Printer or Publisher">Americhrome / Pu. by the Rhode Island News Company, Providence, R.I.</PrintedText>
+        <PrintedText qualification="image description"/>
+    </side1>
+    <side2>
+        <PrintedText type="caption">Along the Water Front, Matunuck, R.I. </PrintedText>
+        <WrittenText qualification="on image"/>
+        <image type="theme">location</image>
+    </side2>
+    <material>paper</material>
+    <Notes>Handwriting by different person (pencil instead of blue pen, printed instead of cursive) says "R.I. Views" in top left corner of text side.</Notes>
+</postcard>
+
