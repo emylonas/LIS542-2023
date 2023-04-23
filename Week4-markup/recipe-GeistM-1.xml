@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe>
+    <title>Baked Beans</title>
+    <directions>Wash and soak<ingredient><amount quantity="one" weight="pound"/>of navy beans over
+            night.</ingredient><cook_method>Boil slowly</cook_method><cook_time quantity="twenty"
+            unit="minutes"/>and drain. Add <ingredient><amount quantity="1/2" weight="pound"/>salt
+            pork cut into thin slices</ingredient>, <ingredient><amount quantity="1/4" measure="cup"
+            />molasses or brown sugar</ingredient>, <ingredient>salt<amount quantity="to taste"
+            /></ingredient>. Over with<ingredient>water</ingredient>and <cook_method>bake in slow
+            oven</cook_method> about<cook_time quantity="six" unit="hours"/>. Add
+            <ingredient>water</ingredient>, a little at a time as needed.</directions>
+    <author salutation="Mrs." middle_initial="A." last_name="Smith"/>. 
+    <source
+        publication="Order of the Eastern Star."
+        edition="Logan Square Chapter No. 560 (Chicago, Ill.)."
+        article="Original recipes of good things to eat." city="Chicago." year="1919">
+        <url>https://archive.org/details/originalrecipeso00orde/page/45/mode/2up</url></source>
+</recipe>
