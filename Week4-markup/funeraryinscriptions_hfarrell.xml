@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Helena Farrell, LIS 532, 23 April 2023-->
+<transcriptions>
+    <!-- Inscription 1: Publius Oppius-->
+    <funeraryinscription xml:id="F0001">
+        <name nameid="Publius Oppius"><givenname>Publius</givenname>
+            <lastname>Oppius</lastname></name>
+        <incomplete>filius Camilia .3 char.. CIO</incomplete>
+        <origin>Ravenna</origin> miles <militarypost>legionis V Macedonicae</militarypost>,
+            <militaryrank>optio</militaryrank>, vixit annos <lifespan ageid="30">XXX</lifespan>,
+        militavit <militaryservice length="9 years">annos VIII</militaryservice>. Hic situs est.
+            <inscriptioncredit>Heres</inscriptioncredit> fecit. </funeraryinscription>
+    <!-- Inscription 2: Ada Lovelace-->
+    <funeraryinscription xml:id="F0002"> In the <burial>Byron vault</burial> below Lie the remains
+        of <name nameid="Augusta Ada Lovelace"><givenname>Augusta Ada</givenname></name>, only
+        daughter of <parentname>George Gordon Noel, 6th Lord Byron</parentname> and wife of
+            <spousename>William, Earl of <lastname>Lovelace</lastname></spousename> Born <birthdate
+            dateid="12-10-1815"><birthday dayid="10">10th</birthday>
+            <birthmonth monthid="12">Dec</birthmonth>
+            <birthyear yearid="1815">1815</birthyear></birthdate> Died <deathdate
+            dateid="11-27-1852"><deathday dayid="27">27th</deathday>
+            <deathmonth monthid="11">Nov</deathmonth>
+            <deathyear yearid="1852">1852</deathyear></deathdate> R.I.P. </funeraryinscription>
+    <!-- Inscription 3: Joseph Alger-->
+    <funeraryinscription xml:id="F0003"> Sacred to the Memory of <militaryrank>Capt.</militaryrank>
+        <name nameid="Joseph Alger"><givenname>JOSEPH</givenname>
+            <lastname>ALGER</lastname></name> who departed this Life <deathdate dateid="06-21-1794"
+                ><deathmonth monthid="06">June</deathmonth>
+            <deathday dayid="21">21st</deathday>
+            <deathyear yearid="1794">1794</deathyear></deathdate> Aged <lifespan ageid="25">25
+            years, 11 Months &amp; 6 Days</lifespan>
+    </funeraryinscription>
+    <!-- Inscription 4: "Elizabeth" -->
+    <funeraryinscription xml:id="F0004">
+        <givenname>Elizabeth</givenname>
+        <birthyear yearid="1870">1870</birthyear> - <deathyear yearid="1952">1952</deathyear>
+    </funeraryinscription>
+</transcriptions>
