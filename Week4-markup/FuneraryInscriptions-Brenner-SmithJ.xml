@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<funerarycollection>
+    <funeraryinscription>
+        <entity person="deceased">P(ublius) Oppi[us</entity><statement type="explicatory">, son
+            of...], of (the tribe of) Camilia, ...cio, of Ravenna, soldier of the Legio V 5
+            Macedonica,</statement> (of the rank of) <title holder="deceased">optio</title>, lived
+            <age person="deceased">30 years</age><statement type="concluding">, served in the army
+            nine years (and) is buried here.</statement> (His) <entity person="heir">heir</entity>
+        made (this tombstone). </funeraryinscription>
+
+    <funeraryinscription>
+        <statement type="introductory">In the </statement><entity corporation="family"
+            >Byron</entity><statement type="introductory"> vault below Lie the remains of </statement>
+        <entity person="deceased">Augusta Ada</entity>, only daughter of <entity person="father"
+            >George Gordon Noel</entity>, <title holder="George Gordon Noel">6th Lord Byron</title>
+        and wife of <entity person="husband">William</entity>, <title holder="William">Earl of
+            Lovelace</title> Born <date type="birth">10th Dec 1815</date> Died <date type="death"
+            >27th Nov 1852</date>
+        <statement type="concluding">R.I.P.</statement>
+    </funeraryinscription>
+
+    <funeraryinscription>
+        <statement type="introductory">Sacred to the Memory of</statement>
+        <title holder="deceased">Capt.</title>
+        <entity person="deceased">JOSEPH ALGER</entity> who departed this Life <date type="death"
+            >June 21st 1794</date> Aged <age person="deceased">25 Years, 11 Months &amp; 6
+            Days</age>
+    </funeraryinscription>
+
+    <funeraryinscription>
+        <entity person="deceased">ELIZABETH</entity>
+        <date type="birth">1870</date> – <date type="death">1952</date>
+    </funeraryinscription>
+</funerarycollection>
