@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<newspaper>
+    <comics>
+        <comic n="1">
+            <title>Peanuts</title>
+            <panel n="1">
+                <character type="child" name="Lucy"/>
+                <character type="child" name="Charlie Brown">PEOPLE COME, AND PEOPLE GO, BUT THE WORLD KEEPS ON SPINNING..</character>
+            </panel>
+            <panel n="2">
+                <character type="child" name="Lucy">"SPINNING"? WHAT DO YOU MEAN "SPINNING"? </character>
+                <character type="child" name="Charlie Brown">SPINNING THROUGH SPACE..THE EARTH KEEPS ON SPINNING THROUGH SPACE..</character>
+            </panel>
+            <panel n="3">
+                <character type="child" name="Lucy"> HAHAHAHAHA!!!</character>
+                <character type="child" name="Charlie Brown">?</character>
+            </panel>
+            <panel n="4">
+                <character type="child" name="Lucy">OH, MY, CHARLIE BROWN! YOU MAY NOT BE THE <boldText>BRIGHTEST</boldText> PERSON IN THE WORLD, BUT YOU SURE HAVE SOME <boldText>IMAGINATION</boldText>!</character>
+                <character type="child" name="Charlie Brown"> good grief!</character>
+                <publicationDate>5-11</publicationDate>
+                <artistSignature name="SCHULZ"/>
+            </panel>
+        </comic>
+        <comic n="2">
+            <panel n="1">
+                <sound>SLAM!</sound>
+                <character type="man"/>
+            </panel>
+            <panel n="2">
+                <sound>SLAM!<break/>WHAM!<break/>BANG!!</sound>
+                <character type="woman"/>
+            </panel>
+            <panel n="3">
+                <character type="woman"/>
+                <sound>SLAM!</sound>
+            </panel>
+            <panel n="4">
+                <character type="woman">A LITTLE TESTY THIS MORNING, ARE WE?!!</character>
+                <character type="man"/>
+                <artistSignature name="Lynn"/>
+            </panel>
+        </comic>
+        <comic n="3">
+            <panel n="1">
+                <character type="child" name="Nancy"/>
+                <character type="woman">NANCY---I BOUGHT YOU A WHOLE JAR OF COOKIES ALL FOR YOURSELF</character>
+            </panel>
+            <panel n="2">
+                <character type="child" name="Nancy"/>
+                <character type="woman">THAT'S ODD---SHE'S NOT EATING THEM</character>
+                <publicationDate>Dec-2</publicationDate>
+            </panel>
+            <panel n="3">
+                <character type="child" name="Nancy"/>
+                <artistSignature name="ERNIE BUSHMILLER"/>
+            </panel>
+            <panel n="4">
+                <character type="child" name="Nancy">I ENJOY THEM MORE THIS WAY</character>
+                <character type="woman"/>
+            </panel>
+        </comic>
+        <comic n="4">
+            <panel n="1">
+                <character type="banker">ANY <boldText>IDENTIFICATION?</boldText></character>
+                <character name="Spiderman">LOOK AT MY <boldText>COSTUME!</boldText> WHO DO YOU <boldText>THINK</boldText> I AM?!!</character>
+                <character type="banker"><boldText>ANYONE</boldText> CAN RENT A COSTUME!</character>
+                <artists name="STAN LEE + LARRY LIEBER"/>
+                <publicationDate>11-30</publicationDate>
+            </panel>
+            <panel n="2">
+                <character type="banker">DRIVER'S LICENSE? SOCIAL SECURITY?</character>
+                <character name="Spiderman"><boldText>LOOK!</boldText> I'VE A <boldText>SECRET IDENTITY!</boldText> I CAN'T BLOW MY <boldText>COVER!</boldText></character>
+            </panel>
+            <panel n="3">
+                <character name="Spiderman"/>
+                <character type="banker">AND <boldText>WE</boldText> CAN'T CASH JUST <boldText>ANY</boldText> OLD CHECK!</character>
+                <character type="banker">AND YOU'RE HOLDING UP THE <boldText>LINE!</boldText></character>
+            </panel>
+            <panel n="4">
+                <character name="Spiderman">I FINALLY GET $2,000-- AND <boldText>I CAN'T CASH THE CHECK!</boldText></character>
+                <character name="Spiderman"><boldText>O.K.!</boldText> THERE'S ONLY <boldText>ONE</boldText> THING LEFT TO DO!</character>
+                <caption>NEXT: <boldText>THE BREAKING POINT!</boldText></caption>
+            </panel>
+        </comic>
+    </comics>
+</newspaper>
