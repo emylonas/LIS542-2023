@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Comics>
+<comic1>
+<title>Peanuts</title>
+<illustrator>Charles Schulz</illustrator>
+<date>May 11, 1957</date>
+    <Coloration>BW</Coloration>
+    <length>4 panels</length>
+    <Characters>Human</Characters>
+    <CharacterNames>Lucille "Lucy" Van Pelt, Charlie Brown</CharacterNames>
+    <Genre>Everyday Fiction</Genre>
+
+<panel1>
+    <Charlie>"People come and go. But the earth keeps on spinning"</Charlie>
+</panel1>
+    
+<panel2>
+    <Lucy>"Spinning"? What you do you mean by 'spinning'?"</Lucy>
+    <Charlie>Spinning through space, The Earth keeps on spinning through space</Charlie>
+</panel2>
+
+<panel3>
+    <Lucy>HAHAHAHAHA!!!</Lucy>
+    <Charlie> ?</Charlie>
+</panel3>
+<panel4>
+    <Lucy>Oh my Charlie Brown! You may not be the brightest person in the world. But you sure have some imagination!</Lucy>
+    <Charlie>Good grief!</Charlie>
+</panel4>
+    
+</comic1>
+<break2/>
+
+<Comic2>
+<title>For Better or for Worse</title>
+<illustrator>Lynn Johnston</illustrator>
+<date>May 28 2018</date>
+    <coloration>color</coloration>
+    <length> 4 panels</length>
+    <Characters>Human</Characters>
+    <CharacterNames>Elly Patterson, John Patterson</CharacterNames>
+    <Genre>Everyday Fiction</Genre>
+<panel1> SLAM!</panel1>
+    <panel2>
+        <soundeffect>SLAM! WHAM! BANG!</soundeffect>
+    </panel2>
+    <panel3>
+        <soundeffect>SLAM!</soundeffect></panel3>
+    <panel4>
+        <Elly>A little testy this morning, are we?!!</Elly>
+    </panel4>
+</Comic2>
+    <break3/>
+ <Comic3>
+     <title>Nancy Classics</title>
+     <illustrator>Ernie Bushmiller</illustrator>
+     <date>August 16 2021</date>
+     <coloration>BW</coloration>
+     <length> 4 panels</length>
+     <Characters>Human</Characters>
+     <CharacterNames>Nancy, Nancy's Mom</CharacterNames>
+     <Genre>Everyday Fiction</Genre>
+     <panel1>
+         <NancysMom> Nancy--I bought you a whole jar of cookies all for yourself</NancysMom></panel1>
+     <panel2>
+         <NancysMom>That's odd---She's not eating them</NancysMom></panel2>
+     <panel3>
+         <image> Nancy holding the cookie jar</image>
+     </panel3>
+     <panel4>
+         <Nancy>I enjoy them more this way </Nancy></panel4>
+ </Comic3>
+ <break4/>
+    <Comic4>
+        <Title>Spiderman</Title>
+        <illustrator>Stan Lee </illustrator>
+        <illustrator2>Larry Lieber</illustrator2>
+        <date>November 30 1980</date>
+        <coloration>colored</coloration>
+        <length> 4 panels</length>
+        <Characters>Human</Characters>
+        <CharacterNames> Spiderman, Clerk</CharacterNames>
+        <Genre>Superhero fiction</Genre>
+        <panel1>
+            <Clerk>Any Identifcation?</Clerk>
+            <Spiderman>Look at my costume! Who do you think I am?!!</Spiderman>
+            <Clerk>Anyone can rent a costume!</Clerk>
+            <Spiderman>Stan Lee + Larry Lieber 11-30</Spiderman>
+          
+        </panel1>
+        <panel2>
+            <Clerk> Driver's license? Social security?</Clerk>
+            <Spiderman>Look! I've a secret identity! I can't blow my cover!</Spiderman>
+            </panel2>
+        <panel3>
+            <Clerk> And we can't cash just any old check! </Clerk>
+            <Clerk> And you're holding up the line!</Clerk>
+        </panel3>
+        <panel4>
+            <Spiderman> I finally get $2000 and I can't even cask the check!
+                O.K.! There's only one thing left to do!</Spiderman>
+            <textbox> Next:The Breaking Point! </textbox>
+        </panel4>
+        
+    </Comic4>
+</Comics>
