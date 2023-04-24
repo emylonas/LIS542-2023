@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Name: Emily Shane
+    Class: LIS 542
+    Assignment: Week 4 Markup
+    Due: 4/23/23
+-->
+<collection>
+    <postcard xml:id="pc0001">
+      <sideA orientation="portrait">
+          <image>color photograph of a white bell tower with a clock and a crest, against a blue sky</image>
+      </sideA>
+      <sideB orientation="landscape">
+          <left>
+              <caption><l>Holloway Hall Bell Tower</l>
+                  <l>Salisbury State College</l>
+                  <l><location>Salisbury, Maryland</location></l>
+                  <l>The center section of Holloway Hall at Salisbury State College, including the noble bell tower at which one can scan the historical city of Salisbury in its entirety, was completed in 1929. Students and townspeople alike are enriched by lyrical sounds emanating from the tower's Carillon of Bells, presented to the College by the Alumni Association on November 5, 1973</l></caption>
+              <postmark>Salisbury, MD 218 198[?]</postmark>
+              <writtenText><dateWritten when="198?-08-05">AUG 5</dateWritten>
+                  <salutation>DEAR <recipient>COUSINS'</recipient></salutation>
+                  <note>PLEASANT HAVING YOUR COMPANY. NEXT TIME MAKE IT LONGER SO THAT WE CAN ALL GET OUT AND EXPLORE THE PENINSULA TOGETHER. THANKS FOR ALL THE GOODIES! AM SURE YOU MANAGED TO SHOW YOURSELF A GOOD TIME IN BALTIMORE. COOLED OFF A MITE (DEGREE OR 2). </note>
+                  <signOff>BE WELL, -- AND LOVE, <sender>DOROTHY -- MURRAY</sender></signOff>
+              </writtenText>
+          </left>
+          <right>
+              <postage>Margaret Mitchell USA 1</postage>
+              <postage>Julia Ward Howe 14 USA</postage>
+              <recipientAddress><recipient>Mr-Mrs. Perry Morgan</recipient>653 Fairview Av. Westbury, N.Y. 11590</recipientAddress>
+          </right>
+      </sideB>
+    </postcard>
+        
+    <postcard xml:id="pc0002">
+        <sideA orientation="landscape">
+            <image>colorized photograph(?) of a boardwalk, a small expanse of grass, and a dirt road with some cars on the road and buildings on the sides of the road in the middle-ground.</image>
+            <caption>ALONG THE WATER FRONT. MATUNUCK, R. I.</caption>
+        </sideA>
+        <sideB orientation="landscape">
+            <left>
+                <publisher>Pub. by The Rhode Island News Company, Providence, R. I. M-19096</publisher>
+                <logo>Americhrome Leipzig Berlin New York Printed in the United States</logo>
+                <writtenText><note>From. <sender>Molly.</sender></note></writtenText>
+            </left>
+            <right>
+                <postage>U.S. Postage 1 cent, George Washington</postage>
+                <postmark>Aug 24 1030A</postmark>
+                <recipientAddress><recipient>Mrs. Andrew Perry</recipient> Wilson Av. R---ford R.I.</recipientAddress>
+            </right>
+        </sideB>
+    </postcard>
+        
+    <postcard xml:id="pc0003">
+        <sideA orientation="landscape">
+           <left> 
+               <image position="bottom left">a cartoon of a man putting suitcases in the trunk of a car, a woman standing nearby writing on a notepad</image>
+                <printedText>Time to pack your tennis raquet, golf clubs, camera, tanning lotion, swim suits, evening attire, anything else you may want--and your best smile!</printedText>
+           </left>
+           <right>
+               <printedText><salutation>Dear Friends:</salutation>
+                   <note>It has been a long, cold, snowy winter. For a wonderful change of pace, plan your Esther Manor vacation now --- unlimited fun and pleasure for the entire family! Indoor and outdoor swimming, steam rooms and health club, tennis, handball, golf, baseball, plus top entertainment, dancing and late, late shows await you. The Day Camp is under the alert supervision of trained counsellors. The Teenage Program is better than ever. Hospitality here is as warm and abundant as the rays of the sun. May we suggest that you plan your Esther Manor vacation now?</note><sender> Esther + Irene</sender>
+               </printedText>
+               <returnAddress><sender>Esther Manor </sender>Rt. 17B / Monticello, N.Y. 12701</returnAddress>
+               <printedText>DIRECT WIRE: (212) YU 9-3181</printedText>
+           </right>
+        </sideA>
+        <sideB orientation="landscape">
+            <left>
+                <returnAddress>Executive Office, Esther Manor, Rt. 17B, Monticello, N. Y. 12701</returnAddress>
+                <image position="middle left">a cartoon of a young man holding a newspaper called "Esther Manor Times" that has the headline "Great Vacation News!"</image>
+            </left>
+            <right>
+                <postage>United States Washington 5 cents</postage>
+                <postmark>Monticello, NY, 12701; May 10 -PM 1967</postmark>
+                <recipientAddress><recipient>Miss Christina Stetina</recipient>, 633 E. 224th Street, Bronx, New York</recipientAddress>
+                <returnToSender format="stamp">box checked: "Moved, not forwardable"</returnToSender>
+            </right>
+        </sideB>
+    </postcard>
+        
+    <postcard xml:id="pc0004">
+        <sideA orientation="landscape">
+            <printedText>This parcel is presented through the Over-Seas League Tobacco Fund.</printedText>
+            <printedText>Please write your message to the Donor below: ---</printedText>
+            <writtenText><salutation>Dear Sir,</salutation><note>Many Thanks I'll soon be out of here now, then I shall be lit up! God Bless America and F.D.R.</note>
+            <signOff>yours sincerely, <sender>Pte Maynard.</sender> A.T. 6408616 R.A.S.C.</signOff></writtenText>
+            <printedText>IMPORTANT: AT THE REQUEST OF THE AUTHORITIES DO NOT DISCLOSE ANY PARTICULARS OF YOUR UNIT</printedText>
+            <printedText>W 541</printedText>
+        </sideA>
+        <sideB orientation="landscape">
+            <left>
+                <postmark>---- Tottenham N.15; 21 Apr 1942</postmark>
+                <image position="middle left">a cartoon of a soldier blowing smoke out of his mouth</image>
+                <caption>We're all lit up-- let battle commence</caption>
+                <imgCredit>Sketch by Grimes</imgCredit>
+            </left>
+            <right>
+                <postage>Postage Revenue 1D</postage>
+                <postage>Postage Revenue 1D</postage>
+                <recipientAddress><recipient>W.H. Caldwell Esq.</recipient>
+                275 Clinton Ave.,
+                Brooklyn, N.Y.
+                U.S.A.</recipientAddress>
+            </right>
+        </sideB>
+    </postcard>
+        
+    <postcard xml:id="pc0005">
+        <sideA orientation="landscape">
+            <image>colorized photograph with trees in the foreground, a waterfall in the middle ground, and buildings lining the background</image>
+            <caption>Woonsocket Falls and Sayles Street Bridge, Woonsocket, R.I.</caption>
+        </sideA>
+        <sideB orientation="landscape">
+            <left>
+                <publisher>The Leighton &amp; Valentine Co., N.Y. City. Printed in United States.</publisher>
+                <writtenText>RIVER AND BRIDGE</writtenText>
+                <writtenText>
+                    <note>I went visiting in this place last summer. Hope you will like the card and answer soon</note>
+                    <returnAddress><sender>Inez L. W Kite</sender>, R #1 Box 32, Webster, Mass</returnAddress>
+                </writtenText>
+            </left>
+            <right>
+                <postmark>Webster, Mass, 1914</postmark>
+                <logo>Famous quality throughout the world L&amp;V Co trademark</logo>
+                <recipientAddress><recipient>Mrs. F.C. Copp</recipient>, West Newbury, Mass"</recipientAddress>
+            </right>
+        </sideB>
+    </postcard>
+    
+    <postcard xml:id="pc0006">
+        <sideA orientation="landscape">
+            <image>a painting of six chicks looking at a frog in some grass</image>
+            <caption>Who are you?</caption>
+            <writtenText>Do you think you can find names for these</writtenText>
+        </sideA>
+        <sideB orientation="landscape">
+            <left>
+                <publisher>"Chicks and Ducklings." Raphael Tuck &amp; Sons' "Oilette" [Regd.] Postcard 9175. Are publishers to their majesties the king &amp; queen. Printed in England</publisher>
+                <printedText>If sent Abroad this Space may only be used for Name and Address of Sender.</printedText>
+                <writtenText><salutation>Dear <recipient>Nellie</recipient>,</salutation> Many Thanks for P.G. Hope you are not all blown away. The weather has been fearful down here. I have been to [live?] balls this week so you can guess I am nearly dead. Love it all. <sender>Lall</sender></writtenText>
+            </left>
+            <right>
+                <postage>half-[?]</postage>
+                <postmark>10 PM -A 20 06 4</postmark>
+                <recipientAddress><recipient>Miss Hall</recipient>. Fern Lodge. Pulborough.</recipientAddress>
+            </right>
+        </sideB>
+    </postcard>
+    
+    <postcard xml:id="pc0007">
+        <sideA orientation="portrait">
+            <image>image of a tall pagoda</image>
+            <caption>R-6 Pagoda, Mt. Penn, Reading, Pa.</caption>
+        </sideA>
+        <sideB orientation="landscape">
+            <left>
+                <caption>Pagoda Reading, PA. 1908. 1939 view, Curt Teich Postcard Collection, Lake County (Ill.) Museum. From Ducks &amp; Diners. <copyright>(c) 1988 National Trust for Historic Preservation. <publisher>The Preservation Press.</publisher></copyright></caption>
+                <postmark>Washington, DC 200; 1992; PM</postmark>
+                <writtenText><dateWritten when="1992-11-12">11-12-92</dateWritten>
+                <note>What is a WONK? I don't really know-- a kind of expert in numbers. Puddle is better; Marilyn's ankle is better; but she had an emergency root canal yesterday UGH!</note>
+                </writtenText>
+                <returnAddress><sender>Douglas Gomery</sender>, 4817 Drummond Ave. Chevy Chase, MD 20815</returnAddress>
+            </left>
+            <right>
+                <postage>19 USA deer</postage>
+                <recipientAddress><recipient>The Gomerys</recipient>, 1550 Highland Land, Delray Beach, FL 33444</recipientAddress>
+            </right>
+        </sideB>
+    </postcard>
+</collection>
