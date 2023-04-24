@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe>
+    <title>Butter Beans, Paprika and Piquillo Peppers (2)</title>
+    
+    <introduction><description>These beans are great in salads.</description> <instruction_7 necessity="optional">Let the mix cool and then toss through a
+    selection of salad leaves and herbs</instruction_7>. <instruction_8 necessity="optional">Perk up the leaves with a little olive oil
+    and vinegar and some crispy lavash on top.</instruction_8></introduction>
+    
+    Ingredients
+    
+    <ingredients><serving_size unit="people served">Serves 4</serving_size>
+    <ingredient_1><measure>3</measure> <ingredient>red onions</ingredient>, <preparation>diced</preparation></ingredient_1>
+    <ingredient_2><measure>125 </measure><unit>ml</unit> (about ½ cup) <ingredient>extra-virgin olive oil</ingredient>, <preparation>divided</preparation></ingredient_2>
+    <ingredient_3><measure>4</measure> <ingredient>garlic cloves</ingredient>, <preparation>finely sliced</preparation></ingredient_3>
+    <ingredient_4><measure>1</measure><unit>Tbsp.</unit> <ingredient>dried chile flakes (preferably pul biber)</ingredient></ingredient_4>
+    <ingredient_5><measure>1 1⁄2</measure> <unit>Tbsp.</unit> <ingredient>sweet smoked paprika</ingredient></ingredient_5>
+    <ingredient_6><measure>1</measure> <unit>Tbsp.</unit> <ingredient>tomato purée</ingredient></ingredient_6>
+    <ingredient_7><measure>2</measure> <unit>14-oz. cans</unit> <ingredient>butter beans or lima beans</ingredient>, <preparation>drained and rinsed</preparation></ingredient_7>
+    <ingredient_8><measure>5</measure> <unit>Tbsp.</unit> <ingredient>sherry vinegar</ingredient></ingredient_8>
+    <ingredient_9><measure>300</measure><unit>g</unit> (10 1⁄2-oz.) <ingredient>jarred piquillo peppers</ingredient>, <preparation>rinsed and sliced</preparation></ingredient_9>
+    <ingredient_10>Kosher salt</ingredient_10></ingredients>
+    
+    <instructions>Step 1
+    <instruction_1>In a wide-based pan over a medium heat, caramelize the <ingredient_1>red onions</ingredient_1> in <ingredient_2>5
+    Tbsp. of the olive oil</ingredient_2> for <objective_duration>15 minutes</objective_duration> or <subjective_duration>until they turn golden and soft</subjective_duration>.</instruction_1> <instruction_2>Add a
+    little <ingredient_10>fine salt</ingredient_10>, the <ingredient_3>garlic</ingredient_3> and spices and continue to cook for 2–3 minutes.</instruction_2>
+    <instruction_3>Add the <ingredient_6>tomato purée</ingredient_6> and cook for another minute.</instruction_3>
+    
+    Step 2
+    <instruction_4>Add the <ingredient_7>beans</ingredient_7> and <ingredient_8>sherry vinegar</ingredient_8> and <objective_duration>reduce the liquid by half over a
+    medium heat</objective_duration>.</instruction_4> <instruction_5>Turn the heat off.</instruction_5> <instruction_6>Add the <ingredient_9>piquillo peppers</ingredient_9> and the <ingredient_2>remaining
+    olive oil</ingredient_2> and season with <ingredient_10>salt</ingredient_10> to serve.</instruction_6></instructions>
+    
+    <origin type="book">From Three: Acid, Texture, Contrast by <author>Selin Kiazim</author>. Copyright © December
+    2021 by <author>Selin Kiazim</author>. Excerpted by permission of Quadrille. Buy the book
+    from Amazon or Bookshop.</origin>
+</recipe>
