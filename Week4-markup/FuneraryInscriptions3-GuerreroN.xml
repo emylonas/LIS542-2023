@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<funerary_inscriptions>
+<tombstone n="1">
+   <name>Publius Oppius</name>
+   <pronouns>he/him</pronouns>
+   <gender>M</gender>
+   <roles>soldier, son</roles>
+   <remembered_in_relation_to>family, tribe, army</remembered_in_relation_to>
+   <epitaph>n/a</epitaph>
+   <birth_date>n/a</birth_date>
+   <death_date>n/a</death_date>
+   <age>30</age>
+   <cultural_geog_context>The tribus Camilia is one of the sixteen oldest rural tribes in Rome</cultural_geog_context>
+</tombstone>
+    
+<tombstone n="2">
+    <name>Ada Lovelace</name>
+    <pronouns>n/a</pronouns>
+    <gender>F</gender>
+    <roles>daughter, wife</roles>
+    <remembered_in_relation_to>father, husband</remembered_in_relation_to>
+    <epitaph>"R.I.P"</epitaph>
+    <birth_date>10 Dec 1815</birth_date>
+    <death_date>27 Nov 1852</death_date>
+    <age>36</age>
+    <cultural_geog_context>English (Cultural), England</cultural_geog_context>
+</tombstone>
+    
+<tombstone n="3">
+    <name>Joseph Alger</name>
+    <pronouns>n/a</pronouns>
+    <gender>M</gender>
+    <roles>captain</roles>
+    <remembered_in_relation_to>n/a</remembered_in_relation_to>
+    <epitaph>"Sacred to the Memory"</epitaph>
+    <birth_date>15 July 1768 (approx.)</birth_date>
+    <!--birth date calculated based on age at time of death-->
+    <death_date>21 June 1794</death_date>
+    <age>25</age>
+    <cultural_geog_context>English (Language)</cultural_geog_context>
+</tombstone>
+
+<tombstone n="4">
+    <name>Elizabeth</name>
+    <pronouns>n/a</pronouns>
+    <gender>n/a</gender>
+    <roles>n/a</roles>
+    <remembered_in_relation_to>n/a</remembered_in_relation_to>
+    <epitaph>n/a</epitaph>
+    <birth_date>1870</birth_date>
+    <death_date>1952</death_date>
+    <age>81-82 (approx.) </age> 
+    <!--age calculated based on birth and death years-->
+    <cultural_geog_context>"Elizabeth" is descended from the Hebrew name "Elisheva"</cultural_geog_context>
+</tombstone>
+    
+</funerary_inscriptions>
