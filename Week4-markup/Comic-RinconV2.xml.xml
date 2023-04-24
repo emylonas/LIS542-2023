@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <title>Comics</title>
+    <description>Four pages of comics strips with one strip on each page, complied for practicing XML markup</description>
+        <comic>
+            <about>
+                <title>#Peanuts</title>
+                <creator>
+                    <author>#Charles_Schultz</author>
+                    <illustrator>#Charles_Schultz</illustrator>
+                </creator>
+                <date when="1957-09-27">May 11, 1957</date>
+                <source> url="https://www.gocomics.com/peanuts/1957/05/11"</source>
+            </about>
+                <panel n="1">
+                    <description>
+                        <character>#Charlie_Brown</character>
+                        <character>#Lucy_Van_Pelt</character>
+                        <action>Charlie is walking with Lucy and speaking in a somewhat melancholic tone.</action>
+                        <text>=type
+                            <dialogue>
+                                <speaker>#Charlie_Brown</speaker>
+                                    <balloon>People come and people go. But the Earth keeps on spinning.</balloon>
+                            </dialogue>
+                        <titlecard>#Peanuts</titlecard>
+                        </text>
+                    </description>
+                </panel>
+                <panel n="2">
+                    <description>
+                        <character>#Charlie_Brown</character>
+                        <character>#Lucy_Van_Pelt</character>
+                        <action>Lucy and Charlie lean against a brick ledge with the arms folded and resting on top of it and their heads resting on their hands. Lucy questions what Charlie means and he replies.</action>
+                        <text>=type
+                            <dialogue>
+                                <speaker>#Lucy_Van_Pelt</speaker>
+                                    <balloon>"Spinning"? What do you mean "spinning"?</balloon>
+                                <speaker>#Charlie_Brown</speaker>
+                                    <balloon>Spinning through space...the Earth keeps on spinning through space..</balloon>
+                            </dialogue>
+                        </text>
+                    </description>
+                </panel>
+                <panel n="3">
+                    <description>
+                        <character>#Charlie_Brown</character>
+                        <character>#Lucy_Van_Pelt</character>
+                        <action>Lucy laughs at Charlie and Charlie is confused by her reaction</action>
+                        <text>=type
+                            <dialogue>
+                                <speaker>#Lucy_Van_Pelt</speaker>
+                                    <balloon>HAHAHAHAHA!!!</balloon>
+                            </dialogue>
+                            <punctuation>
+                                <speaker>#Charlie_Brown</speaker>
+                                    <balloon>?</balloon>
+                            </punctuation>
+                        </text>
+                    </description>
+                </panel>
+                <panel n="4">
+                    <description>
+                        <character>#Charlie_Brown</character>
+                        <character>#Lucy_Van_Pelt</character>
+                        <action>Still giggling Lucy puts her arm over Charlie's shoulder and speaks; Charlie is dismayed by her words.</action>
+                        <text>=type
+                            <dialogue>
+                                <speaker>#Lucy_Van_Pelt</speaker>
+                                    <balloon>Oh. My. Charlie Brown! You may not be the brightest person in the world. But you sure have some imagination!</balloon>
+                                <speaker>#Charlie_Brown</speaker>
+                                    <balloon>Good grief!</balloon>
+                            </dialogue>
+                            <signature>#Schultz</signature>
+                        </text>
+                    </description>
+                </panel>
+        </comic>
+        <comic>
+            <about>
+                <title>#For_Better_or_For_Worse</title>
+                <creator>
+                    <author>#Lynn_Johnston</author>
+                    <illustrator>#Lynn_Johnson</illustrator>
+                </creator>
+                <date when="2018-05-28">May 28, 2018</date>
+                <source> https://www.gocomics.com/forbetterorforworse/2018/05/28></source>
+            </about>
+            <panel n="1">
+                <description>
+                    <character>#Michael_Patterson</character>
+                    <action>Frustrated, Michael slams the door behind him; he holds what looks like a manuscript in his left hand.</action>
+                    <text>=type
+                        <onomatopoeia>SLAM!</onomatopoeia>
+                    </text>
+                </description>
+            </panel>
+            <panel n="2">
+                <description>
+                    <character>#Elizabeth_Patterson</character>
+                    <action>While making a peanut butter and jelly sandwich, Elizabeth can hear all the loud noise Michael is making through the house. It startles her so much that she drops the butter knife was using.</action>
+                    <text>=type
+                        <onomatopoeia>SLAM! WHAM! BANG!!</onomatopoeia>
+                    </text>
+                </description>
+            </panel>
+            <panel n="3">
+                <description>
+                    <character>#Elizabeth_Patterson</character>
+                    <action>At the entrance of the house Elizabeth sees the the door slam just as Michael leaves.</action>
+                    <text>=type
+                        <onomatopoeia>SLAM!</onomatopoeia>
+                    </text>
+                </description>
+            </panel>
+            <panel n="4">
+                <description>
+                    <character>#Elizabeth_Patterson</character>
+                    <character>#Michael_Patterson</character>
+                    <action>Elizabeth sticks her head out the door and yells at Michael as he's walking away.</action>
+                    <text>=type
+                        <dialogue>
+                            <speaker>#Elizabeth_Patterson</speaker>
+                                <balloon>A little testy this morning, are we?!!</balloon>
+                        <signature>#Lynn</signature>
+                        </dialogue>
+                    </text>
+                </description>
+            </panel>
+        </comic>
+        <comic>
+            <about>
+                <title>#Nancy_Classics</title>
+                <creator>
+                    <author>#Ernie_Bushmiller</author>
+                    <illustrator>#Ernie_Bushmiller</illustrator>
+                </creator>
+                <date when="2021-08-16">August 16, 2021</date>
+                <source> https://www.gocomics.com/nancy-clssics/2021/08/16></source>
+            </about>
+            <panel n="1">
+                <description>
+                    <character>#Nancy_Ritz</character>
+                    <character>#Fritzi_Ritz</character>
+                    <action>Fritzi presents a smiling Nancy with a a jar of cookies and nancy has her hands outstretched ready to recieve them. </action>
+                    <text>=type
+                        <dialogue>
+                            <speaker>#Fritz_Ritz</speaker>
+                                <balloon>Nancy--I bought you a whole jar of cookies all for yourself.</balloon>
+                        </dialogue>
+                    </text>
+                </description>
+            </panel>
+            <panel n="2">
+                <description>
+                    <character>#Nancy_Ritz</character>
+                    <character>#Fritzi_Ritz</character>
+                    <action>A confused Fritzi looks to see Nancy sitting down on a chair and staring at her newly acquired cookie jar rather then eating it's contents.</action>
+                    <text>=type
+                        <dialogue>
+                            <speaker>#Fritz_Ritz</speaker>
+                                <balloon>That's odd---she's not eating them</balloon>
+                        </dialogue>
+                        <date>Dec-2</date>
+                    </text>
+                </description>
+            </panel>
+            <panel n="3">
+                <description>
+                    <character>#Nancy_Ritz</character>
+                    <action>Nancy walks towards the right down a hallway with her cookie jar in hand</action>
+                    <text>=type
+                        <signature>#Ernie_Bushmiller</signature>
+                        <illegible></illegible>
+                    </text>
+                </description>
+            </panel>
+            <panel n="4">
+                <description>
+                    <character>#Nancy_Ritz</character>
+                    <character>#Fritzi_Ritz</character>
+                    <action>A surprised Fritzi finds Nancy standing on a stack made up of a kitchen chair, a large box, and a stool in order to reach the cookie jar now placed on top of a tall cabinet. She has a cookie in her mouth and another in her left hand.</action>
+                    <text>=type
+                        <dialogue>
+                            <speaker>#Nancy_Ritz</speaker>
+                                <balloon>I enjoy them more this way.</balloon>
+                        </dialogue>
+                    </text>
+                </description>
+            </panel>
+        </comic>
+        <comic>
+            <about>
+                <title>#Spiderman</title>
+                <creator>
+                    <author>#Stan_Lee</author>
+                    <illustrator>#Larry_Lieber</illustrator>
+                </creator>
+                <date when="1980-11-30">November 30, 1980</date>
+            </about>
+            <panel n="1">
+                <description>
+                    <character>#Spiderman</character>
+                    <character>#Bankteller</character>
+                    <action>The bankteller asks Spiderman for proof of identification. Spiderman is at a bank trying to convince the bankteller that he is who he says he is. The bankteller does not believe him.</action>
+                    <text>=type
+                        <dialogue>
+                            <speaker>#Bankteller</speaker>
+                                <balloon>Any identification?</balloon>
+                            <speaker>#Spiderman</speaker>
+                                <balloon>Look at my costume! Who do you think I am?!!</balloon>
+                            <speaker>#Bankteller</speaker>
+                                <balloon>Anyone can rent a costume!</balloon>
+                        </dialogue>
+                        <name>#Stan_Lee</name>
+                        <name>#Larry_Lieber</name>
+                        <date>11-30</date>
+                    </text>
+                </description>
+            </panel>
+            <panel n="2">
+                <description>
+                    <character>#Spiderman</character>
+                    <character>#Bankteller</character>
+                    <character>#man_in_green_hat</character>
+                    <character>#man_with_orange_hair</character>
+                    <action>At the desk, the bankteller continues to ask for forms of identification from Spiderman but the superhero cannot produce any. A man in a green hat and a man with oragne hair watch this exchange unfold in front of them. </action>
+                    <text>=type
+                        <dialogue>
+                            <speaker>#Bankteller</speaker>
+                                <balloon>Driver's license? Social secruity?</balloon>
+                            <speaker>#Spiderman</speaker>
+                                <balloon>Look! I've a secret identity! I can't blow my cover!</balloon>
+                        </dialogue>
+                    </text>
+                </description>
+            </panel>
+            <panel n="3">
+                <description>
+                    <character>#Spiderman</character>
+                    <character>#Bankteller</character>
+                    <character>#man_with_green_hat</character>
+                    <character>#man_with_orange_hair</character>
+                    <character>#woman_with_black_hair</character>
+                    <character>#woman_with_pink_hair</character>
+                    <action>The bankteller refuses to cash Spiderman's check without proper identification, hand it back to him, and berates the hero for holding up the line of people that is forming behind him. Spiderman looks back and sees a line of annoyed people.</action>
+                    <text>=type
+                        <dialogue>
+                            <speaker>#Bankteller</speaker>
+                                <balloon>And we can't cash just any old check!</balloon>
+                                <balloon>And you're holding up the line!</balloon>
+                        </dialogue>
+                    </text>
+                </description>
+            </panel>
+            <panel n="4">
+                <description>
+                    <character>#Spiderman</character>
+                    <action>Later that night, Spiderman clings to the wall on the side of a building with his spider powers holding his check. His mask is off and he is contemplating how he is going to get his money, and resovles that there is only one solution left. </action>
+                    <text>=type
+                        <dialogue>
+                            <speaker>#Spiderman</speaker>
+                                <balloon>I finally get $2,000--and I can't cash the check! O.K. there's only one thing left to do!</balloon>
+                       </dialogue>
+                       <narration>Next: The Breaking Point!</narration>
+                   </text>
+               </description> 
+            </panel>
+        </comic>    
+</document>
