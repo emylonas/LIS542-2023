@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<funeral_inscriptions>
+    
+<funeral_inscription_1>
+    <name describing="deceased">Publius Oppi[us,</name>
+    <relationship describing="deceased">son of...],</relationship>
+    <relationship describing="ancestor">of (the tribe of) Camilia</relationship>
+    ...cio, of <home_region>Ravenna</home_region>
+    <title describing="deceased">soldier of the Legio V</title>
+    Macedonia, of the rank of
+    <title describing="deceased">optio,</title>
+    lived <age describing="deceased">30 years</age>
+    served in the army nine years
+    (and) is buried here.
+    (His) <relationship describing="descendant">heir</relationship> made (this tombstone).   
+</funeral_inscription_1>
+
+<funeral_inscription_2>
+    IN THE <relationship describing="family name">BYRON</relationship> VAULT BELOW
+    LIE THE REMAINS OF
+    <name describing="deceased">AUGUSTA ADA</name>,
+    ONLY <relationship describing="deceased">DAUGHTER</relationship> OF <relationship describing="father">GEORGE GORDON NOEL</relationship>, <title describing="father">6TH LORD BYRON</title>
+    AND <relationship describing="deceased">WIFE</relationship> OF <relationship describing="husband">WILLIAM</relationship>, <title describing="husband">EARL OF LOVELACE</title>
+    BORN <date type="birth">10TH DEC 1815</date>
+    DIED <date type="death">27TH NOV 1852</date>
+    R.I.P.
+</funeral_inscription_2>
+    
+<funeral_inscription_3>
+    Sacred to the Memory of
+    <title describing="deceased">Capt.</title><name describing="deceased">JOSEPH ALGER</name>
+    who departed this Life <date type="death">June 21st 1794</date>
+    Aged <age describing="deceased">25 Years, 11 Months &amp; 6 Days</age>
+</funeral_inscription_3>
+
+<funeral_inscription_4>
+    <name describing="deceased">ELIZABETH</name>
+    <date type="birth">1870</date>
+    <date type="death">1952</date>
+</funeral_inscription_4>
+    
+</funeral_inscriptions>
