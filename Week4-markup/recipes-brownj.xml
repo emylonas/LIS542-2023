@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe>
+<Dish type="Baked Beans"></Dish>
+    <instruction type="Wash and soak"><measurement type="one pound"></measurement><ingredient type="navy beans"></ingredient><measurement type="over night"></measurement></instruction>
+    <instruction type="Boil slowly"><measurement type="twenty minutes"></measurement></instruction><instruction type="drain"></instruction> 
+    <instruction type="Add"><measurement type="1/2 pound"></measurement><ingredient type="salt pork"></ingredient><instruction type="cut in thick slices"></instruction><ingredient type="1/4 cup molasses or brown sugar"></ingredient><ingredient type="salt"><measurement type="to taste"></measurement></ingredient></instruction>
+        <instruction type="Cover with water"></instruction> and <instruction type="bake in slow oven"><measurement type="about six hours."></measurement></instruction> 
+    <instruction type="Add"><ingredient type="water"></ingredient><measurement type="a little at a time as needed"></measurement></instruction>
+<origin type="Order of the Eastern Star. Logan Square Chapter No. 560 (Chicago, Ill.). Original recipes of good things to eat. Chicago, 1919 https://archive.org/details/originalrecipeso00orde/page/45/mode/2up
+Mrs. A. Smith"></origin>
+</recipe>
+
