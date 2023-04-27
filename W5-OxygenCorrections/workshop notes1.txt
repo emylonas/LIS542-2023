@@ -1,42 +1,0 @@
-AntFrom MPIWG Account to Everyone: (8:09 AM)
- For those who just joined us, here’s the workshop site URL: https://rise-mpiwg.github.io/ 
-From MPIWG Account to Everyone: (8:16 AM)
- Here’s the RISE website: https://rise.mpiwg-berlin.mpg.de/ 
-From MPIWG Account to Everyone: (8:25 AM)
- Here is the link: https://rise.mpiwg-berlin.mpg.de/swagger/ (make sure you include the slash at the end) https://rise.mpiwg-berlin.mpg.de/jslib/ 
-From MPIWG Account to Everyone: (8:31 AM)
- Here’s the Github page: https://github.com/RISE-MPIWG Here’s Recogito: https://recogito.pelagios.org/ 
-From Rainer Simon to Everyone: (8:42 AM)
- The quickest overview to Recogito, I think, is our 10 Minute tutorial: http://recogito.pelagios.org/help/tutorial Plus it's also open source: http://github.com/pelagios/recogito2 
-From MPIWG Account to Everyone: (8:43 AM)
- CBETA URL: https://www.cbeta.org/ Online reader: https://cbetaonline.dila.edu.tw/ 
-From Augustine Farinola to Everyone: (8:45 AM)
- Thanks 
-From MPIWG Account to Everyone: (8:47 AM)
- CBETA API: http://cbdata.dila.edu.tw/v1.2 
-From MPIWG Account to Everyone: (8:50 AM)
- http://cbdata.dila.edu.tw/v1.2/static_pages/rise-shine 
-From Joey Hung to Everyone: (8:53 AM)
- Welcome to use CBETA data for any purposes !! 
-From MPIWG Account to Everyone: (8:53 AM)
- https://dh.chinese-empires.eu/markus/beta/ MARKUS’s home project page: https://chinese-empires.eu/ 
-From MPIWG Account to Everyone: (8:56 AM)
- https://dh.chinese-empires.eu/markus/ – various links for MARKUS 
-From marc gilbert to Everyone: (8:57 AM)
- Cool—we are working on ensuring that Korean place names can be mapped (alongside Chinese places) in DocuGIS. 
-From Michael Stanley-Baker to Everyone: (9:00 AM)
- Brent, can we pull multiple texts into MARKUS via SHINE and execute bulk markup? Ok, thx! 
-From marc gilbert to Everyone: (9:01 AM)
- You can batch markup in Markus any files that you save into your account 
-From MPIWG Account to Everyone: (9:02 AM)
- Google Colab: https://colab.research.google.com/drive/14RBnC7BVGd3zlt-h9YuynVuuu428bKDN?usp=sharing 
-From MPIWG Account to Everyone: (9:10 AM)
- Here’s the RISE API doc: https://rise.mpiwg-berlin.mpg.de/pages/doc_for_developers#tabs RISE JavaScript library doc: https://rise.mpiwg-berlin.mpg.de/jslib/ 
-From Brent Ho to Everyone: (9:11 AM)
- Michael, It is possible because it just reuse the same code and to fetch books multiple times. 
-From MPIWG Account to Everyone: (9:13 AM)
- RISE Github page: https://github.com/RISE-MPIWG 
-
-
-From MPIWG Account to Everyone: (9:21 AM)
- https://osf.io/preprints/socarxiv/qrmg8/ (SHINE and DTS)
