@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <comic>
+     <character gender="male">
+         <firstname>Charlie</firstname>
+         <lastname>Brown</lastname>
+     </character>
+     <character gender="female">
+         <firstname>Lucy</firstname>
+         <lastaname>van Pelt</lastaname>
+     </character>
+    <metadata>
+        <title>Peanuts</title>
+        <author>Charles Schulz</author>
+        <note date="05-11-1957">Publication</note>
+    </metadata>
+    <panel1>
+        <characters>Charlie and Lucy</characters>
+        <charlietalks>People come and people go. But the Earth keeps on spinning..</charlietalks>
+    </panel1>
+    <panel2>
+        <characters>Charlie and Lucy</characters>
+        <lucytalks>"Spinning?" What do you mean "Spinning?"</lucytalks>
+        <charlietalks>Spinning through space... The Earth keeps on spinning through space..</charlietalks>
+    </panel2>
+    <panel3>
+        <characters>Charlie and Lucy</characters>
+        <lucytalks>HAHAHAHAHA!!!</lucytalks>
+        <charlietalks>?</charlietalks>
+    </panel3>
+    <panel4>
+        <characters>Charlie and Lucy</characters>
+        <lucytalks>Oh, my, Charlie Brown! You may not be the <b>brightest</b> person in the world, but you sure have some <b>imagination</b>!</lucytalks>
+        <charlietalks>good grief!</charlietalks>
+    </panel4>
+</comic>
