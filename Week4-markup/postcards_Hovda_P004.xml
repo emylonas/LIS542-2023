@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<postcard xml:id="p004">
+    <side1>
+        <recipientName>Mr. John [Meeves]</recipientName>
+        <recipientAddress>Tipton
+            [90 Mf H Grim]
+            R#4 Iowa</recipientAddress>
+        <WrittenText type="message">"Hello John Old Stick
+            How do these [april showers agree] with you? 
+            May be at your town soon. 
+            Everything is fine and doozy."</WrittenText>
+        <senderName>[Selio]</senderName>
+        <senderAddress/>
+        <DateWritten>1915-04-12</DateWritten>
+        <DatePosted>1915-04-12</DatePosted>
+        <Postage stamp="country">U.S.A.</Postage>
+        <PrintedText feature="Printer or Publisher"/>
+        <PrintedText qualification="image description"/>
+    </side1>
+    <side2>
+        <PrintedText type="caption">Votes for Women
+            The spirit of 1776 to-day
+            "No Taxation 
+            Without Representation"</PrintedText>
+        <WrittenText qualification="on image"/>
+        <image type="theme">political</image>
+    </side2>
+    <material>paper</material>
+    <Notes>Post Office ink stamp and Sender handwriting indicate it was written/sent from Dixon, Iowa</Notes>
+</postcard>
