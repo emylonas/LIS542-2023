@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Recipe>
+    <dish type="Pistachio Cake"></dish>
+    <serving amount="1GN"></serving>
+        <preparation type="melt"></preparation><measurement type="400g"></measurement><ingredient type="butter"></ingredient>
+        <preparation type="grind"></preparation><measurement type="900g"></measurement><ingredient type="pistachio nuts"></ingredient>
+        <preparation type="add"></preparation><measurement type="200g"></measurement><ingredient type="flour"></ingredient><measurement type="4 tsp"></measurement><ingredient type="baking powder"></ingredient>
+        <preparation type="whisk"></preparation><measurement type="800g"></measurement><ingredient type="sugar"></ingredient><measurement type="12"></measurement><ingredient type="eggs"></ingredient><measurement type="2tbsp"></measurement><ingredient type="pistachio compound"></ingredient>
+        <preparation type="fold in the flour and nuts"></preparation>
+        <preparation type="fold in the butter"></preparation>
+        <preparation type="incorporate the juice of"></preparation><measurement type="4"></measurement><ingredient type="lemons"></ingredient>
+        <preparation type="bake"></preparation><measurement type="160C"></measurement><duration type="30m"></duration>
+    <serving amount="2GN"></serving>
+        <preparation type="melt"></preparation><measurement type="800g"></measurement><ingredient type="butter"></ingredient>
+        <preparation type="grind"></preparation><measurement type="1.8kg"></measurement><ingredient type="pistachio nuts"></ingredient>
+        <preparation type="add"></preparation><measurement type="400g"></measurement><ingredient type="flour"></ingredient><measurement type="8 tsp"></measurement><ingredient type="baking powder"></ingredient>
+        <preparation type="whisk"></preparation><measurement type="1.6kg"></measurement><ingredient type="sugar"></ingredient><measurement type="24"></measurement><ingredient type="eggs"></ingredient><measurement type="4tbsp"></measurement><ingredient type="pistachio compound"></ingredient>
+        <preparation type="fold in the flour and nuts"></preparation>
+        <preparation type="fold in the butter"></preparation>
+        <preparation type="incorporate the juice of"></preparation><measurement type="8"></measurement><ingredient type="lemons"></ingredient>
+        <preparation type="bake"></preparation><measurement type="160C"></measurement><duration type="30m"></duration>
+    <serving amount="1/2 GN"></serving>
+        <preparation type="melt"></preparation><measurement type="200g"></measurement><ingredient type="butter"></ingredient>
+        <preparation type="grind"></preparation><measurement type="450g"></measurement><ingredient type="pistachio nuts"></ingredient>
+        <preparation type="add"></preparation><measurement type="100g"></measurement><ingredient type="flour"></ingredient><measurement type="2 tsp"></measurement><ingredient type="baking powder"></ingredient>
+        <preparation type="whisk"></preparation><measurement type="400g"></measurement><ingredient type="sugar"></ingredient><measurement type="6"></measurement><ingredient type="eggs"></ingredient><measurement type="1tbsp"></measurement><ingredient type="pistachio compound"></ingredient>
+        <preparation type="fold in the flour and nuts"></preparation>
+        <preparation type="fold in the butter"></preparation>
+        <preparation type="incorporate the juice of"></preparation><measurement type="2"></measurement><ingredient type="lemons"></ingredient>
+        <preparation type="bake"></preparation><measurement type="160C"></measurement><duration type="30m"></duration>
+</Recipe>

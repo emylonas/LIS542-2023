@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe>
+    <Dish type="Butter Beans, Paprika and Piquillo Peppers (2)"></Dish>
+    <Recommendation type="These beans are great in salads. Let the mix cool and then toss through a selection of salad leaves and herbs. Perk up the leaves with a little olive oil and vinegar and some crispy lavash on top."></Recommendation>
+    <Ingredient list="Ingredients">
+        <Serving amount="Serves 4"></Serving>
+            <measurement type="3"></measurement><element type="red onions"></element><preparation type="diced"></preparation>
+            <measurement type="125 ml (&lt; about1⁄2 cup)"></measurement><element type="extra-virgin olive oil"></element><preparation type="divided"></preparation>
+            <measurement type="4"></measurement><element type="garlic cloves"></element><preparation type="finely sliced"></preparation>
+            <measurement type="1 Tbsp."></measurement><element type="dried chile flakes (&lt; preferably pul biber)"></element>
+            <measurement type="1 1⁄2 Tbsp."></measurement><element type="sweet smoked paprika"></element>
+            <measurement type="1 Tbsp."></measurement><element type="tomato purée"></element>
+            <measurement type="2 14-oz. cans"></measurement><element type="butter beans or lima beans"></element><preparation type="drained and rinsed"></preparation> 
+            <measurement type="5 Tbsp."></measurement><element type="sherry vinegar"></element>
+            <measurement type="300g (&lt; 10 1⁄2-oz.)"></measurement><element type="jarred piquillo peppers"></element><preparation type="rinsed and sliced"></preparation> 
+             <element type="Kosher salt"></element></Ingredient>
+    <Instruction type="Step 1">
+        In a wide-based pan over a medium heat, caramelize the red onions in 5 Tbsp. of the olive oil for 15 minutes or until they turn golden and soft. Add a little fine salt, the garlic and spices and continue to cook for 2–3 minutes. Add the tomato purée and cook for another minute.</Instruction>
+    <Instruction type="Step 2">
+        Add the beans and sherry vinegar and reduce the liquid by half over a medium heat. Turn the heat off. Add the piquillo peppers and the remaining olive oil and season with salt to serve.</Instruction>
+    <origin type="From Three: Acid, Texture, Contrast by Selin Kiazim. Copyright © December 2021 by Selin Kiazim. Excerpted by permission of Quadrille. Buy the book from Amazon or Bookshop."></origin></recipe>
+
