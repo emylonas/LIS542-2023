@@ -7,7 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Practice Validation and Some more XML explanations</title>
-                <author>Elli Mylonas</author>
+                <author ref="https://orcid.org/0000-0002-0215-432">Elli Mylonas</author>
             </titleStmt>
         </fileDesc>
     </teiHeader>
@@ -22,17 +22,17 @@
            they should appear is in Canvas.
         -->  
             
-            <div>
+            <div xml:id="d1" >
                 
-                <head>A Silly Memo</head>
+                <head xml:id="h1">A Silly Memo</head>
                 
-                <opener>From: The Professor
-                To: The Scientist
+                <opener>From: <name>The Professor</name>
+                    To: <name>The Scientist</name>
                 Date: <date when="2022-04-01">April 1, 2022</date></opener>
                 
-                <p>Good news.</p>
+                <p xml:id="p1">Good news.</p>
                 
-                <p>We have discovered the source of the high pitched sound. It glows blue in direct sunlight. We suspect it will taste of blueberries.</p>
+                <p xml:id="p2">We have discovered the source of the high pitched sound. It glows blue in direct sunlight. We suspect it will taste of blueberries.</p>
                     <closer><signed>Yours ever, in science</signed></closer>
                 
             </div>
@@ -47,7 +47,9 @@
                which is: https://orcid.org/0000-0002-0215-4324 
            3. Number the <div>, <header> and <p> elements using an "xml:id" attribute, so they can be unambiguously identified and linked to.
         -->
-            
+            <!-- 
+                Uploading a second attempt at this file with the additional  markup. I missed that last instruction on my first attempt.  -R
+                !-->
             
             
         </body>
