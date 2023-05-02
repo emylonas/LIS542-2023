@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<gravestones>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <!-- Gravestones Schema -->
+    <xs:element name="gravestone">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nameDeceased" type="xs:string"/>
+                <xs:element name="nameFamily" type="xs:string" minOccurs="0"/>
+                <xs:element name="nameOthers" type="xs:string" minOccurs="0"/>
+                <xs:element name="placeBirth" type="xs:string"/>
+                <xs:element name="placeOther" type="xs:string"/>
+                <xs:element name="dateBirth" type="xs:date" minOccurs="0"/>
+                <xs:element name="dateDeath" type="xs:date"/>
+                <xs:element name="age" type="xs:string" minOccurs="0"/>
+                <xs:element name="epitaph" type="xs:string" minOccurs="0"/>
+                <xs:element name="epitaphOriginal" type="xs:string" minOccurs="0"/>
+                <xs:element name="featuresSymbols" type="xs:string" minOccurs="0"/>
+                <xs:element name="featuresCondition" type="xs:string" minOccurs="0"/>
+                <xs:element name="featuresOther" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute name="subject" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>  
+</xs:schema>
+
+
+
+    <gravestone subject="Publius Oppius, Roman Soldier">
+        <nameDeceased>P(ublius) Oppi[us</nameDeceased>
+        <nameFamily>Camilia</nameFamily>
+        <nameOthers>Legio V</nameOthers>
+        <placeBirth>Ravenna
+            </placeBirth>
+        <placeOther>
+            Macedonia
+        </placeOther>
+        <dateBirth></dateBirth>
+        <dateDeath></dateDeath>
+        <age>30 years</age>
+        <epitaph>P(ublius) Oppi[us, son of...],
+            of (the tribe of) Camilia,
+            ...cio, of Ravenna,
+            soldier of the Legio V
+            5 Macedonica, (of the rank of) optio,
+            lived
+            30 years, served in the army nine
+            years
+            (and) is buried here.
+            (His) heir made (this tombstone).</epitaph>
+        <epitaphOriginal> Publius Oppius filius
+            Camilia [.3 char. .]
+            CIO Ravenna
+            miles legionis V
+            Macedonicae, optio,
+            vixit annos
+            XXX, militavit annos VIIII.
+            Hic situs est.
+            Heres fecit.</epitaphOriginal>
+        <featuresSymbols></featuresSymbols>
+        <featuresCondition>Structural damage on upper left section of grave.</featuresCondition>
+        <featuresOther>Text in Ancient Latin</featuresOther>
+    </gravestone>
+    
+    <gravestone subject="Ada Lovelace">
+        <nameDeceased>Augusta Ada</nameDeceased>
+        <nameFamily>Byron Vault,
+            George Godron Noel,
+            Lord Byron</nameFamily>
+        <nameOthers> </nameOthers>
+        <placeBirth> </placeBirth>
+        <placeOther></placeOther>
+        <dateBirth>Dec 1815</dateBirth>
+        <dateDeath>Nov 1852</dateDeath>
+        <age> </age>
+        <epitaph>In the Byron vault below
+            Lie the remains of
+            Augusta Ada,
+            only daughter of
+            George Gordon Noel,
+            6th Lord Byron
+            and wife of
+            William, Earl of Lovelace
+            Born 10th Dec 1815
+            Died 27th Nov 1852
+            R.I.P. </epitaph>
+        <epitaphOriginal> </epitaphOriginal>
+        <featuresSymbols>Family crest</featuresSymbols>
+        <featuresCondition></featuresCondition>
+        <featuresOther></featuresOther>
+    </gravestone>
+    
+    <gravestone subject="Captain Joseph Alger">
+        <nameDeceased>Joseph Alger</nameDeceased>
+        <nameFamily></nameFamily>
+        <nameOthers> </nameOthers>
+        <placeBirth> </placeBirth>
+        <placeOther></placeOther>
+        <dateBirth></dateBirth>
+        <dateDeath>June 21st 1794</dateDeath>
+        <age>25 years, 11 months, 6 days</age>
+        <epitaph>Sacred to the Memory
+            of
+            Capt. JOSEPH ALGER
+            who departed this Life
+            June 21st 1794
+            Aged 25 Years,
+            11 Months &amp;
+            6 Days</epitaph>
+        <epitaphOriginal> </epitaphOriginal>
+        <featuresSymbols> Engraving of an angel. </featuresSymbols>
+        <featuresCondition></featuresCondition>
+        <featuresOther></featuresOther>
+    </gravestone>
+    
+    <gravestone subject="Elizabeth">
+        <nameDeceased> </nameDeceased>
+        <nameFamily></nameFamily>
+        <nameOthers> </nameOthers>
+        <placeBirth> </placeBirth>
+        <placeOther></placeOther>
+        <dateBirth>1870</dateBirth>
+        <dateDeath>1952</dateDeath>
+        <age> </age>
+        <epitaph>ELIZABETH
+        1870 - 1952 </epitaph>
+        <epitaphOriginal> </epitaphOriginal>
+        <featuresSymbols></featuresSymbols>
+        <featuresCondition>Visible signs of wear, vegetation</featuresCondition>
+        <featuresOther></featuresOther>
+    </gravestone>
+</gravestones>
