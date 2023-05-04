@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/schema/wwp-store.rnc"    type="application/relax-ng-compact-syntax"?>
+
+<!-- $Id$ -->
+<TEI xmlns="http://www.wwp.northeastern.edu/ns/textbase">
+    
+    <!-- The header of this file is prepopulated with metadata about the text of Anne Askew and also contains publication information
+        about the Women Writers Project at Northeastern University (in the publicationStmt).The element called <biblStruct>,
+        also in the header, has bilbiographic information about the printed source, and the <encodingDesc> and <profileDesc> link to WWP
+        files that describe their encoding practice and provide other standard boilerplate.
+  -->
+    
+    <teiHeader xml:id="TR00010.hdr">
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Valentine week</title>
+                <author>
+                    <persName type="person-female">Dickinson, Emily</persName>
+                </author>
+                <sponsor>Northeastern University</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1">First Edition</edition> <!-- does it count as a first edition if it's a written manuscript? -->
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Emily Dickinson Archive</publisher>
+                <address>
+                    <addrLine>Amherst College</addrLine>
+                    <addrLine>Amherst, MA</addrLine>
+                    <addrLine>USA</addrLine>
+                </address>
+                <idno type="URL">
+                    https://www.edickinson.org/editions/2/image_sets/12169032
+                </idno>
+                <include xmlns="http://www.w3.org/2001/XInclude"
+                    href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                    xpointer="element(WWPavailability)"/>
+                <date when="2023-05-03"></date>
+            </publicationStmt>
+            <sourceDesc n="OT00010">
+                <biblStruct>
+                    <monogr>
+                        <author>
+                            <persName>Emily Dickinson</persName>
+                            <persName type="regularized" ref="https://lccn.loc.gov/n79054166">Dickinson, Emily, 1830-1886</persName>
+                        </author>
+                        <title>Valentine week</title>
+                        <edition>First edition</edition>
+                        <imprint> <!-- I don't know how to find the correct imprint but it's required for the schema so I left the template one -->
+                            <pubPlace>London</pubPlace>
+                            <publisher>
+                                <persName type="titlePage" ref="p:?????.!!!">[s.n.]</persName>
+                                <persName type="regularized" ref="f00">[s.n.]</persName>
+                            </publisher>
+                            <date when="1563"/>
+                        </imprint>
+                        <extent>
+                            <measure unit="page" quantity="3"/>
+                        </extent>
+                        <extent>
+                            <dimensions>
+                                <format>folio</format>
+                            </dimensions>
+                        </extent>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <include xmlns="http://www.w3.org/2001/XInclude"
+                href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                xpointer="element(WWPprojectDescription)"/>
+            <include xmlns="http://www.w3.org/2001/XInclude"
+                href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                xpointer="element(WWPsamplingDeclaration)"/>
+            <include xmlns="http://www.w3.org/2001/XInclude"
+                href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                xpointer="element(WWPeditorialDeclaration)"/>
+            <include xmlns="http://www.w3.org/2001/XInclude"
+                href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                xpointer="element(WWPcharacterDeclaration)"/>
+            <include xmlns="http://www.w3.org/2001/XInclude"
+                href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                xpointer="element(WWPclassificationDeclaration)"/>
+            <include xmlns="http://www.w3.org/2001/XInclude"
+                href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                xpointer="element(WWPlistPrefixDefinitions)"/>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef type="main" target="#G.Prose"/>
+                <catRef type="main" target="#G.non-fiction"/>
+            </textClass>
+            <include xmlns="http://www.w3.org/2001/XInclude"
+                href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                xpointer="element(WWPcalendarDescription)"/>
+            <include xmlns="http://www.w3.org/2001/XInclude"
+                href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                xpointer="element(WWPlangUsage)"/>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-10-01" who="p:sbauman.emt">
+                This file was created with generate_tadpole.xslt revision 41831,
+                using FMPXMLRESULT data exported from the 'WWP_Transcription' database
+                in FileMaker Pro.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text xml:id="TR00010">
+        <body>
+            <pb/>
+            <l rend="align(right)">Valentine week.</l>
+            <lg type="couplet"  rend="post(#rule)">
+                <l>Awake ye muses nine, sing me a strain divine,</l>
+                <l>Unwind the solemn twine, and tie my Valentine!</l>
+            </lg>
+            <lg type="poem">
+                <l>Oh the Earth was <add rend="place(infra)underscore()" hand="">made</add> for lovers, for damsel, and hopeless swain,</l>
+                <l>For sighing, and gentle whispering, and <add rend="place(infra)underscore()" hand="">unity</add> made of <add rend="place(infra)underscore()" hand="">twain</add>.</l>
+                <l>All things do go a courting, in earth, or sea, or air,</l>
+                <l>God hath made nothing single but <add rend="place(infra)underscore()" hand="">thee</add> in His world so fair!</l>
+                <l>The <add rend="place(infra)underscore()" hand="">bride</add>, and then the <add rend="place(infra)underscore()" hand="">bridegroom</add>, the <add rend="place(infra)underscore()" hand="">two</add>, and then the <add rend="place(infra)underscore()" hand="">one</add>,</l>
+                <l>Adam, and Eve, his consort, the moon, and then the sun;</l>
+                <l>The life doth prove the precept, who obey shall happy be,</l>
+                <l>Who will not serve the sovreign, be hanged on fatal tree.</l>
+                <l>The high do seek the lowly, the great do seek the small,</l>
+                <l>None cannot find who <add rend="place(infra)underscore()" hand="">seeketh</add> on this terrestial ball;</l>
+                <l>The bee doth court the flower, the flower his suit receives,</l>
+                <l>And they make merry wedding, whose guests are hundred leaves;</l>
+                <l>The wind doth woo the branches, the branches they are won,</l>
+                <l>And the father fond demandeth the maiden for his son.</l>
+                <pb/>
+                <l>The storm doth walk the seashore humming a mournful tune,</l>
+                <l>The wave with eye so pensive, looketh to see the moon,</l>
+                <l>Their spirits meet together, they make them solemn vows,</l>
+                <l>No more he singeth mournful, her sadness she doth lose.</l>
+                <l>The <add rend="place(infra)underscore()" hand="">worm</add> doth woo the <add rend="place(infra)underscore()" hand="">mortal</add>, death claims a living bride,</l>
+                <l>Night unto day is married, morn unto eventide;</l>
+                <l><add rend="place(infra)underscore()" hand="">Earth</add> is a merry damsel, and <add rend="place(infra)underscore()" hand="">heaven</add> a knight so true,</l>
+                <l>And Earth is quite coquettish, and beseemeth in vain to sue.</l>
+                <l><add rend="place(infra)underscore()" hand="">Now</add> to the <add rend="place(infra)underscore()" hand="">application</add>, to the reading of the roll,</l>
+                <l>To bringing thee to justice, and marshalling thy soul:</l>
+                <l>Thou art a <add rend="place(infra)underscore()" hand="">human</add> solo, a being cold, and lone,</l>
+                <l>Wilt have no kind companion, thou <add rend="place(infra)underscore()" hand="">reap'st</add> what thou hast <add rend="place(infra)underscore()" hand="">sown</add>.</l>
+                <l>Hast never silent hours, and minutes all too long,</l>
+                <l>And a deal of sad reflection, and <add rend="place(infra)underscore()" hand="">wailing</add> instead of song?</l>
+                <l>There's <add rend="place(infra)underscore()" hand="">Sarah</add>, and <add rend="place(infra)underscore()" hand="">Eliza</add>, and <add rend="place(infra)underscore()" hand="">Emeline</add> so fair,</l>
+                <l>And <add rend="place(infra)underscore()" hand="">Harriet</add>, and <add rend="place(infra)underscore()" hand="">Susan</add>, and she with <add rend="place(infra)underscore()" hand="">curling</add> <add rend="place(infra)underscore()" hand="">hair</add>!</l>
+                <l>Thine eyes are sadly blinded, but yet thou mayest see</l>
+                <l><add rend="place(infra)underscore()" hand="">Six</add> true, and comely maidens sitting upon the tree;</l>
+                <l>Approach that tree with caution, then up it boldly climb,</l>
+                <l>And seize the one thou lovest, nor care for <add rend="place(infra)underscore()" hand="">space</add>, or <add rend="place(infra)underscore()" hand="">time</add>!</l>
+                <l>Then bear her to the greenwood, and build for her a bower,</l>
+                <l>And give her what she asketh, jewel, or bird, or flower --</l>
+                <l>And bring the fife, and trumpet, and beat upon the drum --</l>
+                <pb/>
+                <l>And bid the world Goodmorrow, and go to glory home!</l>
+            </lg>
+            <l rend="align(right)"><date when="1850-03-04">March 4th. 1850.</date></l>
+        </body>
+    </text>
+</TEI>
