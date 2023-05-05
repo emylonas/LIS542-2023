@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:space="preserve" xml:lang="en"
+ xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="name">James Douglas "Jim" Morrison</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Find A Grave</repository>
+                        <idno>740</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>The grave is inlaid with a plaque with the name, year of birth, year of death of the deceased, and an inscription in Greek
+                                    <material>stone and metal</material>
+                                    <objectType/> Plaque </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The plaque is patinated </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The lettering of the inscription is raised and has lipstick prints
+                                <height unit="inch">3</height>
+                                <width unit="inch">3</width>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Paris, City of Paris, Île-de-France, France</origPlace>
+                            <origDate when="1971-07-03">July 3, 1971</origDate>
+                        </origin>
+                        <provenance type="found"> Pere Lachaise Cemetery, Paris, City of Paris, Île-de-France, France, Burial Plot Division 6
+                        </provenance>
+                        <provenance type="observed">Find A Grave website
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://www.findagrave.com/memorial/740/jim-morrison"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>James Douglas Morrison
+                    <lb n="2"/> 1943-1971
+                    <lb n="3"/> ΚΑΤΑ ΤΟΝ ΔΑΙΜΟΝΑ ΕΑΥΤΟΥ
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>Truth to your own spirit</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>Find a Grave, database and images (https://www.findagrave.com/memorial/740/jim-morrison: accessed 04 May 2023), memorial page for Jim Morrison (8 Dec 1943–3 Jul 1971), Find a Grave Memorial ID 740, citing Pere Lachaise Cemetery, Paris, City of Paris, Île-de-France, France; Maintained by Find a Grave.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

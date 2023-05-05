@@ -1,0 +1,79 @@
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:space="preserve" xml:lang="en"
+ xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="person"> Jonathan Blake</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Find A Grave</repository>
+                        <idno>28457325</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc> 
+                        <supportDesc>
+                            <support> 
+                                <p>
+                                    <material>unknown</material></p>
+                                   </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>An engraving of a shoed foot pressing down on a gas pedal at the top of the funerary inscription</layout>
+                            </layoutDesc>
+                </objectDesc>
+                        <handDesc>
+                            <handNote>Birth and death date of deceased are unknown
+                                <height unit="inch">4</height>
+                                <width unit="inch">4</width>
+                            </handNote>
+                        </handDesc>
+                 </physDesc>
+                    <history><summary>Featured in Ripley's Believe It or Not television series and was a famous internet meme</summary>
+                        <origin>
+                            <origPlace>Uniontown, Indiana County, Pennsylvania, USA</origPlace>
+                            <origDate >unknown</origDate>
+                        </origin>
+                        <provenance type="found"> Uniontown Cemetery 
+                        </provenance>
+                        <provenance type="observed">Find A Grave website
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://www.findagrave.com/memorial/28457325/jonathan-blake"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>Here lies the body of Jonathan Blake
+                    <lb n="2"/> Stepped on the Gas
+                    <lb n="3"/>Instead of the brake
+                </ab>
+            </div>
+            
+            <div type="translation" xml:lang="en">
+                
+            </div>
+            <div type="commentary">
+                <p>This tombstone picture is famed for being featured in 'Ripley's Believe it or Not' and spreading across the internet.</p>
+            </div>
+            <div type="bibliography">
+                <p>Find a Grave, database and images (https://www.findagrave.com/memorial/28457325/jonathan-blake: accessed 04 May 2023), memorial page for Jonathan Blake (unknown–unknown), Find a Grave Memorial ID 28457325, citing Uniontown Cemetery, Uniontown, Indiana County, Pennsylvania, USA; Maintained by Anonymous (contributor 47015970).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

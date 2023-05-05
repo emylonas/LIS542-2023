@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:space="preserve" xml:lang="en"
+ xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="person">Mary Wollstonecraft Godwin Shelley</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Find A Grave</repository>
+                        <idno>1617</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>
+                                        <material>stone</material>
+                                         <objectType>Above ground grave with funerary inscription</objectType>
+                                    </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The funerary inscription is located on the top of the grave</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The letters of the incscription are placed into the top of the grave and the letters are raised<height unit="inch">3</height>
+                                <width unit="inch">3</width>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Dorset, England</origPlace>
+                            <origDate when="1851-02-01">February 1, 1851</origDate>
+                        </origin>
+                        <provenance type="found"> St. Peter Churchyard in Bournemouth, Bournemouth Unitary Authority, Dorset, England, Burial Plot 615
+                        </provenance>
+                        <provenance type="observed">Find A Grave website
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://www.findagrave.com/memorial/1617/mary-wollstonecraft-shelley"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/> Mary Wollstonecraft Shelley
+                    <lb n="2"/> Daughter of
+                    <lb n="3"/>William and Mary Wollstonecraft Godwin
+                    <lb n="4"/> And Widow of the Late Percy Bysshe Shelley
+                    <lb n="5"/> Born August 30th, 1797, died February 1st, 1851
+                    </ab>
+            </div>
+                                
+            <div type="translation" xml:lang="en">
+            </div>
+            <div type="bibliography">
+                <p>Find a Grave, database and images (https://www.findagrave.com/memorial/1617/mary-wollstonecraft-shelley: accessed 04 May 2023), memorial page for Mary Wollstonecraft Godwin Shelley (30 Aug 1797–1 Feb 1851), Find a Grave Memorial ID 1617, citing St Peter Churchyard, Bournemouth, Bournemouth Unitary Authority, Dorset, England; Maintained by Find a Grave.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
