@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://briancroxall.net/w20dh/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      
+      <fileDesc>
+         <titleStmt>
+            <title>The Adventure Zone Here There Be Goblins Markup</title>
+            <respStmt>
+               <resp>encoder</resp>
+               <persName ref="https://orcid.org/0009-0002-7009-7250">Darlene Lytle</persName>
+            </respStmt>
+            <respStmt>
+               <resp>oversight</resp>
+               <persName ref="https://orcid.org/0000-0002-0215-4324">Elli Mylonas</persName>
+            </respStmt>
+         </titleStmt>
+        
+         <publicationStmt> 
+            <publisher>
+               <orgName ref="https://github.com/emylonas/LIS542-2023/tree/main/W6-Encoded_files">UW iSchool LIS 542, Spring 2023</orgName>
+            </publisher>
+            <date>2023-05-05</date>
+            <idno type="local">Here There Be Gerblins p155</idno>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <bibl>
+               <title level="a">Here There Be Gerblins</title>. In 
+               <author ref="http://viaf.org/viaf/1188153411778741700005">Clint McElroy</author>, <author ref="http://viaf.org/viaf/18150807232318860227">Griffin McElroy</author>, <author ref="http://viaf.org/viaf/435152742948027730627">Justin McElroy</author>, <author ref="http://viaf.org/viaf/9104153411813341700004">Travis McElroy</author>, and <author ref="http://viaf.org/viaf/152145541823696601329">Carey Pietsch</author>.
+               
+               <title>The Adventure Zone</title> <publisher>First Second</publisher>, <date>2018</date>
+               <biblScope unit="page">12</biblScope>
+                  <idno type="ISBN">978-1-250-15370-8</idno>
+            </bibl>
+         </sourceDesc>   
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <graphic url="https://drive.google.com/file/d/1xltfC6Nw_feDLTrA3EX_ScqH9t8vJcIZ/view?usp=sharing"/>
+   </facsimile>
+   
+   <text>
+      <body>         
+         <div type="panelGrp" xml:id="pg_155">
+            
+            <cbml:panel n="1" characters="#Merle #Griffin #Bogard">
+               <note resp="https://orcid.org/0009-0002-7009-7250" type="panelDesc">Merle, spellcasting from his spellbook, is interupted by the DM, Griffin. Griffin pops up in the top right corner from his mysterious yellow bubble.</note>
+               <cbml:balloon type="speech" who="#Griffin">IF I WERE YOU, I WOULD TRY TO DO IT UNDER YOUR BREATH.</cbml:balloon>
+               <cbml:balloon type="speech" who="#Merle">OH.</cbml:balloon>
+            </cbml:panel>
+            
+            <cbml:panel n="2" characters="#Merle" ana="#">
+               <note resp="#" type="panelDesc">Merle thinking outloud to himself while still holding his spell book.</note>
+               <cbml:balloon type="speech" who="#Merle" style="font-bold">HANG ON... I HAVE TO SNEEZE. AAH-</cbml:balloon>
+            </cbml:panel>
+            
+            <cbml:panel n="3" characters="#" >
+               <note resp="#" type="panelDesc">Merle scrunching his face up over his open spellbook.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="4" characters="#" style="hue-pink">
+               <note resp="#" type="panelDesc"></note>
+               <cbml:balloon type="speech" who="#Merle">Merele casting the spell Zone of Truth. The entire panel is filled with a pink hue, flowers, and sparkles.</cbml:balloon>
+               <sound type="sneeze" style="fontsize-large fontcolor-pink ">ACHOOZONE OF TRUTH</sound>
+            </cbml:panel>
+            
+            <cbml:panel n="5" characters="#" style="hue-pink">
+               <note resp="#" type="panelDesc">Everyone is looking at the pink light and sparkles while Merle smiles. This art of this panel fills the entire page, goind under the other panels, giving the appearence of a lack of borders for this panel.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="6" characters="#" style="hue-pink">
+               <note resp="#" type="panelDesc">Bogard crosses his arms and Merle smiles as they talk to each other. The entire panel is in a pink hue.</note>
+               <cbml:balloon type="speech" who="#Bogard">DID YOU JUST CASE SOME SORT OF MAGIC SPELL ON ME?</cbml:balloon>
+               <cbml:balloon type="speech" who="#Merle">YES! I CAST ZONE OF TRUTH WHICH FORCES YOU TO SAY ONLY TRUE STATEMENTS!</cbml:balloon>
+               <cbml:balloon type="speech" who="#Merle">NO ONE WITHIN THE AREA OF EFECT CAN RESIST ITS POWER!</cbml:balloon>
+            </cbml:panel>
+            
+            <cbml:panel n="7" characters="#" style="hue-pink">
+               <note resp="#" type="panelDesc">Griffin pops in the left top corner eacting popcorn as he watches Merle and Bogard talk to each other; the yellow background of Griffin's area stands out against the pink hue of everything else.</note>
+               <cbml:balloon type="speech" who="#Griffin">INCLUDING YOURSELF.</cbml:balloon>
+               <cbml:balloon type="speech" who="#Merle">INCLUDING ME-</cbml:balloon>
+            </cbml:panel>
+               
+            <cbml:panel n="8" characters="#" style="hue-pink">
+                  <note resp="#" type="panelDesc">Merle Slaps his temple as he speaks, still in pink hue.</note>
+                  <cbml:balloon type="speech" who="#Merle">DAMMIT.</cbml:balloon>
+                  <sound>SLAP.</sound>
+                  </cbml:panel>
+
+         </div>
+      </body>
+   </text>
+</TEI>
