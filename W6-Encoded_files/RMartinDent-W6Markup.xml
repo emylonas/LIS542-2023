@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://raw.githubusercontent.com/zimgraz/corema/main/schema_relaxng_schematron/corema_single_recipe.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/zimgraz/corema/main/schema_relaxng_schematron/corema_single_recipe.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:functx="http://www.functx.com">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Emily Dickinson's Gingerbread</title>
+      </titleStmt>
+      <editionStmt>
+
+        <!-- Fill names and roles as necessary -->
+        <edition>Semantic annotation of the recipe &quot;Emily Dickinson's Gingerbread&quot; </edition>
+        <respStmt>
+          <resp>editor</resp>
+          <persName>Nancy Brose</persName>
+        </respStmt>
+        <respStmt>
+          <resp>editor</resp>
+          <persName>Juliana McGovern Dupre</persName>
+        </respStmt>
+        <respStmt>
+          <resp>editor</resp>
+          <persName>Wendy Tocher Kohler</persName>
+        </respStmt>
+        <respStmt>
+        <resp>editor</resp>
+        <persName>Jean McClure Mudge</persName>
+        </respStmt>
+        <principal>
+          <persName>Emily Dickinson</persName>
+        </principal>
+        <!-- I don't think I'm using the principal element correctly. I found this recipe on the Emily Dickinson Museum's website. The recipe is attributed to the poet Emily Dickinson, but it was transcribed by one or more of the editors of the cookbook Emily Dickinson: Profile of the Poet as Cook, published in 1976, presumably by the Emily Dickinson Museum. I thought that the museum should be the principal, since it was responsible for the creation of the electronic text, but there's no *person* listed as the principal "researcher". I'm doing my best, but I think I need to move on to the next batch of elements. -->
+        <funder ref="https://www.emilydickinsonmuseum.org/">Emily Dickinson Museum</funder>
+      </editionStmt>
+
+      <!-- The publicationStmt element will have information prepopulated for the University of Graz, which is the home of CoReMa, but 
+          this could be changed as needed. Not required for this exercise.
+    -->
+      <publicationStmt>
+        <publisher>
+          <ref target="https://www.emilydickinsonmuseum.org"/>
+          <orgName ref="http://d-nb.info/gnd/1137284463">Emily Dickinson Museum</orgName>
+        </publisher>
+        <authority>
+          <ref target="https://www.emilydickinsonmuseum.org"/>
+          <orgName ref="https://www.emilydickinsonmuseum.org">Emily Dickinson Museum</orgName>
+        </authority>
+        <distributor>
+          <ref target="https://www.emilydickinsonmuseum.org"/>
+          <orgName>Emily Dickinson Museum</orgName>
+        </distributor>
+        <availability>
+          <licence n="text" target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+            4.0</licence>
+          <licence n="facsimile" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+            >Creative Commons BY-NC-SA 4.0 </licence>
+        </availability>
+        <date when="2022-03-25"/>
+        <pubPlace>Amherst</pubPlace>
+        <idno type="PID">o:corema.b2.1</idno>
+      </publicationStmt>
+      <!--Did my best to update this with the actual publisher's info for practice. Not sure about Creative Commons license. -->
+
+      <!-- The seriesStmt is also part of the Graz metadata. Best to just leave it there.  -->
+      <!-- Understood. I'm leaving this section untouched.-->
+      <seriesStmt>
+        <ab>
+          <title ref="http://gams.uni-graz.at/corema">CoReMA - Cooking Recipes of the Middle Ages:
+            Corpus, Analysis, Visualisation</title>
+          <ref target="http://gams.uni-graz.at/o:corema.about/TEI_SOURCE">About the project
+            &quot;CoReMA&quot;</ref>
+          <ref target="http://gams.uni-graz.at/o:corema.imprint/TEI_SOURCE">Imprint of the project
+            &quot;CoReMA&quot;</ref>
+        </ab>
+      </seriesStmt>
+
+      <!-- This section is where source info goes, such as bibliography. Because this is a manuscript encoding project, they require a lot of the bibliographic information you would have for a manuscript. Best to leave as is or the file may be invalid.  -->
+      <!--Understood. Leaving this section as is. -->
+      <sourceDesc>
+        <bibl type="corresponding_manuscript">
+          <msIdentifier>
+            <country>Deutschland</country>
+            <settlement>Berlin</settlement>
+            <institution ref="https://staatsbibliothek-berlin.de/">Staatsbibliothek – Preußischer
+              Kulturbesitz –</institution>
+            <repository>Handschriftenabteilung</repository>
+            <idno
+              ref="https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN771897928&amp;PHYSID=PHYS_0001&amp;DMDID="
+              >Ms. germ. qu. 15</idno>
+            <altIdentifier type="abbr">
+              <idno>B2</idno>
+            </altIdentifier>
+          </msIdentifier>
+        </bibl>
+        <bibl type="manuscript_page">
+          <title>page in corresponding manuscript</title>
+          <ref target="https://gams.uni-graz.at/o:corema.b2#B2_094r" type="uri"/>
+        </bibl>
+        <bibl type="manuscript_tei_source">
+          <title>TEI source of corresponding manuscript</title>
+          <ref target="https://gams.uni-graz.at/o:corema.b2/TEI_SOURCE" type="uri"/>
+        </bibl>
+        <bibl type="manuscript_context">
+          <title>context of corresponding manuscript/collection</title>
+          <ref target="info:fedora/context:corema.b2" type="context">Context for all recipes in
+            manuscript &quot;B2&quot;</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <!-- This section provides a link to the encoding documentation -->
+    <encodingDesc>
+      <ab>
+        <desc>References to the editorial principles and practices for this TEI file and the project
+          CoReMA</desc>
+        <ref target="https://gams.uni-graz.at/o:corema.semanticdec/TEI_SOURCE">details of editorial
+          principles and practices for the semantic annotation</ref>
+      </ab>
+    </encodingDesc>
+
+    <!-- This section provides metadata about the recipe, where it comes from and what its dates are. -->
+    <profileDesc>
+      <textClass ana="#b2.1">
+        <keywords>
+          <term>recipe</term>
+        </keywords>
+      </textClass>
+      <creation>
+        <origDate>
+          <date notAfter="1886" notBefore="1830" xml:lang="eng"></date>
+          <date xml:lang="en">19th c.</date>
+        </origDate>
+        <origPlace>
+          <placeName xml:lang="en">Amherst, Massachusetts,</placeName>
+        </origPlace>
+      </creation>
+      <langUsage>
+        <language ident="en-US" source="http://medieval-plants.org/mps-daten/inhalt/">American English</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+
+  <!-- Enter the recipe below -->
+
+  <!-- This is a sample encoding of a small part of the recipe. The translation is mine, so not accurate for cooking, as this is medieval German, and I'm guessing at a lot of it. By looking at the elements and attrbutes, as well as the English keywords you can figure out the basic recipe structure. Either type over and extend what is below, or delete and start over.
+       -->
+  <!-- I deleted the recipe from the template and encoded the recipe for Emily Dickinson's Gingerbread from the Emily Dickinson Museum. 
+    Source: https://www.emilydickinsonmuseum.org/wp-content/uploads/2018/07/Emily_Dickinsons_Gingerbread.pdf --> 
+  <text>
+    <body xml:space="preserve"><div n="1" type="recipe" xml:id="b2.1" xml:lang="de-x-enh">
+ 
+                    <title key="Emily Dickinson's Gingerbread" type="none"/>
+      
+ <ab type="introduction" n="1"  subtype="subrecipe" xml:id="b2.1" xml:lang="eng"> As transcribed in Emily Dickinson: Profile of the Poet as Cook from Dickinson’s original manuscript</ab>:
+1 quart <ingredient commodity="Q2249305" en="wheat flour">flour</ingredient>
+½ cup <ingredient commodity="Q34172" en="butter"> butter</ingredient>
+½ cup <ingredient commodity="Q13228" en="cream">cream</ingredient>
+1 tablespoon <ingredient commodity="Q15046077" en="ginger">ginger</ingredient>
+1 teaspoon <ingredient commodity="Q179731" en="sodium bicarbonate">soda</ingredient>
+ 1 teaspoon <ingredient commodity="Q11254" en="table salt">salt</ingredient>
+<instruction>Make up with <ingredient commodity="Q154389" en="molasses">molasses</ingredient></instruction>
+The editors of the book add the following about Emily Dickinson’s gingerbread recipe:
+
+   <instruction>“Cream the <ingredient commodity="Q34172" en="butter"> butter</ingredient></instruction> and <instruction>mix with lightly whipped <ingredient commodity="Q13228" en="cream">cream</ingredient></instruction>. <instruction>Sift dry ingredients together</instruction> and <instruction>combine with other ingredients</instruction>. <kitchenTip>The dough is stiff and needs to be pressed into whatever <tool>pan</tool> you choose. A <tool>round or small square pan</tool> is suitable. The recipe also fits perfectly into a <tool>cast iron muffin pan</tool>, if you happen to have one which makes oval cakes. </kitchenTip> <instruction>Bake at 350°F for <time>20-25 minutes</time>.”</instruction>
+     
+      <kitchenTip>“Guides at the Emily Dickinson House, who in 1975 individually experimented with the quantity of <ingredient commodity="Q154389" en="molasses">molasses</ingredient>, have generally agreed that a ‘cup or so’ is just about right.”
+(p. 15)</kitchenTip>
+      
+<closer>Brose, Nancy, Juliana McGovern Dupre, Wendy Tocher Kohler and Jean McClure Mudge,
+ Emily Dickinson: Profile of the Poet as Cook (Amherst, Massachusetts, ©1976).
+Available for sale in the Emily Dickinson Museum Gift Shop.</closer>
+
+  </div></body>
+  </text>
+</TEI>
