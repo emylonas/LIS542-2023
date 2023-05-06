@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://briancroxall.net/w20dh/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      
+      <fileDesc>
+         <titleStmt>
+            <title>Reborn Rich 2022-12-08 (digital transcription)</title>
+            <respStmt>
+               <resp>encoder</resp>
+               <persName ref="r-RC">Roland Conley</persName>
+            </respStmt>
+            <respStmt>
+               <resp>oversight</resp>
+               <persName ref="https://www.linkedin.com/in/roland-conley-uw/">Roland Conley</persName>
+            </respStmt>
+         </titleStmt>
+         
+         <publicationStmt> 
+            <publisher>
+               <orgName ref="https://github.com/emylonas/LIS542-2023">LIS 532 A, Spring 2023</orgName>
+            </publisher>
+            <availability status="free">
+               <licence>
+                  This work is licensed under a Creative Commons Attribution 4.0 International License. <ref target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+                  <p>Please acknowledge LIS 532 A, Spring 2023 when re-using or re-publishing.</p>
+               </licence>
+            </availability>
+            <idno type="local">RebornRich2022-12-08</idno>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl><title level="a">Reborn Rich 2022-12-08</title> In <author ref="https://koreanwebtoons.fandom.com/wiki/Reborn_Rich">JP</author>, <title>Reborn Rich</title>. <publisher>WEBTOON Entertainment Inc.</publisher>, <date>2022</date>.</bibl>
+         </sourceDesc>   
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            <xi:include href="https://raw.githubusercontent.com/briancroxall/peanuts-taxonomy/master/peanuts-taxonomy.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+               </xi:fallback>
+               </xi:include> 
+         </classDecl>
+      </encodingDesc>
+      
+      <revisionDesc>
+         <change who="#r-EM" when="2020-01-27">Made template</change>
+         <change who="#r-BC" when="2020-02-05">Updated template</change>
+         <change who="#r-BC" when="2020-02-07">Updated template</change>
+         <change who="#r-BC" when="2020-02-10">Updated template</change>
+         <change who="#r-BC" when="2020-02-13">Updated template</change>
+         <change who="#r-BC" when="2020-02-18">Updated template</change>
+         <change who="#r-BC" when="2021-02-08">Updated template</change>
+         <change who="#r-BC" when="2021-02-18">Updated template</change>
+         <change who="#r-BC" when="2022-02-10">Updated template</change>
+         <change who="#r-RC" when="2023-05-05">Initial encoding</change>
+      </revisionDesc>
+   </teiHeader>
+
+   <!-- This points to a copy of the original image. -->
+   <facsimile>
+      <graphic url="https://www.webtoons.com/en/"/><!-- Actual URL because the schema wouldn't validate with this URL: https://www.webtoons.com/en/drama/reborn-rich/episode-1/viewer?title_no=4956&episode_no=1 -->
+   </facsimile>
+   
+   <text>
+      <body>
+         
+         <head><emph>Reborn Rich</emph>, <date when="2022-12-08">08 December 2022</date></head>
+         
+         <div type="panelGrp" xml:id="RebornRich2022-12-08">
+            
+            <cbml:panel n="1" characters="#c-Hyeonwoo" >
+               
+               <note resp="#r-RC" type="panelDesc"> Description of Soonyang Corporation</note>
+               
+              <floatingText type="body">
+                 <body>
+                    <p>This is a work of fiction. Any names, characters, places, events, incidents, or items depicted in the series have no relation to the real world.</p>
+                 </body>
+              </floatingText>
+
+               <cbml:caption who="#c-Hyeonwoo">
+                  <p>Soonyang corp.</p>
+               </cbml:caption>
+               
+               <cbml:caption>
+                  <p>The biggest corporation in South Korea, with nearly 300 trillion won* in annual revenue and 30 trillion won* in net profit alone.</p>
+               </cbml:caption>
+               <note type="add">*Approximately 227 billion and 22.7 billion USD, respectively</note>
+               <cbml:caption>
+                  <p>It is an absolute giant across various business sectors, including automotive, shipbuilding, telecommunications, heavy industry, chemicals, distribution, fashion, and food production.</p>
+               </cbml:caption>
+               <cbml:caption>
+                  <p>Suffice to say, Soonyang has more than substantial influence in every single industry in South Korea.</p>
+               </cbml:caption>
+            </cbml:panel>
+            
+            <cbml:panel n="2" characters="#c-Hyeonwoo" ana="tr-scene2scene">
+               <note resp="#r-RC" type="panelDesc">Introduction of male lead and his connection to Soonyang Corporation</note>
+               <cbml:caption who="#c-Hyeonwoo">
+                  <p>
+                     When I, a country boy that went to a rural college, was accepted by this incredibly admired corporation...
+                  </p>
+               </cbml:caption>
+               <cbml:caption>
+                  <p>... My father invited all of his relatives over and held a feast for me.</p>
+               </cbml:caption>
+               <cbml:caption>
+                  <p>When I was promoted to the office of future strategy planning, the nucleus of Soonyang Corp, I was so exhilarated that I thought my heart was going to explode.</p>
+               </cbml:caption>
+               <cbml:caption>
+                  <p>However, I was soon disappointed by my roles as the "cleaner" of the office.</p>
+               </cbml:caption>
+            </cbml:panel>
+
+            <cbml:panel n="3" characters="#c-Hyeonwoo #c-Thugs" ana="tr-scene2scene">
+               <note resp="#r-RC" type="panelDesc">Details of male lead's duties as a "cleaner" for Soonyang Corporation</note>
+               <cbml:caption who="#c-Hyeonwoo">
+                  <p>
+                     The cleaner's job was to clean up after every mess, from small and tedious to big and even dirty.
+                  </p>
+               </cbml:caption>
+               <cbml:caption>
+                  <p>That was my role.</p>
+               </cbml:caption>
+               <cbml:caption>
+                  <p>But I didn't stop there. I studied english, and analyzed many business proposals in my spare time.</p>
+               </cbml:caption>
+               <cbml:caption>
+                  <p>I was absolutely determined to become an asset to the company</p>
+               </cbml:caption>
+               <cbml:caption>
+                  <p>My dedication finally paid off in due time. I was recognized for the value I offered.</p>
+               </cbml:caption>
+            </cbml:panel>
+            
+            <cbml:panel n="4" characters="#c-Hyeonwoo" ana="tr-subject2subject">
+               <note resp="#r-RC" type="panelDesc">Explanation of Soonyang's "royal family" and time skip into the male lead's future with the Corporation</note>
+            
+               <cbml:caption who="#c-Hyeonwoo">
+                  <p>Everyone in the *Royal Family of the Corporate Empire of Soonyang eventually knew who I was.</p>
+               </cbml:caption>
+               <note type="add">*Most large conglomerates in South Korea are family-owned</note>
+               <cbml:caption>
+                  <p>I was the first one they looked for, in times of need.</p>
+               </cbml:caption>
+               <cbml:caption>
+                  <p>Especially when they needed certain inconveniences, from small to big, to be taken care of, I, Hyeonwoo Yoon, was the person they called for.</p>
+               </cbml:caption>
+               <cbml:caption>
+                  <p>Thirteen years into my tenure...</p>
+               </cbml:caption>
+               <cbml:caption>
+                  <p>... I became perhaps the only outsider that knew about the royal family from the inside out...</p>
+               </cbml:caption>
+               <cbml:caption>
+                  <p>... Indicating I had earned their trust.</p>
+               </cbml:caption>
+            </cbml:panel> 
+         </div>
+      </body>
+   </text>
+</TEI>
