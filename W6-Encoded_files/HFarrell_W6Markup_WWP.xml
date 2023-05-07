@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/schema/wwp-store.rnc"    type="application/relax-ng-compact-syntax"?>
+
+<!-- hfarrell -->
+<!-- For this file I am encoding a page from Packet 1 of Harvard's Emily Dickinson collection. This page presents an interesting problem in that it includes a poem fragment and a full poem, broken up by a drawn page break. I am unsure whether the methods I use here are correct.-->
+<TEI xmlns="http://www.wwp.northeastern.edu/ns/textbase">
+    <teiHeader xml:id="TR00010.hdr">
+        <fileDesc>
+            <titleStmt>
+                <title type="main">(3a, b) I never told the buried gold, J11 F38; I never lost as much but twice, J49, FR39 (seq. 10)</title>
+                <author>
+                    <persName type="person-female">Dickinson, Emily</persName>
+                </author>
+                <sponsor>Harvard University</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1">First Edition</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Houghton Library Repository</publisher>
+                <address>
+                    <addrLine>Houghton Library Repository</addrLine>
+                    <addrLine>Harvard Yard</addrLine>
+                    <addrLine>Harvard University</addrLine>
+                    <addrLine>Cambridge, MA 02138</addrLine>
+                    <addrLine>USA</addrLine>
+                    <addrLine>url:mailto:Houghton_Library@harvard.edu</addrLine>
+                    <addrLine>url:https://nrs.harvard.edu/urn-3:hul.ois:HOU</addrLine>
+                    <addrLine>617-495-2440</addrLine>
+                </address>
+                <idno type="WWP">TR00010</idno>
+                <idno type="URL">
+                    https://iiif.lib.harvard.edu/manifests/view/drs:43271053$10i
+                </idno>
+                <include xmlns="http://www.w3.org/2001/XInclude"
+                    href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                    xpointer="element(WWPavailability)"/>
+                <date when="1858-01"></date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="internal" xml:id="N01">
+                    <p>These poems are sourced from Packet 1, Fascicle 3a, b of the Houghton Library Repository. Fascicle 3a, b contains the final quatrain of J11, F38 "I never told the buried gold" abd the entirety of J49, F39 "I never lost as much but twice".</p>
+                </note>
+            </notesStmt>
+            <sourceDesc n="OT00010">
+                <biblStruct>
+                    <monogr>
+                        <author>
+                            <persName type="regularized" ref="https://lccn.loc.gov/n79054166">Dickinson, Emily 1830-1886</persName>
+                        </author>
+                        <title>(3a, b) I never told the buried gold, J11 F38; I never lost as much but twice, J49, FR39 (seq. 10)</title>
+                        <edition>First edition</edition>
+                        <imprint>
+                            <pubPlace><placeName>Cambridge</placeName></pubPlace>
+                            <publisher>Harvard University</publisher>
+                            <date when="1858-01"/>
+                        </imprint>
+                        <extent>
+                            <measure unit="page" quantity="1"/>
+                        </extent>
+                        <extent>
+                            <dimensions>
+                                <format>folio</format>
+                            </dimensions>
+                        </extent>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <include xmlns="http://www.w3.org/2001/XInclude"
+                href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                xpointer="element(WWPprojectDescription)"/>
+            <include xmlns="http://www.w3.org/2001/XInclude"
+                href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                xpointer="element(WWPsamplingDeclaration)"/>
+            <include xmlns="http://www.w3.org/2001/XInclude"
+                href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                xpointer="element(WWPeditorialDeclaration)"/>
+            <include xmlns="http://www.w3.org/2001/XInclude"
+                href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                xpointer="element(WWPcharacterDeclaration)"/>
+            <tagsDecl>
+                <!--I could not find the tagsDecl file referenced in the template notes.-->
+                <rendition xml:id="TR00420_rend.break" selector="">break(yes)</rendition>
+                <rendition xml:id="TR00420_rend.nobreak" selector="">break(no)</rendition>
+            </tagsDecl>
+            <include xmlns="http://www.w3.org/2001/XInclude"
+                href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                xpointer="element(WWPclassificationDeclaration)"/>
+            <include xmlns="http://www.w3.org/2001/XInclude"
+                href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                xpointer="element(WWPlistPrefixDefinitions)"/>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef type="main" target="#G.verse"/>
+                <catRef type="other" target="#G.verse.other"/>
+                <catRef type="other" target="#G.non-fiction"/>
+            </textClass>
+            <include xmlns="http://www.w3.org/2001/XInclude"
+                href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                xpointer="element(WWPcalendarDescription)"/>
+            <include xmlns="http://www.w3.org/2001/XInclude"
+                href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                xpointer="element(WWPlangUsage)"/>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-10-01" who="p:sbauman.emt">
+                This file was created with generate_tadpole.xslt revision 41831,
+                using FMPXMLRESULT data exported from the 'WWP_Transcription' database
+                in FileMaker Pro.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="TR00010">
+        <body>
+        <div type="part">
+            <lg type="quatrain">
+                <l>Could a shrewd advise me</l>
+                <l>We might e'en divide &#8211;</l>
+                <l>Should a shrewd betray me &#8211;</l>
+                <l>Atropos decide!</l>
+            </lg>
+        </div>
+        <div type="poem">
+            <pb/>
+            <lg type="quatrain">
+                <l>I never lost as much but twice</l>
+                <l>And that was in the sod</l>
+                <l>Twice I have stood a beggar</l>
+                <l>Before the door of God!</l>
+            </lg>
+            <lg type="quatrain">
+                <l>Angels - twice descending</l>
+                <l>Reimbursed my store</l>
+                <l>Burglar! Banker &#8211; Father!</l>
+                <l>I am poor once more!</l>
+            </lg>
+            <pb/>
+        </div>
+        </body>
+    </text>
+</TEI>
