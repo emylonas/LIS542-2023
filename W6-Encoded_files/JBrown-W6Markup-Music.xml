@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://music-encoding/ns/mei">
+    <meiHead>
+        <fileDesc><titleStmt><title>Axel F Theme as remembered by Momma</title></titleStmt><pubStmt></pubStmt></fileDesc>
+    </meiHead>
+    <music>
+        <scoreDef key.sig="4f" meter.count="4" meter.unit="4">
+            <staffGrp>
+                <staffDef n="1" lines="5" clef.shape="G" clef.line="2"></staffDef>
+                <staffDef n="2" lines="5" clef.shape="F" clef.line="4"></staffDef>
+            </staffGrp>
+        </scoreDef>
+        <section>
+            <measure n="1"><staff n="1"><layer><note pname="f" oct="4" dur="4"/><note pname="a" oct="4" dur="4"/><beam><note pname="f" oct="4"  dot="1" dur="8"/><note pname="f" oct="4" dur="16"/></beam><tuplet num="3" numbase="2"><note pname="b" oct="4" dur="8"/><note pname="f" oct="4" dur="8"/><note pname="e" oct="4" dur="8"/></tuplet></layer></staff><staff n="2"><layer><mRest></mRest></layer></staff></measure>
+            <measure n="2"><staff n="1"><layer><note pname="f" oct="4" dur="4"/><note pname="c" oct="5" dur="4"/><beam><note pname="f" oct="4"  dot="1" dur="8"/><note pname="f" oct="4" dur="16"/></beam><tuplet num="3" numbase="2"><note pname="d" oct="5" dur="8"/><note pname="c" oct="5" dur="8"/><note pname="a" oct="4" dur="8"/></tuplet></layer></staff><staff n="2"><layer><mRest></mRest></layer></staff></measure>
+            <measure n="3"><staff n="1"><layer><note pname="f" oct="4" dur="4"/><note pname="c" oct="5" dur="4"/><note pname="f" oct="5" dur="4"/><note pname="f" oct="4" dur="4"/></layer></staff><staff n="2"><layer><mRest></mRest></layer></staff></measure>
+            <measure n="4"><staff n="1"><layer><beam><note pname="e" oct="4" dur="8"/><note pname="e" oct="4" dur="8"/><note pname="c" oct="3" dur="8"/><note pname="g" oct ="4" dur="8"/></beam><note pname="f" oct="4" dur="2"/></layer></staff><staff n="2"><layer><mRest></mRest></layer></staff></measure>
+            <measure n="5"><staff n="1"><layer><note pname="f" oct="4" dur="4"/><note pname="a" oct="4" dur="4"/><beam><note pname="f" oct="4"  dot="1" dur="8"/><note pname="f" oct="4" dur="16"/></beam><tuplet num="3" numbase="2"><note pname="b" oct="4" dur="8"/><note pname="f" oct="4" dur="8"/><note pname="e" oct="4" dur="8"/></tuplet></layer></staff><staff n="2"><layer><mRest></mRest></layer></staff></measure>
+            <measure n="6"><staff n="1"><layer><note pname="f" oct="4" dur="4"/><note pname="c" oct="5" dur="4"/><beam><note pname="f" oct="4"  dot="1" dur="8"/><note pname="f" oct="4" dur="16"/></beam><tuplet num="3" numbase="2"><note pname="d" oct="5" dur="8"/><note pname="c" oct="5" dur="8"/><note pname="a" oct="4" dur="8"/></tuplet></layer></staff><staff n="2"><layer><mRest></mRest></layer></staff></measure>
+            <measure n="7"><staff n="1"><layer><note pname="f" oct="4" dur="4"/><note pname="c" oct="5" dur="4"/><note pname="f" oct="5" dur="4"/><note pname="f" oct="4" dur="4"/></layer></staff><staff n="2"><layer><mRest></mRest></layer></staff></measure>
+            <measure n="8"><staff n="1"><layer><beam><note pname="e" oct="4" dur="8"/><note pname="e" oct="4" dur="8"/><note pname="c" oct="3" dur="8"/><note pname="g" oct ="4" dur="8"/></beam><note pname="f" oct="4" dur="2"/></layer></staff><staff n="2"><layer><mRest></mRest></layer></staff></measure>
+            <measure n="9"><staff n="2"><layer><note pname="f" oct="2" dur="4"/><note pname="f" oct="3" dur="4"/><beam><note pname="e" oct="3" dot="1" dur="8"/><note pname="e" dur="16"/></beam><tuplet num="3" numbase="2"><note pname="c" oct="3" dur="8"/><note pname="b" oct="2" dur="8"/><note pname="a" oct="2" dur="8"/></tuplet></layer></staff><staff n="1"><layer><mRest></mRest></layer></staff></measure>
+            <measure n="10"><staff n="2"><layer><note pname="f" oct="2" dur="4"/><beam><note pname="f" oct="3" dot="1" dur="8"/><note pname="f" oct="3" dur="16"/></beam><beam><note pname="f" oct="2" dur="8"/><note pname="a" oct="2" dur="8"/></beam><note pname="b" oct="2" dur="4"/></layer></staff><staff n="1"><layer><mRest></mRest></layer></staff></measure>
+            <measure n="11"><staff n="2"><layer><beam><note pname="d" oct="2" dur="8"/><note pname="d" oct="2" dur="8"/><note pname="e" oct="2" dur="8"/><note pname="e" oct="2" dur="8"/></beam><beam><note pname="c" oct="2" dur="8"/><note pname="e" oct="2" dur="8"/></beam><beam><note pname="f" oct="2" dot="1" dur="8"/><note pname="f" oct="3" dur="16"/></beam></layer></staff><staff n="1"><layer><mRest></mRest></layer></staff></measure>
+            <measure n="12"><staff n="2"><layer><note pname ="e" oct="3" dur="4"/><beam><note pname="c" oct="3" dur="8"/><note pname="a" oct="2" dur="8"/></beam><note pname="f" oct="2" dur="2"/></layer></staff><staff n="1"><layer><mRest></mRest></layer></staff></measure>
+        </section>
+    </music>
+</mei>
