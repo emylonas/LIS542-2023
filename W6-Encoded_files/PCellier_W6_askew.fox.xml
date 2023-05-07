@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/schema/wwp-store.rnc"    type="application/relax-ng-compact-syntax"?>
+
+<!-- $Id$ -->
+<TEI xmlns="http://www.wwp.northeastern.edu/ns/textbase">
+  
+  <!-- The header of this file is prepopulated with metadata about the text of Anne Askew and also contains publication information
+        about the Women Writers Project at Northeastern University (in the publicationStmt).The element called <biblStruct>,
+        also in the header, has bilbiographic information about the printed source, and the <encodingDesc> and <profileDesc> link to WWP
+        files that describe their encoding practice and provide other standard boilerplate.
+  -->
+  
+  <teiHeader xml:id="TR00010.hdr">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">The Two Examinations of Anne Askew (Foxe), 1563</title>
+        <author>
+          <persName type="person-female" ref="p:aaskew.wdh">Askew, Anne</persName>
+        </author>
+        <sponsor>Northeastern University</sponsor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2.1">Second edition: version 2.1</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Northeastern University Women Writers Project</publisher>
+        <address>
+          <addrLine>SL 213</addrLine>
+          <addrLine>Northeastern University</addrLine>
+          <addrLine>360 Huntington Avenue</addrLine>
+          <addrLine>Boston, MA  02115-5005</addrLine>
+          <addrLine>USA</addrLine>
+          <addrLine>url:mailto:wwp@neu.edu</addrLine>
+          <addrLine>url:https://www.wwp.northeastern.edu/</addrLine>
+          <addrLine>617-373-4435</addrLine>
+        </address>
+        <idno type="WWP">TR00010</idno>
+        <idno type="URL">
+          https://www.wwp.northeastern.edu/texts/askew.fox.html
+        </idno>
+        <include xmlns="http://www.w3.org/2001/XInclude"
+                 href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                 xpointer="element(WWPavailability)"/>
+        <date when="2199-05-03"><!-- %%%%% when we publish this text, the @when should be corrected to the date of publication, and this comment removed. %%%%% --></date>
+      </publicationStmt>
+      <sourceDesc n="OT00010">
+        <!-- ******************************************************* -->
+        <!-- This auto-generated <sourceDesc> is intended for        -->
+        <!-- independently published texts. If this is an excerpt or -->
+        <!-- a component of a larger published work, you will need   -->
+        <!-- to expand this <sourceDesc> somewhat.                   -->
+        <!-- ******************************************************* -->
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName type="titlePage" ref="p:aaskew.wdh">An Askew</persName>
+              <persName type="regularized" ref="p:aaskew.wdh">Askew, Anne</persName>
+            </author>
+            <title>The two examinations of the worthy servant of God, Maistris An Askew</title>
+            <edition>First edition</edition>
+            <idno type="csmh">RB 59840</idno>
+            <idno type="STC">11222</idno>
+            <imprint>
+              <pubPlace>London</pubPlace>
+              <publisher>
+                <persName type="titlePage" ref="p:?????.!!!">[s.n.]</persName>
+                <persName type="regularized" ref="f00">[s.n.]</persName>
+              </publisher>
+              <date when="1563"/>
+            </imprint>
+            <extent>
+              <measure unit="page" quantity="11"/>
+            </extent>
+            <extent>
+              <dimensions>
+                <format>folio</format>
+              </dimensions>
+            </extent>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <include xmlns="http://www.w3.org/2001/XInclude"
+               href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+               xpointer="element(WWPprojectDescription)"/>
+      <include xmlns="http://www.w3.org/2001/XInclude"
+               href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+               xpointer="element(WWPsamplingDeclaration)"/>
+      <include xmlns="http://www.w3.org/2001/XInclude"
+               href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+               xpointer="element(WWPeditorialDeclaration)"/>
+      <include xmlns="http://www.w3.org/2001/XInclude"
+               href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+               xpointer="element(WWPcharacterDeclaration)"/>
+      <include xmlns="http://www.w3.org/2001/XInclude"
+               href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+               xpointer="element(WWPclassificationDeclaration)"/>
+      <include xmlns="http://www.w3.org/2001/XInclude"
+               href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+               xpointer="element(WWPlistPrefixDefinitions)"/>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef type="main" target="#G.Prose"/>
+        <catRef type="main" target="#G.non-fiction"/>
+      </textClass>
+      <include xmlns="http://www.w3.org/2001/XInclude"
+               href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+               xpointer="element(WWPcalendarDescription)"/>
+      <include xmlns="http://www.w3.org/2001/XInclude"
+               href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+               xpointer="element(WWPlangUsage)"/>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-10-01" who="p:sbauman.emt">
+        This file was created with generate_tadpole.xslt revision 41831,
+        using FMPXMLRESULT data exported from the 'WWP_Transcription' database
+        in FileMaker Pro.
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="TR00010">
+    
+    <front>
+      <titleBlock rend="align(center)">
+        <titlePart type="main">The first examination of <persName ref="https://viaf.org/viaf/51868520/#Askew,_Anne,_1521-1546" xml:id="aa">Mistres Anne Askew</persName>, 
+          <lb/>before the inquisitours. <date when="1545">1545</date>.</titlePart>
+      </titleBlock>
+    </front>
+    
+    <body>
+      <p><hi rend="class(#DIC)">T</hi><hi rend="case(allcaps)">O</hi> satisfy your expectation: good people (sayth she) this 
+        <lb/>was my first examination in <date when="1545-03">the yeare of our Lorde. 
+        <lb/>1545. and in the in the month of March</date>.</p>
+      <p>First <persName xml:id="ch">Christoph.</persName> Dare examined me at <orgName>Sadlers Hall</orgName>, 
+        <lb/>being one of the Quest, and asked if I did not belee<vuji>u</vuji>e that 
+        <lb/>the sacrament, hanging o<vuji>u</vuji>er the altar, was the very bodye 
+        <lb/>of Christ really. Then I demaunded this question of hym: 
+        <lb/>wherfore <persName ref="https://viaf.org/viaf/20153593634851670270/#Stephen,_Saint_(Early_Christian_saint,_died_ca._36_CE)">S. Stephen</persName> was stoned to death, and he sayd, he 
+        <lb/>could not tell. Then I answered, that no more woulde I 
+        <lb/>assoyle his vayne question.</p>
+      <p>Secondly, he sayd that there was a woman, which did 
+        <lb/>testifie that I shoulde read, howe God was not in Tem&#x00AD;
+        <lb/>ples made with handes. Then I shewed him the <bibl><regMe>7. and 17 
+        <lb/>chap. of the actes of the Apostles</regMe></bibl>, what <persName>Stephen</persName> and <persName>paule</persName> 
+        <lb/>had said therein. Wherupon he asked me how I took those 
+        <lb/>sentences? I answered, I would not throw pearles amōg 
+        <lb/>swine, for Acornes were good enough</p>
+      <p>Thirdly, he asked me wherefore I sayde that I had ra&#x00AD;
+        <lb/>ther to read fi<vuji>u</vuji>e lines in the Bible, then to heare 5. Masses 
+        <lb/>in the temple? I confessed, that I sayd no lesse: not for the 
+        <lb/>disprayse of either þe epistle or the Gospel, but because þe one</p>
+    </body>
+    
+  </text>
+  
+</TEI>
