@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/schema/wwp-store.rnc"    type="application/relax-ng-compact-syntax"?>
+
+<!-- $Id$ -->
+<TEI xmlns="http://www.wwp.northeastern.edu/ns/textbase">
+  
+  <!-- The header of this file is prepopulated with metadata about the text of Anne Askew and also contains publication information
+        about the Women Writers Project at Northeastern University (in the publicationStmt).The element called <biblStruct>,
+        also in the header, has bilbiographic information about the printed source, and the <encodingDesc> and <profileDesc> link to WWP
+        files that describe their encoding practice and provide other standard boilerplate.
+  -->
+  
+  <teiHeader xml:id="TR00010.hdr">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">The Two Examinations of Anne Askew (Foxe), 1563</title>
+        <author>
+          <persName type="person-female" ref="p:aaskew.wdh">Askew, Anne</persName>
+        </author>
+        <sponsor>Northeastern University</sponsor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2.1">Second edition: version 2.1</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Northeastern University Women Writers Project</publisher>
+        <address>
+          <addrLine>SL 213</addrLine>
+          <addrLine>Northeastern University</addrLine>
+          <addrLine>360 Huntington Avenue</addrLine>
+          <addrLine>Boston, MA  02115-5005</addrLine>
+          <addrLine>USA</addrLine>
+          <addrLine>url:mailto:wwp@neu.edu</addrLine>
+          <addrLine>url:https://www.wwp.northeastern.edu/</addrLine>
+          <addrLine>617-373-4435</addrLine>
+        </address>
+        <idno type="WWP">TR00010</idno>
+        <idno type="URL">
+          https://www.wwp.northeastern.edu/texts/askew.fox.html
+        </idno>
+        <include xmlns="http://www.w3.org/2001/XInclude"
+                 href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+                 xpointer="element(WWPavailability)"/>
+        <date when="2022-05-07"><!-- %%%%% when we publish this text, the @when should be corrected to the date of publication, and this comment removed. %%%%% --></date>
+      </publicationStmt>
+      <sourceDesc n="OT00010">
+          <bibl>
+            <title level="a">The Examination of Anne Askew</title> In
+            <author>John Foxe</author>, <title level="a">Actes and Monuments</title> or
+            <title level="m">Book of Martyrs</title>.
+            <publisher>John Day</publisher>
+            <date when="1563-03-20">March 20th, 1563</date>. </bibl>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName type="titlePage" ref="p:aaskew.wdh">An Askew</persName>
+              <persName type="regularized" ref="p:aaskew.wdh">Askew, Anne</persName>
+            </author>
+            <title>The two examinations of the worthy servant of God, Maistris An Askew</title>
+            <edition>First edition</edition>
+            <idno type="csmh">RB 59840</idno>
+            <idno type="STC">11222</idno>
+            <imprint>
+              <pubPlace>London</pubPlace>
+              <publisher>
+                <persName type="titlePage" ref="p:?????.!!!">[s.n.]</persName>
+                <persName type="regularized" ref="f00">[s.n.]</persName>
+              </publisher>
+              <date when="1563"/>
+            </imprint>
+            <extent>
+              <measure unit="page" quantity="11"/>
+              <!-- $$$$$ original value was: "11"; if above looks OK, then DELETE this comment -->
+            </extent>
+            <extent>
+              <dimensions>
+                <format>folio</format>
+              </dimensions>
+            </extent>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <include xmlns="http://www.w3.org/2001/XInclude"
+               href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+               xpointer="element(WWPprojectDescription)"/>
+      <include xmlns="http://www.w3.org/2001/XInclude"
+               href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+               xpointer="element(WWPsamplingDeclaration)"/>
+      <include xmlns="http://www.w3.org/2001/XInclude"
+               href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+               xpointer="element(WWPeditorialDeclaration)"/>
+      <include xmlns="http://www.w3.org/2001/XInclude"
+               href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+               xpointer="element(WWPcharacterDeclaration)"/>
+      <!-- ************************************************************ -->
+      <!-- If and when you want to create some default values for rend= -->
+      <!-- this is where the <tagsDecl> goes. Delete this comment and   -->
+      <!-- insert the template file 'tagsDecl.xml' here, then make the  -->
+      <!-- changes you need. /Leaving this here in case I need to add rend+ values-->
+      <!-- ************************************************************ -->
+      <include xmlns="http://www.w3.org/2001/XInclude"
+               href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+               xpointer="element(WWPclassificationDeclaration)"/>
+      <include xmlns="http://www.w3.org/2001/XInclude"
+               href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+               xpointer="element(WWPlistPrefixDefinitions)"/>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef type="main" target="#G.Prose"/>
+        <catRef type="main" target="#G.non-fiction"/>
+      </textClass>
+      <include xmlns="http://www.w3.org/2001/XInclude"
+               href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+               xpointer="element(WWPcalendarDescription)"/>
+      <include xmlns="http://www.w3.org/2001/XInclude"
+               href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/wwp/common-boilerplate.xml"
+               xpointer="element(WWPlangUsage)"/>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-10-01" who="p:sbauman.emt">
+        This file was created with generate_tadpole.xslt revision 41831,
+        using FMPXMLRESULT data exported from the 'WWP_Transcription' database
+        in FileMaker Pro.
+      </change>
+    </revisionDesc>
+  </teiHeader>
+
+  <text xml:id="TR00010">
+    <front>
+      <div n="1" type="ded">To the Right Vertuous, most Excellent and Noble 
+        Princesse, <persName>Queene ELIZABETH</persName>, our dread Lady, by 
+        the grace of God, Queene of <placeName>England</placeName> <placeName>Fraunce</placeName> and <placeName>Ireland</placeName> Defender of 
+        Christes Faith and Gospell, and principall Gouernour both of the Realme,
+        and also ouer the sayd Churche of <placeName>England</placeName> and <placeName>Ireland</placeName> vnder Christ the 
+        Supreme head of the same. <persName>John Foxe</persName> her humble subiect wisheth 
+        daily increase of <name>Gods</name> holy spirite and Grace, with long raigne, perfect 
+        health, and ioyfull peace, to gouerne hys flocke committed to her 
+        charge, to the example of all good Princes, the comforte of his Churche, 
+        and glory of hys bleßed name.</div>
+    </front>
+    <body>
+      <div n="1">
+        <head>The first examination of <speaker> Mistress Anne Askew</speaker>, before the inquisitours. 1545.</head>
+        <p n="1">TO satisfy your expectation: good people (sayth she) this was my first examination 
+          in the yeare of our Lorde. <date when="1545-03">1545</date>. and in the in the month of March.</p>
+        <p n="2">First <persName>Christoph. Dare</persName> examined me at <placeName>Sadlers Hall</placeName>, being one of the Quest, and 
+          asked if I did not beleeue that the sacrament, hanging ouer the altar, was the very 
+          bodye of <name>Christ</name> really. Then I demaunded this question of hym: wherfore <name>S. Stephen</name>
+          was stoned to death, and he sayd, he could not tell. Then I answered, that no more 
+          woulde I assoyle his vayne question.</p>
+        <p n="3">Secondly, he sayd that there was a woman, which did testifie that I shoulde read, 
+          howe <name>God</name>was not in Temples made with handes. Then I shewed him the 7. and 17 
+          chap. of the actes of the Apostles, what <name>Stephen</name> and <name>paule</name> had said therein. 
+          Wherupon he asked me how I took those sentences? I answered, I would not throw 
+          <regME>pearles amōg swine,</regME> for Acornes were good enough</p>
+        <p n="4">Thirdly, he asked me wherefore I sayde that I had rather to read fiue lines in the Bible, then to heare 5. Masses in the temple? I confessed, 
+          that I sayd no lesse: not for the disprayse of either þe epistle or the Gospel, but because þe one. . . </p>
+      </div>
+      <div n="2">
+        <head><persName>K. Henry. 8.</persName>The first examination of <persName>Anne Askew</persName> Martyr, before the Bishop.</head>
+        <p n="1">. . . did greatly edify me, and the other nothing at all. As <name>S. Paul</name> doth witnes in the 14. chap. of his first epistle to the Cor. where as he sayth. If the trumpet geueth 
+          an vncertayne sound, who will prepare himselfe to the battell?</p>
+        <p n="2">Fourthly: he layd vnto my charge that I should say: if an ill priest ministred, it was the deuill and not <name>God</name>.</p>
+        <p n="3">My answere was, that I neuer spake any such thyng. But this was my saying: that whosoeuer he were that ministred vnto me, his il cōditiōs could not hurt my faith, 
+          but in spirit I receiued neuertheles, þe body and bloud of <name>Christ</name></p>
+        <p n="4">He asked me what I said concerning confession? I answered him my meaning, which was as <name>S. Iames</name> sayth, that euery man ought to knowledge his faultes to 
+          other, and the one to pray for the other.</p>
+        <p n="5">Sixtly, he asked me what I sayd to the kinges booke? And I aunswered him, that I coulde say nothing to it, because I neuer saw it.</p>
+        <p n="6">Seuēthly, he asked me if I had the spirit of <name>God</name> in me? I answered, if I had not, I was but a reprobate or cast away. Then he sayd he had sent for a priest to 
+          examine me, which was here at hand.</p>
+        <p n="7">The priest asked me what I sayd to the Sacrament of the aulter, and required much to know therein my meaning. But I desired him againe, to hold me excused 
+          concerning that matter. None other answere would I make him, because I perceiued him to be a papist</p>
+        <p n="8">Eightly he asked me, if I did not thinke that priuate masses did helpe soules departed? I sayd, it was great idolatry to beleue more in thē, then in the death which 
+          <name>Christ</name> dyed for vs.</p>
+        <p n="9">Then they had me thence vnto my <persName>L. Maior</persName>, and he examined me, as they had before, and I answered him directly in all thinges as I aunswered the Quest before. 
+          Besides this my <persName>L. Maior</persName> layd one thing to my charge, whiche was neuer spokē of me, but of them: and that was, whether a mouse eating the host, receiued God 
+          or no? This question did I neuer ask, but in deede they asked it of me, whereunto I made them no aunswere but smiled</p>
+        <p n="10">Then the <persName>Bishops Chauncellor</persName> rebuked me and sayd, þt I was much to blame for vttring the scriptures. For <name>S. Paul</name> (he sayd) forbode women to speake, or to talke 
+          of the word of <name>God</name>. I answered him that I knew <persName>Paul</persName>es meaning as well as he, which is in the 1. Corin. 14. that a woman ought not to speak in the congregation by 
+          the way of teaching. And thē I asked him, how many women he had seene go into the Pulpit and preach? He sayd he neuer saw none. Then I sayd, he ought to 
+          finde no fault in poore women, except they had offended the law</p>
+        <p n="11">Then the <persName>L. Maior</persName> commaunded me to warde, I asked him if sureties woulde not serue me, and he made me short answere, that he would take none. Then was I 
+          had to the Counter, and there remayned xi. dayes, no frend admitted to speak with me. But in the mean time there was a priest sent to me, which sayd that he was 
+          commaunded of the <persName>Bishop</persName> to examine me, and to geue me good counsell, which he did not. But first he asked me for what cause I was put in the Counter, and I 
+          told him, I could not tell. Then he sayd it was great pity that I should be there wtout cause, and concluded that he was very sory for me.</p>
+        <p n="12">Secondly he sayd, it was told him, that I should deny the Sacrament of the aulter. And I aunswered agayne that, that I haue sayd, I haue sayd.</p>
+        <p n="13">Thirdly he asked me if I were shriuen, I tolde him, so that I might haue one of these three, that is to say, <persName>Doctor Crome</persName>, <persName>Ser Gillam</persName>, or <persName>Huntington</persName>. I was contented 
+          because I knew them to be men of wisedome, as for you or any other I will not disprayse, because I knowe you not. Then he sayd, I would not haue you thinke, 
+          but that I, or an other þt shall be brought you, shall be as honest as they, for if we were not, you may be sure the king would not suffer vs to preach. Then I 
+          aunswered by the saying of Salomon. <regMe>By communing with the wise, I may learne wisdome, But by talking with a foole, I shall take scathe.</regMe> pro.</p>
+        <p n="14">Fiftly, he asked me, if I entended to receiue the Sacrament at Easter, or no? I aunswered, that els I were no Christen woman, and thereat I did reioyce, that the 
+          time was so neare at hand, and then he departed thence wyth many fayre wordes.</p>
+        <p n="15">The <date when="1545-03-22">xxiij. day of March</date>, my coosin <persName>Britaine</persName> came into the Counter vnto me, and asked me whether I might beeput to bayle, or no? Thē went he immediately vnto 
+          my <persName>L. Mayor</persName>, desiring of him to be so good vnto me. That I might be bayled. My Lord aunswered him, and sayd that he would be glad to doe the best that in him 
+          lay. How be it he could not bayle me, without the consent of a spiritual officer: requiring him to go and speak with the Chauncellor of London. For he sayde, like as he 
+          could not committe me to prison without the consent of a spirituall Officer, no more could he bayle me without the consent of the same.</p>
+        <p n="16">So vpon that, he went to the <persName>Chaūcellor</persName>, requiring of him as he did before of my Lord Maior. He answered him the that matter was so haynous, that he durst not of 
+          him selfe do it, without my Lord of London were made priuy thereunto. But he sayd he would speake vnto my Lord in it, and badde him repayre vnto him the nexte 
+          morow, and he should wel know my Lords pleasure: And vpon the morrow after, he came thither, and spake both with the Chaūcellor, and with the Bishop of Londō. 
+          The <persName>Bishop</persName>declared vnto him, that he was very well contented that I should come forth to a communication, and appoynted me to appere before him the next day 
+          after, at 3, of the clock at afternoone. Moreouer, he sayd vnto him, that he would, there shold be at the examination such learned men as I was affectioned to, that 
+          they might see, and also make report that I was hādled with no rigor. He answered him that he knew no man that I had more affection to, then to the other. Then 
+          sayd the Byshop: yes as I vnderstand, she is affectioned to <persName>Doct. Crome</persName>, <persName>Syr Gillam</persName>, <persName>Whitehead</persName> and <persName>Huntingtō</persName>,that they might heare the matter: for she did know 
+          thē to be learned and of a godly iudgemēt. Also he required my cosin Britayn, that he should earnestly perswade me to vtter euē the very bottome of my hart: and he 
+          sware by his fidelitye, that no man should take any aduantage of my words: neyther yet would he lay ought to my charge for any thing þt I should there speake: 
+          but if I sayde any maner of thing amisse, he with other more would be glad to reforme me therin, with most godly counsell.</p>
+        <p n="17">On the morow after, the <persName>Bishop of Londō</persName> sent for me, at one of the clocke, his houre being appoynted at three, and  as I came before him, he said he was very sory of 
+          my trouble, and desired to know my opiniō in such matters as were layd against me. He required me in any wise boldly to vtter the secrets of my hart, bidding me not 
+          to feare in any poynt, for whatsoeuer I did say in his house, no mā should hurt me for it. I answered: forsomuch as your lordship appoynted three of the clocke, and 
+          my frendes shall not come til that houre, I desire you to pardō me of geuing answere til they come. Thē sayd he, that he thought it meet to send for those 4. men 
+          which were afore named and  appointed. Thē I desired him not to put them to the payne, for it should not need, because the two gentlemen which were my frendes 
+          were able enough to testify that I should say. Anone after he went into his gallary with <persName>M. Spilman</persName>, and willed him in any wise that he shoulde exhorte me to vtter all 
+          that I thought. In the meane while he cōmaunded his <persName>Archdeacon</persName> to cōmon with me, who sayd vnto me: Mistres wherfore are you accused and thus troubled here 
+          before þe Bishop? To whom I answered agayne and sayd: Syr, aske I pray you my accusers, for I know not as yet. Thē tooke he my booke out of my hand, and 
+          sayd: such bookes as this, haue brought you to the trouble you are in. Beware (sayth he) beware, for he that made this booke and was the author therof, was an 
+          hereticke I warrant you, and burnt in <placeName>smithfield</placeName>. Then I asked him, if he were certayne and sure, that it was true that he had spoken. And he sayd he knew well the 
+          booke was of I. Frithes making. Then I asked him if he were not ashamed for to iudge of the booke before hee saw it within, or yet knew the truth therof. I said 
+          also, that such vnaduised and hasty iudgement is a token apparant of a very slender wit. Then I opened the booke and shewed it him. He said he thought it had bene 
+          an other, for he could finde no fault therein. Then I desired him no more to bee so vnaduisedly rash and swift in iudgement, till he throughly knew the truth, and so 
+          he departed from me</p>
+        <p n="18">Immediately after came my cosin <persName>Britaine</persName> in with dyuers other, as <persName>M. Hall of Grayes Inne</persName>, and such other like. Then my <persName>Lord of London</persName> perswaded my cosine <persName>Britaine</persName>
+          as he had done oft before, which was that I shoulde vtter þe bottom of my hart in any wise. My Lord said after þt vnto me, that he would I should credite the 
+          counsayle of such as were my frendes and wel willers in this behalf, which was, that I should vtter all thinges that burdened my cōscience: for he ensured me that I 
+          shoulde not neede to stand in doubt to say any thing. For like as he promised them (he said) he promised me and would performe it: which was that neither he nor 
+          any man for him, should take me at aduauntage of any word I should speake: and therefore he bad me say my minde without feare. I aunswered him that I had . . . </p>
+      </div>
+      <div n="3">
+        <head><persName>K. Henr. 8.</persName> The first examination of <persName>Anne Askew</persName> martyr. The Bish. misreporte of <persName>Anne Askew</persName>s confessiō.</head>
+      </div>
+      <div n="4">
+        <head><persName>K. Henry. 8.</persName> The first and second examination of <persName>Anne Askew</persName> Martyr.</head>
+      </div>
+      <div n="5">
+        <head>The latter apprehension and examination, of the worthy Martyr of <name>God</name>, <persName>Mistress Anne Askew</persName>. Anno. <date>1546</date>.</head>
+      </div>
+      <div n="6">
+        <head><persName>K. Henr. 8.</persName> <persName>Anne Askew</persName>, <persName>Iohn Lacels</persName>, <persName>Nicholas Belenian</persName> Martyrs.</head>
+      </div>
+      <div n="7">
+        <head><persName>K. Henr. 8.</persName> The racking of <persName>Anne Askew</persName>, her answere to <persName>Lacels</persName> letter, her confession.</head>
+      </div>
+      <div n="8">
+        <head><persName>K. Henr. 8.</persName> The cruell burning of <persName>Mistress Anne Askew</persName>, <persName>John Lacels</persName>, <persName>Iohn Adams</persName>, and <persName>Nicholas Belenian</persName>.</head>
+      </div>
+      <div n="9">
+        <head>The order and maner of the burning of <persName>Anne Askew</persName>, <persName>Iohn Lacels</persName>, <persName>Iohn Adams</persName>, <persName>Nicholas Belenian</persName>, with certayne of the Councell sitting in <placeName>Smithfield</placeName>.</head>
+      </div>
+    </body>
+    <back/>
+  </text>
+</TEI>
