@@ -1,0 +1,214 @@
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:space="preserve" xml:lang="en"
+ xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Find A Grave</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Find A Grave</repository>
+                        <idno>10860996</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc ana="cenotaph">
+                            <supportDesc ana="marble">
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>45</height>
+                                        <width>100</width>
+                                    </dimensions>
+                                    <objectType>cenotaph</objectType>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="6"></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions type="letter" extent="height" unit="mm" atLeast="8" atMost="12"/>
+                                <p>The text is in a serif font and originally had no color, but is now brown with age.</p>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Huntsville, Alabama</origPlace>
+                            <geogName type="cemetary">Maple Hill Cemetary</geogName>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://images.findagrave.com/photos/2005/116/10860996_111462206242.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1" type="icon"/>Star of David, Cross
+                    <lb n="2"/>JERRY BIBB BALISOK
+                    <lb n="3"/>BORN SEPT. 8 1955
+                    <lb n="4"/>MURDERED IN GUYANA NOV 13 1978
+                    <lb n="5"/>BURIED IN OAKLAND CAL MAY, 1979
+                    <lb n="6"/>DAMN THE STATE DEPT.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>Mr. Balisok's mother recognized him and his wife among the dead in pictures of the Jonestown Massacre. Mrs. Balisok believes the State Dept. refuses to allow her to bury her son's body.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+<TEI xml:space="preserve" xml:lang="en"
+ xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Find A Grave</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Find A Grave</repository>
+                        <idno>6110193</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc ana="epitaph">
+                            <supportDesc ana="marble">
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>175</height>
+                                        <width>450</width>
+                                    </dimensions>
+                                    <objectType>epitaph</objectType>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="5"></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="5"/>
+                                <p>The text is in a sans serif font and originally had no color, but is now dark with age.</p>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Rochester, New York</origPlace>
+                            <geogName type="cemetary">Mount Hope Cemetary</geogName>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://images.findagrave.com/photos/2017/205/6110193_1501015978.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1">TO THE MEMORY OF
+                    <lb n="2"/>FREDERICK DOUGLASS.
+                    <lb n="3"/>1817 - 1895
+                    <lb n="4"/>ERECTED BY HIS SONS
+                    <lb n="5"/>LEWIS H. + CHARLES R.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>The epitaph of famed abolitionist, freedom fighter, social reformer and human rights leader Frederick Douglass</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+<TEI xml:space="preserve" xml:lang="en"
+ xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Find A Grave</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Find A Grave</repository>
+                        <idno>6484099</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc ana="epitaph">
+                            <supportDesc ana="marble">
+                                <support>
+                                    <dimensions type="surface" unit="ft">
+                                        <height>4</height>
+                                        <width>1.5</width>
+                                    </dimensions>
+                                    <objectType>epitaph</objectType>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="5"></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="5"/>
+                                <p>The text is in a white serif font. Dates and quote are bold.</p>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Hollywood, CA</origPlace>
+                            <geogName type="cemetary">Hollywood Forever</geogName>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://images.findagrave.com/photos/2006/183/6484099_115197941862.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1">Douglas Glenn Colvin
+                    <lb n="2"/>Sept. 18, 1951
+                    <lb n="3"/>June 5, 2002
+                    <lb n="4"/>DEE DEE RAMONE
+                    <lb n="5"/>O.K...I gotta go now.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>The epitaph of famous punk rocker Dee Dee Ramone of The Ramones</p>
+            </div>
+        </body>
+    </text>
+</TEI>
