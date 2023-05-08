@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:space="preserve" xml:lang="en"
+ xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ada Lovelace</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Byron Vault, Church of St. Mary Magdelene</repository>
+                        <idno type="plot">1234</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <dimensions>
+                                        <height>45</height>
+                                        <width>40</width>
+                                        <depth>10</depth>
+                                    </dimensions>
+                                    <material ana="stone"></material>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="11"></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote ana="impressed.inscribed">
+                            <height unit="cm">2</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Church of St. Mary Magdelene in Hucknall, Nottinghamshire</origPlace>
+                            <origDate>1852</origDate>
+                        </origin>
+                        <provenance type="found"> Byron baronial cemetary vault 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://www.flickr.com/photos/veggiesosage/43428049150"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>In the <placeName>Byron vault</placeName>below
+<lb n="2"/>Lie the remains of
+<lb n="3"/><name type="person">Augusta Ada</name>,
+<lb n="4"/>only <roleName type="familial">daughter</roleName> of 
+<lb n="5"/><name type="parent">George Gordon Noel
+<lb n="6"/><roleName type="Britishtitle">6th Lord Byron</roleName></name>
+<lb n="7"/>and <roleName type="marital">wife</roleName> of 
+<lb n="8"/><name type ="spouse">William, <roleName type="Britishtitle">Earl of Lovelace</roleName></name>
+<lb n="9"/>Born <date when="1815-12-10">10th Dec 1815</date>
+<lb n="10"/>Died <date when="1852-11-27">27th Nov 1852</date>
+<lb n="11"/>R.I.P.
+
+                </ab>
+            </div>            
+            <div type="bibliography">
+                <p>A mathematical history tour http://mathsab.blogspot.com/2016/04/lady-ada-august-byron-king-countess-of.html</p>
+            </div>
+        </body>
+    </text>
+</TEI>

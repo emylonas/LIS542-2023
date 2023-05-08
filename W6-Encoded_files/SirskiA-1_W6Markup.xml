@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:space="preserve" xml:lang="en"
+ xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Publius Oppius, Roman Soldier</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hecht Museum</repository>
+                        <idno type="HM">Roman 12345</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc ana="slab">
+                            <supportDesc>
+                                <support>
+                                <p/>
+                                <dimensions type="surface" unit="cm">
+                                    <height>40.5</height>
+                                    <width>5-20</width>
+                                    <depth>5</depth>
+                                </dimensions> 
+                                <material ana="stone"></material> 
+                                    <damage ana="Fragment.single"></damage>
+                              </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="9"></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote ana="impressed.inscribed">
+                            </handNote>                         
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                            <region>Ravenna</region>
+                                <settlement ref="https://pleiades.stoa.org/places/393480"></settlement>
+                            </origPlace>
+                            <origDate notBefore="-0625" notAfter="0476"></origDate>
+                        </origin>
+                        <provenance type="found"> Found near Emmaus                      
+                        </provenance>
+                        <provenance type="observed">Hecht Museum, Haifa
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://commons.wikimedia.org/wiki/File:Hecht_090710_Legio_V_Tombstone.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><name type="person">Publius Oppius</name> filius
+                   	<lb n="2"/><name type="tribe">Camilia</name> <supplied reason="lost">[.3 char. .]</supplied>
+                    	<lb n="3"/>CIO <region>Ravenna</region>
+                   	<lb n="4"/>miles legionis V
+                   	<lb n="5"/>Macedonicae, <roleName type="militaryrank">optio</roleName>,
+                   	<lb n="6"/>vixit annos
+                   	<lb n="7"/><num value="30">XXX</num>, militavit annos <num value="9">VIIII</num>.
+                   	<lb n="8"/>Hic situs est.
+                   	<lb n="9"/>Heres fecit.
+                </ab>
+            </div>
+            <div type="apparatus">
+            </div>
+            <div type="translation">
+                <p><lb n="1"/>P(ublius) Oppi[us, son of...],
+ 	<lb n="2"/>of (the tribe of) Camilia,
+	<lb n="3"/>...cio, of Ravenna,
+	<lb n="4"/>soldier of the Legio V
+5	<lb n="5"/>Macedonica, (of the rank of) optio,
+	<lb n="6"/>lived
+	<lb n="7"/>30 years, served in the army nine years
+ 	<lb n="8"/>(and) is buried here.
+	<lb n="9"/>(His) heir made (this tombstone).</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>Wikipedia Commons https://commons.wikimedia.org/wiki/File:Hecht_090710_Legio_V_Tombstone.jpg</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+
