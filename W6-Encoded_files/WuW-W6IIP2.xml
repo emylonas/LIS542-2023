@@ -1,0 +1,83 @@
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xml:space="preserve" xml:lang="en"
+ xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hecht Museum</repository>
+                        <idno type="IIP">JERU0579</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la" otherLangs=""/>
+                        <msItem class="funerary.epitaph" ana="other_religion">
+                            <p>Jerusalem, early 2nd century CE. Slab. Epitaph.</p>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc ana="slab">
+                            <supportDesc ana="stone">
+                                <support><material>Stone</material>
+                                  <objectType>Headstone</objectType><dimensions type="surface" unit="cm"><height>51.5</height><width>68.5</width><depth>25</depth></dimensions></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="8"></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height unit="cm">5.9-6.2</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><date notBefore="0070" notAfter="0139"></date>
+                            <origPlace>Jerusalem Judaea</origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found">Found in ancient city of Jerusalem
+                        </provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://raw.githubusercontent.com/Brown-University-Library/iip-images/master/jeru0579.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p>TICLTIFPOPFATALIS<lb/>ROMA LEGII AVGLEGGXX<lb/>VICLEG AUGLEGXICPF<lb/>LEGXIVGMVLEGXII FVL<lb/>LEGXERIIIHAST VIXAN<lb/>XLII MII ANN XXIII CL<lb/>IONICE LIBETHERESOBME<lb/>ERITAEIUSOTBQTTLS</p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p><expan><abbr>Ti</abbr><ex>berius</ex></expan><expan><abbr>Cl</abbr><ex>audius</ex></expan><expan><abbr>Ti</abbr><ex>beri</ex></expan><expan><abbr>f</abbr><ex>ilius</ex></expan><expan><abbr>Pop</abbr><ex>ilia</ex></expan>Fatalis<lb/>Roma<expan><abbr>Leg</abbr><ex>ionis</ex></expan>II<expan><abbr>Aug</abbr><ex>ustae</ex></expan><expan><abbr>Leg</abbr><ex>ionis</ex></expan>XX<lb/><expan><abbr>Vic</abbr><ex>tricis</ex></expan><expan><abbr>leg</abbr><ex>ionis</ex></expan>XI<expan><abbr>C</abbr><ex>laudiae</ex></expan><expan><abbr>p</abbr><ex>iae</ex></expan><expan><abbr>f</abbr><ex>idelis</ex></expan><lb/><expan><abbr>Leg</abbr><ex>ionis</ex></expan>XIV<expan><abbr>G</abbr><ex>eminae</ex></expan><expan><abbr>M</abbr><ex>artiae</ex></expan><expan><abbr>V</abbr><ex>ictricis</ex></expan><expan><abbr>Leg</abbr><ex>ionis</ex></expan>XII<lb/><expan><abbr>Fu</abbr><ex>minatae</ex></expan><expan><abbr>Leg</abbr><ex>ionis</ex></expan>X<expan><abbr>Fr</abbr><ex>etensis</ex></expan>III<expan><abbr>hast</abbr><ex>tatus</ex></expan><expan><abbr>vix</abbr><ex>it</ex></expan><expan><abbr>an</abbr><ex>nos</ex></expan><lb/>XLII<expan><abbr>mil</abbr><ex>itavit</ex></expan><expan><abbr>ann</abbr><ex>os</ex></expan>XXIII<expan><abbr>Cl</abbr><ex>audia</ex></expan><lb/>Ionice<expan><abbr>lib</abbr><ex>erta</ex></expan>et heres ob me-<lb/>rita eius<expan><abbr>O</abbr><ex>ssa</ex></expan><expan><abbr>t</abbr><ex>ibi</ex></expan><expan><abbr>b</abbr><ex>ene</ex></expan><expan><abbr>q</abbr><ex>uiescant</ex></expan><expan><abbr>t</abbr><ex>erra</ex></expan><expan><abbr>t</abbr><ex>ibi</ex></expan><expan><abbr>l</abbr><ex>evis</ex></expan><expan><abbr>s</abbr><ex>it</ex></expan>
+                             
+                 <!--**** For this one I just used <expan> throughout the whole transcription... not sure if this is legit, as it seems kind of spammy ****-->     
+                    
+                </p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Tiberius Claudius Fatalis son of Tiberius of the clan Popillia, of Rome, was in Legion II Augusta, in Legion XX Victory, in Legion II Augusta, in Legion XI Claudia, pious and trustworthy, in Legion XIV Gemina Martia Victory, in Legion XII Fulminata, in Legion X fretensis, with rank of third Hastatus. He lived 42 years and served in the army for 23 years. His freedwoman and heiress Claudia Ionice made this tomb on account of his merits. May your bones rest well for you, may the earth be light upon you.</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
