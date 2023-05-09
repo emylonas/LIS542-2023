@@ -1,0 +1,107 @@
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:space="preserve" xml:lang="en"
+ xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0" xml:id="amey0002" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <persName xml:id="JBS">Jackson Brenner-Smith</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>University of Washington</repository>
+                        <idno type="IIP">Amey 0002</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="eng"/>
+                        <msItem class="funerary.epitaph">
+                            <p>Armley, 1887 C.E. Tombstone. Epitaph.</p>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc ana="tombstone">
+                            <supportDesc ana="stone">
+                                <support>
+                                    <p/>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>110</height>
+                                        <width>55-60</width>
+                                        <depth>45-55</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2" writtenLines="7">
+                                    <p>inscribed mark divides columns. four lines on left side of divider, three on right side of divider.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote ana="#inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="5"/>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <ab>grapeleaves along top of tombstone</ab>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                            <date notBefore="1887" notAfter="1822">1887 CE</date>
+                            <placeName>
+                                <region>West Yorkshire</region>
+                                <settlement>Armley</settlement>
+                            </placeName>
+                        </origin>
+                        <provenance>
+                            <placeName>in situ</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2023-05-08" who="Jackson Brenner-Smith">Initial Entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <desc>inscription front side</desc>
+            <graphic url="amey0002.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" subtype="diplomatic">
+                <ab type="column" n="A">
+                    <lb n="1"/><hi rend="ornate">In Loving Memory of</hi>
+                    <lb n="2"/>Sarah Elizabeth, wife of Arthur Bass,   
+                    <lb n="3"/>of Armley, Who Died <date>July 31<hi rend="superscript">st</hi> 1887</date>,
+                    <lb n="4"/>In Her <date type="age">23<hi rend="superscript">rd</hi> year</date>.
+                </ab>
+                <ab type="column" n="B">
+                    <lb n="1"/>Arthur   Bass,
+                    <lb n="2"/>Died <date>Dec<hi rend="superscript">r</hi> 15<hi rend="superscript">th</hi> 1904</date>,
+                    <lb n="3"/>Aged <date type="age">40 Years</date>.
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>

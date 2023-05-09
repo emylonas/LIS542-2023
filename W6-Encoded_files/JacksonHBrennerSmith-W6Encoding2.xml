@@ -1,0 +1,129 @@
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:space="preserve" xml:lang="en"
+ xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0" xml:id="amey0001" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <persName xml:id="JBS">Jackson Brenner-Smith</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>University of Washington</repository>
+                        <idno type="IIP">Amey 0001</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="eng"/>
+                        <msItem class="funerary.epitaph">
+                            <p>Armley, 1822 C.E. Tombstone. Epitaph.</p>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc ana="tombstone">
+                            <supportDesc ana="stone">
+                                <support>
+                                    <p/>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>60</height>
+                                        <width>35</width>
+                                        <depth>15</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="15">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote ana="#inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" quantity="3"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                            <date notBefore="1822" notAfter="1822">1822 CE</date>
+                            <placeName>
+                                <region>West Yorkshire</region>
+                                <settlement>Armley</settlement>
+                            </placeName>
+                        </origin>
+                        <provenance>
+                            <placeName>in situ</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2023-05-08" who="Jackson Brenner-Smith">Initial Entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <desc>inscription front side</desc>
+            <graphic url="amey0001.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" subtype="diplomatic">
+                <ab>
+                    <lb n="1"/>In MEMORY of
+                    <lb n="2"/>Mary, Wife of William Holdsworth    
+                    <lb n="3"/>of A<gap reason="illegible" quantity="2" unit="character"/>ley
+                    <lb n="4"/>who died <date>Ap<gap reason="illegible" quantity="2" unit="character"/>l 22<hi rend="superscript">nd</hi> 1822</date>,
+                    <lb n="5"/>Aged <date type="age" dur="P45Y">45 Years</date>.
+                    <lb n="6"/>Also William Holdsworth the abo<gap reason="illegible" extent="unknown" unit="character"/>
+                    <lb n="7"/>said who died <date>July 25<hi rend="superscript">th</hi>, 1825</date>
+                    <lb n="8"/>Aged <date type="age" dur="P55Y">55 Years</date>.
+                    <lb n="9"/>Also <hi rend="italic">three</hi> of <gap reason="illegible" quantity="1" unit="character"/>heir Children wh<gap reason="illegible" extent="unknown" unit="character"/>
+                    <lb n="10"/>di<gap reason="illegible" quantity="1" unit="character"/>d young
+                    <lb n="11"/>Also Elizabeth,Wife of George
+                    <lb n="12"/>Holdsworth who died <date>Feb<hi rend="superscript">y</hi>17<hi rend="superscript">th</hi>18<gap reason="illegible" extent="unknown" unit="character"/></date>
+                    <lb n="13"/>Aged <date type="age" dur="P55Y">63 Years</date>.
+                    <lb n="14"/>ALSO THE ABOVE GEORGE HOLDSWOR<gap reason="illegible" quantity="2" unit="character"/>
+                    <lb n="15"/><gap reason="illegible" quantity="1" unit="character"/>HO DIED <date>MARCH 9<hi rend="superscript">th</hi> 1879</date> AGED <date type="age" dur="P80Y">80 YE<gap reason="illegible" extent="3" unit="character"/></date>
+                </ab>
+            </div>
+            <div type="edition" subtype="transcription">
+                <p>
+                    <lb n="1"/>In MEMORY of
+                    <lb n="2"/>Mary, Wife of William Holdsworth    
+                    <lb n="3"/>of A<supplied reason="lost">rm</supplied>ley
+                    <lb n="4"/>who died <date>Ap<supplied reason="lost">ri</supplied>l 22<hi rend="superscript">nd</hi> 1822</date>,
+                    <lb n="5"/>Aged <date type="age" dur="P45Y">45 Years</date>.
+                    <lb n="6"/>Also William Holdsworth the abo<gap reason="illegible" extent="unknown" unit="character"/>
+                    <lb n="7"/>said who died <date>July 25<hi rend="superscript">th</hi>, 1825</date>
+                    <lb n="8"/>Aged <date type="age" dur="P55Y">55 Years</date>.
+                    <lb n="9"/>Also <hi rend="italic">three</hi> of <supplied reason="lost">t</supplied>heir Children wh<supplied reason="lost">o</supplied>
+                    <lb n="10"/>di<supplied reason="lost">e</supplied>d young
+                    <lb n="11"/>Also Elizabeth,Wife of George
+                    <lb n="12"/>Holdsworth who died <date>Feb<hi rend="superscript">y</hi>17<hi rend="superscript">th</hi>18<gap reason="illegible" extent="unknown" unit="character"/></date>
+                    <lb n="13"/>Aged <date type="age" dur="P55Y">63 Years</date>.
+                    <lb n="14"/>ALSO THE ABOVE GEORGE HOLDSWOR<supplied reason="lost">TH</supplied>
+                    <lb n="15"/><supplied reason="lost">W</supplied>HO DIED <date>MARCH 9<hi rend="superscript">th</hi> 1879</date> AGED <date type="age" dur="P80Y">80 YE<supplied reason="lost">ARS</supplied></date>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
