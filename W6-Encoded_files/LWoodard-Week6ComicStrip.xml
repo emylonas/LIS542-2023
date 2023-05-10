@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://briancroxall.net/w20dh/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peanuts 2007-10-02</title>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <persName ref="#r-LW">Lily Woodard</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>oversight</resp>
+                    <persName ref="https://orcid.org/0000-0001-5602-6830">Brian Croxall</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt> 
+                <publisher>
+                    <orgName ref="https://briancroxall.net/w22dh">Digital Humanities 315, Winter 2022</orgName>
+                </publisher>
+                <availability status="free">
+                    <licence>
+                        This work is licensed under a Creative Commons Attribution 4.0 International License. <ref target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+                        <p>Please acknowledge Digital Humanities 315, Winter 2020-2022 when re-using or re-publishing.</p>
+                    </licence>
+                </availability>
+                <idno type="local">Peanuts2007-10-02</idno>
+            </publicationStmt>
+            
+            
+            <sourceDesc>
+                <bibl><title level="a">Peanuts 2007-10-02</title>
+                    <author ref="http://viaf.org/viaf/36924438">Charles M. Schulz</author>
+                    <title>The Complete Peanuts: Comics and Stories</title>
+                    <publisher>Fantagraphics Books</publisher>, <date>2004-2016</date></bibl>
+            </sourceDesc>   
+        </fileDesc>
+        
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="https://raw.githubusercontent.com/briancroxall/peanuts-taxonomy/master/peanuts-taxonomy.xml">
+                    <xi:fallback>
+                        <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+                    </xi:fallback>
+                </xi:include> 
+            </classDecl>
+        </encodingDesc>
+        
+        <revisionDesc>
+            <change who="#r-EM" when="2020-01-27">Made template</change>
+            <change who="#r-BC" when="2020-02-05">Updated template</change>
+            <change who="#r-BC" when="2020-02-07">Updated template</change>
+            <change who="#r-BC" when="2020-02-10">Updated template</change>
+            <change who="#r-BC" when="2020-02-13">Updated template</change>
+            <change who="#r-BC" when="2020-02-18">Updated template</change>
+            <change who="#r-BC" when="2021-02-08">Updated template</change>
+            <change who="#r-BC" when="2021-02-18">Updated template</change>
+            <change who="#r-BC" when="2022-02-10">Updated template</change>
+            <change who="#r-LW" when="2023-05-09">Initial encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="https://www.gocomics.com/peanuts/2007/10/02"/>
+    </facsimile>
+ 
+    <text>
+        <body>            
+            <head><emph>Peanuts</emph>, <date when="2007-10-02">2 October 2007</date></head>
+            <div type="panelGrp" ana="#s-outside" xml:id="Peanuts2007-10-02">
+                
+                <cbml:panel n="1" characters="#c-cb #c-linus">
+                    <note resp="#r-LW" type="panelDesc">Charlie and Linus stand outdoors under a tree on a windy day, with Charlie watching Linus stare as a leaf falls to the ground.</note>
+                </cbml:panel>
+                
+                <cbml:panel n="2" characters="#c-cb #c-linus" ana="#tr-m2m">
+                    <note resp="#r-LW" type="panelDesc">Charlie observes as Linus mumbles, head downturned, facing the fallen leaf.</note>
+                    <cbml:balloon type="speech" who="#c-linus">
+                        You'll never be happy here...
+                    </cbml:balloon >
+                </cbml:panel>
+                
+                <cbml:panel n="3" characters="#c-cb" ana="#tr-act2act">
+                    <note resp="#r-LW" type="panelDesc">Charlie runs home alone with seeming urgency.</note>
+                    <docDate>
+                        10/2/07
+                    </docDate>
+                </cbml:panel>
+                
+                <cbml:panel n="4" characters="#c-cb #c-patty" ana="#tr-m2m">
+                    <note resp="#r-LW" type="panelDesc">Charlie startles Patty with a declaration about her brother, as Patty is seated in front of the television with a book open in hand.</note>
+                    <cbml:balloon type="speech" who="#c-cb">
+                        Your brother talks to leaves!
+                    </cbml:balloon>
+                    <docAuthor>SCHULZ</docAuthor>
+                </cbml:panel>
+                
+            </div>
+        </body>
+    </text>
+</TEI>
