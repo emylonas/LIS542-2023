@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000877"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Hamilton M. Dyke,</title><!-- Change -->
+                <author>David Livingstone</author>
+                <respStmt xml:id="EM"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Critical Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AW"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Adrian S. Wisnicki</name><!-- Change -->
+                    <resp>Critical Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="MB"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Critical Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="KS"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Kate Simpson</name><!-- Change -->
+                    <resp>Critical Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="MR"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Matthew Rubery</name><!-- Change -->
+                    <resp>Critical Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_000521</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed. Country of repository. -->
+                        <settlement>Motito</settlement><!-- Change as needed. City of repository. -->
+                        <repository>Cory Library for Hisotrical Research</repository><!-- Change as needed -->
+                        <idno type="shelfmark"></idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber"></idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label></label> T</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title type="alternative">Letter to Hamilton M. Dyke</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1843-02-24">24 February 1843</date><!-- Change -->
+                    <placeName type="compositionPlace">Motito</placeName><!-- Change. Where DL composed. -->
+                    <persName type="addressee">Hamilton M. Dyke</persName><!-- Change. Person to whom DL wrote. -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <!-- For language abbreviations, see https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry --> 
+                <!-- English should be first, then add all other languages in alphabetical order. -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <!-- Change @when, @who, and work description below. -->
+            <!-- Note that @who initials are taken from <respStmt> above -->
+            <!-- Add new <change> elements below as needed. -->
+            <!-- Note that the most recent <change> should always be placed first, at the top -->
+            <change when="2023-05-04">TEI encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div>
+                
+                <!-- Start each page with a <pb> formatted as below and indented as below -->               
+                <pb facs="liv_000521_0001" n="0001"/><!-- Change both @facs and @n -->
+                
+                <lb/><p><!-- Begin transcribed text here --></p>
+                <opener>
+                    <lb/><dateline><placeName><settlement type="city">Motito</settlement></placeName>
+                    <date when="1843-02-24">24 February 1843</date></dateline>
+                    <salute>My Dear Brother</salute>
+                </opener>
+                <p>I was very much gratified
+                indeed by the reception of the kind favour you
+                sent by <name>Lennie</name> and []s I am just about 
+                to cross the boundary of comparative civilizat
+                -ion in order to visit the Interior I should be 
+                sorry did I not give you a word in 
+                passing by way of acknowledgement.
+                An answer it cannot be for I ahve 
+                unfortunately left yours behind at <placeName>Kuru
+                -man But I hope you will receive it such 
+                as it is with forbearance</placeName></p>
+                
+                <!-- More transcribed text, etc. -->
+                
+            </div>
+        </body>
+    </text>
+    
+</TEI>
