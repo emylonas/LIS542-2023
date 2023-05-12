@@ -40,10 +40,7 @@
           <empty/>
         </element>
         <element name="author">
-          <choice>
-            <ref name="name-element"/>
             <text/>
-          </choice>
         </element>
         <element name="publisher">
           <empty/>
@@ -51,7 +48,6 @@
       </element>
 
       <element name="revisions">
-        <oneOrMore>
           <element name="change">
             <attribute name="when">
               <data type="date"/>
@@ -59,7 +55,6 @@
             <attribute name="who"/>
             <text/>
           </element>
-        </oneOrMore>
       </element>
 
     </element>
@@ -105,7 +100,6 @@
           <ref name="pb-element"/>
           <ref name="alternates-element"/>
           <ref name="name-element"/>
-          <ref name="deletion-element"></ref>
           <element name="place">
             <text/>
           </element>
@@ -116,7 +110,6 @@
 
   <define name="name-element">
     <element name="name">
-      <attribute name="role"/>
       <text/>
     </element>
   </define>
@@ -127,12 +120,6 @@
       <attribute name="n">
         <data type="NCName"/>
       </attribute>
-    </element>
-  </define>
-
-  <define name="deletion-element">
-    <element name="deletion">
-      <text/>
     </element>
   </define>
 
