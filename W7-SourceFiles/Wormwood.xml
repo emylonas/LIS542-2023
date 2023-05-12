@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="diaries.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!-- https://publications.newberry.org/transcribe/#/item/35/page/7942 
-    https://publications.newberry.org/transcribe/#/item/35/page/7943  -->
+<!--https://archive.org/details/mms_221/page/n67/mode/1up image 68ff.  -->
 <journal>
     <metadata>
         <sourceInfo>
@@ -14,8 +13,8 @@
         </revisions>
     </metadata>
     
-    <!-- This extract is pages 3-10 of Emma Wormwood's diary, written in 1896. She was a school teacher in Illinois. The digitiized pages and crowdsourced transcription may be found here:  https://publications.newberry.org/transcribe/#/item/35/  
-    The pages that are inserted below are pages 1-9 as shown on the web page. Wormwood mentions a lot of names of students and acquantances, book and song titles. She also quotes bits of conversations. 
+    <!-- This extract is pages 3-10 of Emma Wormwood's diary, written in 1896. She was a school teacher in Illinois. The digitiized pages and crowdsourced transcription may be found here:  https://archive.org/details/mms_221/page/n67/mode/1up This begins at page image 68
+   Wormwood mentions a lot of names of students and acquantances, book and song titles. She also quotes bits of conversations. 
     -->
     <entries>
         <entry xml:id="xx1">
