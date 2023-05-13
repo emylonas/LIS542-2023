@@ -1,0 +1,71 @@
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:space="preserve" xml:lang="en"
+ xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Funerary Inscription - Aaberg</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>University of Washington</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="URI">https://www.findagrave.com/memorial/11404437/anna-i-aaberg</repository>
+                        <idno type="IIP">Fort 0001</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material/>granite
+                                    <objectType/>headstone
+                                    <dimensions unit="metre">
+                                        <height>02.00</height>
+                                        <width>03.35</width>
+                                        <depth>00.35</depth>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2">Surname spans layout with image of cross on the left. First names and birth and death dates form two columns.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Letters use two different serif fonts. Letters range from<height unit="cm">04.00 to 12.75</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Fortuna</origPlace>
+                            <origDate when="1981-01-01">1981</origDate>
+                        </origin>
+                        <provenance type="found">Grave stone located in East Writing Rock Cemetery.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://images.findagrave.com/photos/2013/308/11404437_138370278622.jpg"></graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="transcription">
+                <p>
+                    Aaberg
+                    <lb/><persName><forename>CARL</forename>A.</persName>
+                    <lb/><date when="1888">1888</date> - <date when="1981">1981</date>
+                    <lb/><persName><forename>ANNA</forename>L.</persName>
+                    <lb/><date when="1890">1890</date> - <date when="1970">1979</date>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
