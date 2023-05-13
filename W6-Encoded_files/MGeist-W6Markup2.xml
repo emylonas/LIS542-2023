@@ -1,0 +1,84 @@
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.1/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:space="preserve" xml:lang="lat"
+ xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Funerary Inscription - Publius Oppius, Roman Soldier</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>University of Washington</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum</repository>
+                        <idno type="IIP">Rome 0001</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Stone</material>
+                                    <objectType>Tombstone</objectType>
+                                </support>
+                                <condition>Single Fragment
+                                    <p>Fragment of stone with right corner and bottom broken off.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Letters are inscribed between a raised border.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote >Letter sizes vary between large and small.
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <provenance type="found">Temple of Hercules Victor, near second column
+                        </provenance>
+                        <provenance type="observed">The Museum of Rome
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" subtype="transcription">
+                <p>
+                    <persName>Publius Oppius</persName>filius
+                    <lb/>Camilia [.3 char. .]
+                    <lb/>CIO <placeName>Ravenna</placeName>
+                    <lb/>miles <rs type="miliary">legionis V
+                    <lb/><num value="5">5</num>    Macedonicae</rs>, optio,
+                    <lb/>vixit annos
+                    <lb/>XXX, militavit annos VIIII.
+                    <lb/>Hic situs est.
+                    <lb/>Heres fecit.
+                </p>
+            </div>
+          <div type="translation">
+                <p>
+                    <persName>P(ublius) Oppi[us</persName>, son of...],
+ 	         <lb/>of (the tribe of) Camilia,
+	         <lb/>...cio, of <placeName>Ravenna</placeName>,
+	         <lb/>soldier of the<rs type="miliary">Legio V
+                    <lb/><num value="5">5</num>	Macedonica</rs>, (of the rank of) optio,
+	         <lb/>lived
+	         <lb/>30 years, served in the army nine years
+ 	         <lb/>(and) is buried here.
+	         <lb/>(His) heir made (this tombstone). 
+                </p>
+            </div>
+            <div type="commentary">
+                <p>This funerary inscription is documented from the Week 3 assignment list. Not much information can be found for this artifact online.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
