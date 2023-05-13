@@ -39,27 +39,32 @@
         <element name="title">
           <text/>
         </element>
+
         <element name="author">
-          <choice>
-            <ref name="name-element"/>
+          <element name="name">
             <text/>
-          </choice>
+          </element>
         </element>
+
         <element name="publisher">
           <text/>
         </element>
+
+        <ref name="date-element"></ref>
+
       </element>
 
+
       <element name="revisions">
-        <oneOrMore>
-          <element name="change">
-            <attribute name="when">
-              <data type="date"/>
-            </attribute>
-            <attribute name="who"/>
-            <text/>
-          </element>
-        </oneOrMore>
+
+        <element name="change">
+          <attribute name="when">
+            <data type="date"/>
+          </attribute>
+          <attribute name="who"/>
+          <text/>
+        </element>
+
       </element>
 
     </element>
@@ -80,14 +85,7 @@
           <text/>
 
           <ref name="pb-element"/>
-
-          <element name="date">
-            <attribute name="when">
-              <data type="date"/>
-            </attribute>
-            <text/>
-          </element>
-
+          <ref name="date-element"></ref>
           <ref name="p-element"/>
         </choice>
       </oneOrMore>
@@ -99,30 +97,16 @@
 
   <define name="p-element">
     <element name="p">
+      <attribute name="n">
+        <data type="NCName"/>
+      </attribute>
       <oneOrMore>
         <choice>
           <text/>
           <ref name="pb-element"/>
           <ref name="alternates-element"/>
           <ref name="name-element"/>
-          <ref name="deletion-element"></ref>
-          <ref name="quote-element"></ref>
-          <element name="event">
-            <oneOrMore>
-              <choice>
-                <text/>
-                <ref name="name-element"></ref>
-                <ref name="quote-element"></ref>
-              </choice>
-            </oneOrMore>
-          </element>
           <element name="place">
-            <text/>
-          </element>
-          <element name="marginalia">
-            <text/>
-          </element>
-          <element  name="emphasis">
             <text/>
           </element>
         </choice>
@@ -132,11 +116,12 @@
 
   <define name="name-element">
     <element name="name">
-      <attribute name="role"/>
-      <choice>
+      <optional>
+        <attribute name="role">
+        <text/>
+      </attribute>
+      </optional>
       <text/>
-      <ref name="alternates-element"></ref>
-      </choice>
     </element>
   </define>
 
@@ -148,26 +133,6 @@
       </attribute>
     </element>
   </define>
-
-  <define name="deletion-element">
-    <element name="deletion">
-      <text/>
-    </element>
-  </define>
-
-<define name="quote-element">
-  <element name="quote">
-    <attribute name="cite">
-      <text/>
-    </attribute>
-    <oneOrMore>
-      <choice>
-        <text/>
-        <ref name="name-element"></ref>
-      </choice>
-    </oneOrMore>
-  </element>
-</define>
 
   <define name="alternates-element">
     <element name="alternates">
@@ -184,24 +149,33 @@
 
         <group>
           <element name="sic">
-            <oneOrMore>
-            <choice>
-              <text/>
-              <ref name="name-element"></ref>
-            </choice>
-            </oneOrMore>
+            <text/>
           </element>
           <element name="corr">
-            <oneOrMore>
-            <choice>
-              <text/>
-              <ref name="name-element"></ref>
-            </choice>
-            </oneOrMore>
+            <text/>
           </element>
         </group>
 
       </choice>
+    </element>
+  </define>
+  
+  <define name="date-element">
+    <element name="date">
+      <choice>
+        <attribute name="when">
+          <data type="date"/>
+        </attribute>
+        <group>
+          <attribute name="from">
+            <data type="date"/>
+          </attribute>
+          <attribute name="to">
+            <data type="date"/>
+          </attribute>
+        </group>
+      </choice>
+      <text/>
     </element>
   </define>
 
