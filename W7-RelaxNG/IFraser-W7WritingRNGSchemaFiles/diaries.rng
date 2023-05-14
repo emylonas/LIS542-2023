@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar 
+    xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="journal">
+            
+            <element name="metadata">
+                <element name="sourceInfo">
+                    <element name="title"><text/></element> <!-- Exercise 5.1-->
+                    <element name="author">
+                        <choice>
+                            <element name="name"><text/></element> <!-- Exercise 5.2 "specify it's either a name or free text"-->
+                            <text/>
+                        </choice>
+                    </element>
+                    <element name="publisher"><text/></element> <!-- Exercise 5.1-->
+                </element>
+                <element name="revisions">
+                    <oneOrMore><element name="change"> <!-- Exercise 5.3 -->
+                        <attribute name="who"/>
+                        <attribute name="when">
+                            <data type="date"></data>
+                        </attribute> 
+                        <text/>
+                    </element></oneOrMore>
+                </element>
+            </element>
+            
+            <element name="entries">
+                <oneOrMore><element name="entry"> 
+                    <interleave><attribute name="xml:id"/> 
+                        <optional><zeroOrMore><element name="pb"> <attribute name="n"/> <text/> </element></zeroOrMore></optional>
+                    <zeroOrMore><element name="date"> 
+                        <attribute name="when">
+                            <data type="date"></data>
+                        </attribute> 
+                        <optional><text/></optional>
+                    </element> </zeroOrMore>
+                    <optional><text/></optional>
+                        
+                    <zeroOrMore> <element name="p"> 
+                        <interleave>
+                        <optional><zeroOrMore><element name="pb"> <attribute name="n"/> <text/> </element></zeroOrMore></optional>
+                        <zeroOrMore><element name="name"> 
+                            <optional><attribute name="role"></attribute></optional> <!-- Exercise 5.4 -->
+                            <text/> 
+                        </element></zeroOrMore>
+                        <zeroOrMore><element name="place"> <text/> </element></zeroOrMore>
+                        <zeroOrMore><element name="alternates">
+                                <zeroOrMore><interleave>
+                                <optional><element name="sic"> <text/> </element></optional>
+                                <optional><element name="corr"> <text/> </element></optional>
+                                <optional><element name="expan"> <text/> </element></optional>
+                                <optional><element name="abbr"> <text/> </element></optional>
+                                </interleave> </zeroOrMore>
+                        </element> </zeroOrMore>
+                        <optional><element name="deletion"><text/></element></optional> <!-- Exercise 5.5 -->
+                        <optional><element name="quote"><element name="cite"><text/></element></element></optional> <!-- Exercise 5.6 -->
+                        <optional><oneOrMore><element name="lang"><text></text></element></oneOrMore></optional> <!-- Exercise 5.7, added languages element -->
+                        <zeroOrMore><optional> <text/> </optional></zeroOrMore> </interleave>
+                    </element> </zeroOrMore></interleave>
+                </element> 
+                <optional><zeroOrMore><element name="pb"> <attribute name="n"/> <text/> </element></zeroOrMore></optional> </oneOrMore>
+            </element>
+            
+        </element>
+    </start>
+</grammar>
