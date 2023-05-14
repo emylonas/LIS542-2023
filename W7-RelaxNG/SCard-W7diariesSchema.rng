@@ -115,9 +115,8 @@
     
     <define name="name-element">
         <element name="name">
-            <attribute name="role">
+            <attribute name="role"/>
                 <text/>
-            </attribute>
         </element>
     </define>
     

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- https://publications.newberry.org/transcribe/#/item/35/page/7942 
     https://publications.newberry.org/transcribe/#/item/35/page/7943  -->
-<?xml-model href="Adams.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="SCard-W7diariesSchema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <journal>
     <metadata>
         <sourceInfo>
@@ -22,7 +22,7 @@
             
             PAGE 1
             
-            <date type="when">January 28th. Tuesday.</date>
+            <date when="1896-01-28">January 28th. Tuesday.</date>
             <p>Got up early. Pretty day, –thawed considerably. Had full school. Good lessons. After supper had discussion on "Negro" and "Indian" question. Laughed about <name role="undescribed">Dollie</name> and me goin' (Gowin). <name role="undescribed">Roy</name>ate an onion, and I went in the other room and drew map of <place>Italy</place>. Beautiful night, not very cold. Went to bed early. I rode home from school, <name role="undescribed">Jennie Dyer</name> and I stood up. </p>
             
             January 29th. Wednesday.
