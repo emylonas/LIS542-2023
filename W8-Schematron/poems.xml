@@ -25,7 +25,7 @@
    <text>
       <body>
          <!-- first page starts here -->
-         <div type="sonnet" n="poem01">
+         <div type="foo" n="poem01">
             <head>Sonnet 15: When I consider everything that grows (William Shakespeare)</head>
             <lg>
                <l n="0001" rhyme="a" ><lb/>When I consider everything that grows</l>

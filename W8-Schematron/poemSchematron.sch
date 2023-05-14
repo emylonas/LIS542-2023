@@ -9,8 +9,6 @@
 
 
 
-
-
     <!-- 
         2. Write a rule to flag the @n attribute on <div> if its value doesn't begin with the string "poem." 
         In your example, the first poem is correct, but the second one is not.  
@@ -33,10 +31,12 @@
      -->
    
     
-    
+    <!-- 
+        5. Write a rule that checks if the @type attribute on the <div> element has one of the two values "sonnet" or "limerick."
+    -->
     
     <!-- 
-        5. This one is advanced! Write a rule to check that the lines in any sonnet have a @rhyme attribute
+        6. This one is advanced! Write a rule to check that the lines in any sonnet have a @rhyme attribute
          Ex: <l n="0001" rhyme="a"><lb/>poetic line</l> 
          The limerick shouldn't have @rhyme attributes. HINT: think about XPath axes.
     -->
@@ -45,14 +45,14 @@
     
     
     <!-- 
-      6. This one is also advanced! Write a rule to check that each line in a poem is immediately followed by an lb element 
+      7. This one is also advanced! Write a rule to check that each line in a poem is immediately followed by an lb element 
       You can add a second rule inside pattern 1 above, which checks that there is an <lb> inside each <l>element. 
    -->
     
    
    
    <!-- 
-       7. Think of something else that you might want to check using Schematron. Try to write the rule.
+       8. If you are enjoying this so far, think of something else that you might want to check using Schematron. Try to write the rule.
    -->
    
     
