@@ -1,0 +1,5 @@
+Hi 
+For some reason, the schemas would not associate based on the way I saved file names. 
+So, Adams correlates to diariesTest 
+And Wormwood correlates to diaries. 
+Sorry about that! 
