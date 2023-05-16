@@ -36,32 +36,24 @@
   <define name="metadata-element">
     <element name="metadata">
       <element name="sourceInfo">
-        <element name="title">
+        <element name="title"/>
           <text/>
-        </element>
-        <element name="author">
-          <text/>
-
-          <ref name="name-element"/>
-        </element>
-        <element name="publisher">
+        <element name="author"/>
+          <name/>
+        <element name="publisher"/>
           <text/>
         </element>
       </element>
 
       <element name="revisions">
-    <oneOrMore>
-          <element name="change">
-            <attribute name="when">
+      <oneOrMore>
+          <element name="change"/>
+      </oneOrMore>
+            <attribute name="when"/>
               <data type="date"/>
-            </attribute>
             <attribute name="who"/>
             <text/>
           </element>
-    </oneOrMore>
-      </element>
-
-    </element>
   </define>
 
   <!--  ENTRIES This is the second of the two main elements in this schema. It is called "entries" and contains information about the source material and how the file was encoded -->
@@ -104,19 +96,6 @@
           <ref name="pb-element"/>
           <ref name="alternates-element"/>
           <ref name="name-element"/>
-          <ref name="deletion"/>
-          <element name="addition">
-            <text/>
-          </element>
-          <element name="quote">
-          <text/>
-          </element>
-            <element name="cite">
-            <text/>
-    </element>
-          <element name="profession">
-          <text/>
-        </element>
           <element name="place">
             <text/>
           </element>
@@ -125,43 +104,18 @@
     </element>
   </define>
 
-<define name="addition-element">
-  <element name="addition">
-    <text/>
-  </element>
-</define>
-
-<define name="profession-element">
- <element name="profession">
-  <text/>
- </element>
-</define>
   <define name="name-element">
-    <element name="name">
+    <element name="name" >
+      <attribute name="role">
+        <text/>
+      </attribute>
+      <attribute name="profession">
+        <text/>
+      </attribute>
       <text/>
-      <optional><attribute name="role"></attribute></optional>
-            <text/>
     </element>
   </define>
 
-  <define name="deletion">
-    <element name="deletion">
-      <text/>
-    </element>
-  </define>
-  
-  <define name="quote">
-    <element name ="quote">
-      <text/>
-    </element>
-  </define>
-  
-  <define name="cite">
-    <element name ="cite">
-      <text/>
-    </element>
-  </define>
-  
   <!-- PB Definition of the pagebreak element. It is an empty element with a @n attribute to indicate the page number.  -->
   <define name="pb-element">
     <element name="pb">
