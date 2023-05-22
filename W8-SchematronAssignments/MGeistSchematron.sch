@@ -75,12 +75,12 @@
         6. This one is advanced! Write a rule to check that the lines in any sonnet have a @rhyme attribute
          Ex: <l n="0001" rhyme="a"><lb/>poetic line</l> 
          The limerick shouldn't have @rhyme attributes. HINT: think about XPath axes.
-         NOTE: I am stumped. Could not create a rule that would work. Could not determine, or find an example of, XPath axes incorporated into Schematron rules. Couldn't figure out whether it is relevant to context or test.
+         NOTE: I am stumped. Could not create a rule that would work. Could not determine, or find an example of, XPath axes incorporated into Schematron rules. Couldn't figure out whether it is relevant to context or test. Which element am I testing?
     -->
     
     <pattern>
-        <rule context="tei:div">
-            <report test="@type=foo/tei:lg/tei:l/@rhyme">Sonnet line element contains the Rhyme attribute.</report>
+        <rule context="tei:l [ancestor::tei:div[@type = 'foo']]">
+            <assert test="@rhyme">Sonnet line element contains the Rhyme attribute.</assert>
         </rule>
     </pattern>
     
@@ -89,12 +89,11 @@
     <!-- 
       7. This one is also advanced! Write a rule to check that each line in a poem is immediately followed by an lb element 
       You can add a second rule inside pattern 1 above, which checks that there is an <lb> inside each <l>element. 
-      NOTE: I suspect the pattern created below is incorrect, but not sure...
    -->
     
     <pattern>
         <rule context="tei:l">
-            <assert test="*[2] = tei:lb">Line is not immediately followed by a line break.</assert>
+            <assert test="*[1] = tei:lb">Line is not immediately followed by a line break.</assert>
         </rule>
     </pattern>
     
