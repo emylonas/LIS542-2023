@@ -74,7 +74,6 @@
     </pattern> 
    <!-- 
        8. If you are enjoying this so far, think of something else that you might want to check using Schematron. Try to write the rule.
-       Note to self: 
    -->
     <pattern>
         <rule context="tei:div/tei:head">
