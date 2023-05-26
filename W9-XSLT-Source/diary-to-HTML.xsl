@@ -94,7 +94,6 @@
 
     <xsl:template match="d:p"> <!-- Match <entry>, surround each one with an HTML <p> element and keep going  -->
         <p>
-            [<xsl:value-of select="@n"/>]
             <xsl:apply-templates/>
         </p>
     </xsl:template>
