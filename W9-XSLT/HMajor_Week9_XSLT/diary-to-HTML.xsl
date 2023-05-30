@@ -134,11 +134,6 @@
     <xsl:template match="d:alternates"> <!-- Match <alternate> and keep going. -->
         <xsl:apply-templates/>
     </xsl:template>
-    
-    <xsl:template match="d:cite">
-       <xsl:apply-templates/>
-    </xsl:template>
-    
 
     <xsl:template match="d:original | d:abbr"> <!-- Enclosing in HTML span element with class attribute to allow js to hide and show orig/new spelling. -->
         <span class="original"><xsl:apply-templates/></span>
