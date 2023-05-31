@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W9-XSLT-Source/diaries.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/emylonas/LIS542-2023/main/W9-XSLT-Source/diaries.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <journal xmlns="http://UW-LIS-diaries/ns/1.0">
     <metadata>
        <sourceInfo>
@@ -17,9 +17,9 @@
             
             <date when="1775-09-15">1775.SEPTR. 15.FRYDAY</date>.
             
-            <p n="p01"><name place="Georgia">Archibald Bullock</name> and <name place="Georgia">John Houstoun</name> Esquires, and the <name place="Georigia">Revd. Dr. Zubly</name>, appear as Delegates from <place>Georgia</place>.</p>
+            <p n="p01"><name>Archibald Bullock</name> and <name>John Houstoun</name> Esquires, and the <name>Revd. Dr. Zubly</name>, appear as Delegates from <place>Georgia</place>.</p>
             
-            <p n="p02"><name role="clergyman" place="Switzerland">Dr. Zubly</name> is a Native of <place>Switzerland</place>, and a Clergyman of the Independent <alternates><original>Perswasion</original><corr>Persuasion</corr></alternates>, settled in a <place>Parish in Georgia</place>. He speaks, as it is reported, Several Languages, English, Dutch, French, Latin <alternates><abbr>&amp;c</abbr><expan>et cetera</expan></alternates>. -- is reported to be a learned Man. He is a Man of a warm and zealous Spirit. It is said that he possesses considerable Property.</p>
+            <p n="p02"><name role="clergyman">Dr. Zubly</name> is a Native of <place>Switzerland</place>, and a Clergyman of the Independent <alternates><original>Perswasion</original><corr>Persuasion</corr></alternates>, settled in a <place>Parish in Georgia</place>. He speaks, as it is reported, Several Languages, English, Dutch, French, Latin <alternates><abbr>&amp;c</abbr><expan>et cetera</expan></alternates>. -- is reported to be a learned Man. He is a Man of a warm and zealous Spirit. It is said that he possesses considerable Property.</p>
             
             <p n="p03"><name role="lawyer">Houstoun</name> is a young Gentleman, by Profession a Lawyer, educated under a Gentleman of Eminence in <place>South Carolina</place>. He seems to be sensible and spirited, but rather inexperienced.</p>
             
