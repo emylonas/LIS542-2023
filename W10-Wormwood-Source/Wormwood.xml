@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="diaries.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!--https://archive.org/details/mms_221/page/n67/mode/1up image 68ff.  -->
-<journal>
+<journal xmlns="http://UW-LIS-diaries/ns/1.0">
     <metadata>
         <sourceInfo>
             <title></title>
