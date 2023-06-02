@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Added @ref attribute to cite element-->
+<!--Added weather element-->
+<!--Added abbreviation element-->
+<!--Added optional @alternate-spelling attribute to name element-->
+<!--Removed comments from source file-->
+<!--Made role attribute to name element optional-->
+<!-- Added mandatory @xml:id attribute to name element -->
+
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+  datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
+  ns="http://UW-LIS-diaries/ns/1.0">
+  
+  <start>
+
+    <element name="journal" xmlns="http://relaxng.org/ns/structure/1.0">     
+
+      <ref name="metadata-element"/>
+
+      <element name="entries">
+        <oneOrMore>
+          <choice>
+            <ref name="pb-element"/>
+            <ref name="entry-element"/>
+          </choice>
+        </oneOrMore>
+      </element>
+
+    </element>
+  </start>
+
+  <!-- ************************************************************ Element Definitions ************************************************************ -->
+  <!--  METADATA -->
+  <define name="metadata-element">
+    <element name="metadata">
+      <element name="sourceInfo">
+        <element name="title">
+          <text/>
+        </element>
+        <element name="author">
+          <text/>
+
+          <ref name="name-element"/>
+        </element>
+        <element name="publisher">
+          <text/>
+        </element>
+      </element>
+
+      <element name="revisions">
+    <oneOrMore>
+          <element name="change">
+            <attribute name="when">
+              <data type="date"/>
+            </attribute>
+            <attribute name="who"/>
+            <text/>
+          </element>
+    </oneOrMore>
+      </element>
+
+    </element>
+  </define>
+
+  <!--  ENTRIES  -->
+
+  <define name="entry-element">
+    <element name="entry">
+      <attribute>
+        <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+        <!-- This uses the XML namespace as it is defining the xml:id attribute which is defined for all elements in XML itself -->
+        <data type="NCName"/>
+      </attribute>
+
+      <oneOrMore>
+        <choice>
+          <text/>
+
+          <ref name="pb-element"/>
+
+          <element name="date">
+            <attribute name="when">
+              <data type="date"/>
+            </attribute>
+            <text/>
+          </element>
+
+          <ref name="p-element"/>
+        </choice>
+      </oneOrMore>
+
+    </element>
+  </define>
+
+  <!-- P and contents -->
+
+  <define name="p-element">
+    <element name="p">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="pb-element"/>
+          <ref name="alternates-element"/>
+          <ref name="name-element"/>
+          <ref name="deletion"/>
+          <element name="addition">
+            <text/>
+          </element>
+          <element name="quote">
+          <text/>
+          </element>
+            <element name="cite">
+              <attribute name="ref">
+                <data type="anyURI"/>
+              </attribute>
+            <text/>
+    </element>
+          <element name="profession">
+          <text/>
+        </element>
+          <element name="place">
+            <text/>
+          </element>
+          <element name="weather">
+            <text/>
+          </element>
+          <element name="abbreviation"><text/></element>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+
+<define name="addition-element">
+  <element name="addition">
+    <text/>
+  </element>
+</define>
+
+<define name="profession-element">
+ <element name="profession">
+  <text/>
+ </element>
+</define>
+  <define name="name-element">
+    <element name="name">
+      <attribute name="xml:id" />
+      <optional><attribute name="role"></attribute></optional>
+      <optional><attribute name="alternate-spelling"></attribute></optional>
+            <text/>
+     </element>
+  </define>
+
+  <define name="deletion">
+    <element name="deletion">
+      <text/>
+    </element>
+  </define>
+  
+  <define name="quote">
+    <element name ="quote">
+      <text/>
+    </element>
+  </define>
+  
+  <define name="cite">
+    <element name ="cite">
+      <text/>
+    </element>
+  </define>
+  
+  <!-- PB  -->
+  <define name="pb-element">
+    <element name="pb">
+      <attribute name="n">
+        <data type="NCName"/>
+      </attribute>
+    </element>
+  </define>
+
+  <define name="alternates-element">
+    <element name="alternates">
+      <choice>
+
+        <group>
+          <element name="abbr">
+            <text/>
+          </element>
+          <element name="expan">
+            <text/>
+          </element>
+        </group>
+
+        <group>
+          <element name="sic">
+            <text/>
+          </element>
+          <element name="corr">
+            <text/>
+          </element>
+        </group>
+
+      </choice>
+    </element>
+  </define>
+
+
+</grammar>

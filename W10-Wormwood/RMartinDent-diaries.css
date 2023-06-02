@@ -1,0 +1,41 @@
+/*
+ * CSS for Wormwood Diary
+ *
+ * HISTORY
+ * EM initial styling 2022-05-20
+ * RMD styling 2023-06-01
+ * 
+ */
+
+@page {
+    margin-top: 1in;
+}
+
+body {
+    width: 75%;
+    margin-left: .75in;
+    margin-right: .75in;
+    line-height: 175%;
+    font-family: "Garamond", "Georgia", serif;
+}
+
+.del {
+    text-decoration: line-through;
+}
+
+.place {
+    color: violet;
+}
+
+.name {
+    color: green;
+}
+
+.modern {
+    display:none;
+    
+}
+
+.addition {
+  color:gray
+}
