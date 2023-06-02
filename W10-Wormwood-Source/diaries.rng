@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <grammar xmlns="http://relaxng.org/ns/structure/1.0"
-  datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
+  ns="http://UW-LIS-diaries/ns/1.0">
 
   <!-- This is a schema for entries in diaries and journals.  -->
 
