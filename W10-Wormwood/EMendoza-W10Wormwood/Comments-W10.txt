@@ -1,0 +1,10 @@
+Changes Made:
+
+Added paragraph and pagebreak elements.
+Included years in entry id and date>when attribute
+Date elements w/ when attributes
+Name elements w/ role attributes
+Place elements w/ type attirbutes
+Bible elemments w/ book and verse attributes
+Profanity elements w/ type attributes
+Group elements w/ type and priv attributes 
