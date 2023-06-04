@@ -1,0 +1,14 @@
+-Had to create new w10 folder and figure out associations and file pathing. That was a mess.
+-Had to review how rng code rules worked and reminded myself of the grammar.
+
+-Added firstName and lastName and nickName child elements of name element.
+-Fully marked up ALL the names in the diaries
+
+-added attribute "type" to element <cite>, with any possible *string* value, such as <cite type="newspaper">
+-Marked up document to cite stuff
+
+-added attribute type with value string to element place, so I can add "relative" or "absolute" place. (IE School, or Italy, respectively)
+-added element place allowed under element cite
+-Marked up all the places with the new attribute. 
+
+To do:
