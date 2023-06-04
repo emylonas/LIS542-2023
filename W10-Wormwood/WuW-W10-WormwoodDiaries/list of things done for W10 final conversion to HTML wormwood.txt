@@ -1,0 +1,49 @@
+COMPLETED TASKS: CHANGES WERE MADE IN ORDER LISTED:
+-Had to create new w10 folder and figure out associations and file pathing, and namespaces. That was a mess.
+-Had to review how rng code rules worked and reminded myself of the grammar.
+
+-Added <firstName> and <lastName> and <nickName> child elements of <name> element.
+-Fully marked up ALL the names in the diaries.
+
+-added attribute @type to element <cite>, with any possible string value, such as <cite type="newspaper">.
+-Marked up document to cite stuff.
+
+-added attribute @type with value string to element place, so I can add "relative" or "absolute" place. (IE School, or Italy, respectively).
+-added element <place> allowed under element <cite>.
+-Marked up all the places with the new attribute. 
+-Added list of places with attributes values at end of html.
+-Added @ to display in () for places list. 
+
+-Removed <diary date> from rng and xml files. Formatting now works better, and the heading and bodies are more correct sizing. 
+
+-Used interleave to allow text bracketing of element around strings PAGE #; page break PAGE # now appears normally. 
+-Made necessary changes on the xml to fix all the <PB>.
+
+-Added reference URL link to HOWARD AND HIS TEACHER story.
+-Added xsl:if test to prevent generation of empty hyperlink if <cite> has no attribute @href. 
+-Still not working, other stories without links disappearing????
+-Changed to CHOOSE, when and otherwise, now other stories without links printing normally and not hyperlinked. (Could not find the other stories on any archival website). 
+
+-Editing CSS 
+	-Changed main font to Segoe UI for easier screen reading
+	-Added span in XSL <date> definition, and Red color <date> in CSS, and made font smaller. 
+	-Added span in XSL <title> definition, and underline text-decoration <title> in CSS, and made font size bigger.
+	-Did similar changes for <author>. 
+	-Did similar changes for <pb> (page break, which is basically the [page#]).
+
+
+-https://william6542.github.io/2023/06/04/WormwoodDiariesAssignment.html
+	-Rendering took a while: 20 minutes. Looks sort of messy. Will try to fix. 
+	-The blog page is in the process of updating, I will try to update later when I have the chance. Version 1 is from around 2:20pm 2023-Jun-04. 
+
+-Made list of names not double spaced: turns out it was a COMMENT inserted between the lines of code that was making it double spaced... what a dumb oversight. 
+
+
+
+TO DO TASKS:
+-How to delete repeating names and places? 
+	-Ok it's been two hours and I still can't figure this one out. I've looked at Oreily, Stackoverflow, and ChatGpt, and nothing is giving me a clear answer. 
+		-Secondly, how to count how many times a name or a place appears in the lists????
+
+-Why is there a --> arrow at the end of the html document? 
+
